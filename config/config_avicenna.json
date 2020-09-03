@@ -94,7 +94,7 @@
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
 
-    "namedEntitiesSelector": false,
+    "namedEntitiesSelector": true,
     "namedEntitiesToHandle": [
         {
             "tagName": "persName",
@@ -107,8 +107,8 @@
             "available": true
         },
         {
-            "tagName": "orgName",
-            "label": "Organizations",
+            "tagName": "date",
+            "label": "Dates",
             "available": true
         }
     ],
