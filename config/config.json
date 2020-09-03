@@ -107,8 +107,8 @@
             "available": true
         },
         {
-            "tagName": "orgName",
-            "label": "Organizations",
+            "tagName": "date",
+            "label": "Dates",
             "available": true
         }
     ],
