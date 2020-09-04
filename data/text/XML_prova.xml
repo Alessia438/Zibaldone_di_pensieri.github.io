@@ -10,7 +10,20 @@
              <author xml:id="G.L.">Giacomo Leopardi</author>
              <respStmt>
                  <resp>Responsabile del progetto</resp>
-                 <persName xml:id="R.P.">Roberta Priore</persName>
+                 <name xml:id="R.P.">Roberta Priore</name>
+             </respStmt>
+             <respStmt>
+                 <resp>Responsabili sviluppo interfaccia web</resp>
+                 <name xml:id="A.C.">Alessia Cioffi</name>
+                 <name xml:id="F.G.">Francesca Genovese</name>
+             </respStmt>
+             <respStmt>
+                 <resp>Analisi e codifica del testo</resp>
+                 <name ref="#R.P.">Roberta Priore</name>
+                 
+                 <name xml:id="L.S.">Lorenzo Sabatino</name>
+                 <name xml:id="M.S.">Marco Seghizzi</name>
+                 <name xml:id="A.T.">Alessandra Terenzi</name>
              </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -42,11 +55,13 @@
 	                     <handNote xml:id="penna_A">Penna A con tratto sottile e marroncino</handNote>
 	                     <handNote xml:id="penna_B">Penna B con tratto spesso e inchiostro scuro</handNote>
 	                     <handNote xml:id="penna_C">Penna C con tratto spesso e inchiostro bruno (?)</handNote>
+                         <handNote xml:id="penna_D">Penna D con tratto piuttisto sottile e inchiostro nero</handNote>
                          <handNote>
                              <timeline xml:id="strat_penne" origin="penna_A" unit="d">
                                 <when corresp="#penna_A" absolute="1817-07"/>
                                 <when corresp="#penna_B" interval="1" since="#penna_A"/>
                                 <when corresp="#penna_C" interval="1" since="#penna_B"/>
+                                 <when corresp="#penna_D" interval="1" since="penna_C"/>
                             </timeline>
                         </handNote>
                      </handDesc>
@@ -67,6 +82,20 @@
                  	<title ref="#Av_Fabulae">Fabulae</title>
                  	<!-- Arricchire con dettagli edizione -->
                  </bibl>
+                  
+                     <biblStruct xml:id="Operette"> 
+                         <analytic><title>Prose</title><editor ref="#R.D.">Rolando Damiani</editor></analytic>
+                         <monogr>
+                             
+                         <author ref="#G.L.">Giacomo Leopardi</author> 
+                         <title ref="#Operette">Operette Morali</title> 
+                             <imprint>
+                                 <publisher>Mondadori i Meridiani</publisher>
+                                 <date>1988</date>
+                             </imprint>
+                         </monogr>
+                     </biblStruct>
+                 
              </listBibl>
 
              <listPerson>
@@ -98,22 +127,24 @@
                     <l> <seg source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
-                  Il tintinnìo de' mobili sognali
+                  Il tintinnìo de' mobili sonagli
                         
                     </seg></l> 
                 </lg>
                </add></p>
-          <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote>
+               <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote>
                 una donna di contado piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e non gli facesse motto con sasso o altro, <persName ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi vedere
                    <bibl>
                    
                         
                        <author ref="#Aviano">Flavio Aviano</author>
                        <title ref="#Av_Fabulae">Fabulae</title>
-                       <citedRange corresp="#Av_Fabulae" target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html">I, vv. 11-6</citedRange>
                        
                        </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
                   <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
+          <p hand="#penna_D">
+              <seg source="#Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del></seg>
+          </p>
       </body> 
       <back>
       <!--SOURCES DIV-->
@@ -141,7 +172,15 @@
                 </bibl>
                 <quote><l>E, dalla via corrente, odi lontano</l><lb/>
                     <l>Tintinnio di sonagli; il carro stride</l><lb/>
-                    <l>Del passegger che il suo cammin ripiglia.</l></quote>
+                    <l>Del passegger che il suo cammin ripiglia.</l><lb/></quote>
+            </cit>
+            <cit xml:id="Ottonieri">  
+                <bibl> 
+                    <author ref="#G.L">Giacomo Leopardi</author> 
+                    <title ref="#Operette">Operette</title> 
+                    <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
+                </bibl> 
+                <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
             </cit>
         </div>
         </back>
