@@ -95,7 +95,18 @@
                              </imprint>
                          </monogr>
                      </biblStruct>
-                 
+                 <bibl>
+                     <author xml:id="E.D.">Elio Donato</author>
+                     <title xml:id="Vita">Vita Vergilii</title>
+                 </bibl>
+                 <bibl xml:id="Epistolario">
+                     <author ref="#G.L.">Giacomo Leopardi</author>
+                     <title ref="#Epistolario">Epistolario</title>
+                     <editor>Franco Brioschi, Patrizia Landi</editor>
+                     <pubPlace>Torino</pubPlace>
+                     <publisher>Bollati Boringhieri</publisher>
+                     <date>1998</date>
+                 </bibl>
              </listBibl>
 
              <listPerson>
@@ -110,6 +121,9 @@
                         ref="http://www.treccani.it/enciclopedia/publio-virgilio-marone/"
                         >Virgilio</persName>
                 </person>
+                 <person xml:id="Cesare">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/286265178" ref="http://www.treccani.it/enciclopedia/gaio-giulio-cesare/">Giulio Cesare</persName>
+                 </person>
          </listPerson>
          </sourceDesc>
          
@@ -143,7 +157,23 @@
                        </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
                   <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
           <p hand="#penna_D">
-              <seg source="#Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del></seg>
+              <seg source="#Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
+          </p>
+          <p hand="#penna_D">
+              <quote>Tutta la notte piove
+              E ritornan le feste a la dimane:
+              Fan del regno a metà Cesare e Giove.
+              <bibl>
+                  <author ref="#E.D.">Elio Donato</author>
+                  <title ref="#Vita">Vita Vergilii</title>
+              </bibl>
+              </quote>
+          </p>
+          <p hand="#penna_D">
+              Dal niente in letteratura si passa al mezzo e al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del vero bello, come faceano.
+          </p>
+          <p hand="#penna_D">
+              <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il quattrocento non fu corruzione nè  </seg> </seg>
           </p>
       </body> 
       <back>
@@ -159,6 +189,15 @@
                 </bibl>
                 <quote>Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat arte notari, / Foemineam quisquis credidit esse fidem.</quote>
                 <!-- @comm.Ale: anche dentro al quote vanno i tag <l>? -->
+            </cit>
+            <cit xml:id="Vita_ElioD"> 
+                <bibl> 
+                    <author ref="#E.D.">Elio Donato</author> 
+                    <title ref="#Vita">Vita Vergilii</title> 
+                   
+                    
+                </bibl> 
+                <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove Caesar habet</quote> 
             </cit>
         </div>
         <!--PARALLEL PASSAGES DIV-->
@@ -182,6 +221,26 @@
                 </bibl> 
                 <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
             </cit>
+         
+               
+                <cit xml:id="ottoagosto1817">  
+                    <bibl> 
+                        <author ref="#G.L.">Giacomo Leopardi</author> 
+                        <title ref="#Epistolario">Epistolario</title> 
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
+                    </bibl> 
+                    <quote>citazione</quote> 
+                </cit>
+          
+             
+                <cit xml:id="ventunonovembre1817">  
+                    <bibl> 
+                        <author ref="#G.L">Giacomo Leopardi</author> 
+                        <title ref="#Epistolario">Epistolario</title> 
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
+                    </bibl> 
+                    <quote>citazione</quote> 
+                </cit>
         </div>
         </back>
     </text>
