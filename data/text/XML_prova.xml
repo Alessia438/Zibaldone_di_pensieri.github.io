@@ -160,9 +160,9 @@
               <seg source="#Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
           </p>
           <p hand="#penna_D">
-              <quote><lg><l>Tutta la notte piove<lb/></l>
-             <l> E ritornan le feste a la dimane:<lb/></l>
-             <l> Fan del regno a metà Cesare e Giove.<lb/></l></lg>
+              <quote>Tutta la notte piove<lb/>
+             E ritornan le feste a la dimane:<lb/>
+             Fan del regno a metà Cesare e Giove.<lb/>
               <bibl>
                   <author ref="#E.D.">Elio Donato</author>
                   <title ref="#Vita">Vita Vergilii</title>
