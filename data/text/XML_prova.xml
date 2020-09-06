@@ -107,6 +107,23 @@
                      <publisher>Bollati Boringhieri</publisher>
                      <date>1998</date>
                  </bibl>
+                 <bibl xml:id="Pittori">
+                     <author ref="#Dati">Carlo Roberto Dati</author>
+                     <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                     <!-- Arricchire con dettagli edizione -->
+                 </bibl>
+                 <biblStruct xml:id="Discorso"> 
+                     <analytic><title>Poesie minori e prose</title><editor>Gianna Maria Zuradelli</editor></analytic>
+                     <monogr>
+                         
+                         <author ref="#Parini">Giuseppe Parini</author> 
+                         <title ref="#Discorso">Discorso sopra la poesia</title> 
+                         <imprint>
+                             <publisher>Torino: Unione tipografico-editrice torinese</publisher>
+                             <date>1965</date>
+                         </imprint>
+                     </monogr>
+                 </biblStruct>
              </listBibl>
 
              <listPerson>
@@ -123,6 +140,27 @@
                 </person>
                  <person xml:id="Cesare">
                      <persName type="pers_citata" sameAs="http://viaf.org/viaf/286265178" ref="http://www.treccani.it/enciclopedia/gaio-giulio-cesare/">Giulio Cesare</persName>
+                 </person>
+                 <person xml:id="Poliziano">
+                     <persName type="pers_citata" sameAs="https://viaf.org/viaf/9867884/" ref="http://www.treccani.it/enciclopedia/ambrogini-angelo-detto-il-poliziano_(Dizionario-Biografico)">Angelo Poliziano</persName>
+                 </person>
+                 <person xml:id="Pulci">
+                     <persName type="pers_citata" sameAs="https://viaf.org/viaf/71453100/" ref="http://www.treccani.it/enciclopedia/luigi-pulci_(Dizionario-Biografico)">Luigi Pulci</persName>
+                 </person>
+                 <person xml:id="Anacreonte">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/100165204" ref="http://www.treccani.it/enciclopedia/anacreonte/">Anacreonte</persName>
+                 </person>
+                 <person xml:id="Parini">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/9860797" ref="http://www.treccani.it/enciclopedia/giuseppe-parini_%28Dizionario-Biografico%29/">Parini</persName>
+                 </person>
+                 <person xml:id="Aristotele">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/7524651" ref="http://www.treccani.it/enciclopedia/aristotele/">Aristotele</persName>
+                 </person>
+                 <person xml:id="Orazio">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/100227522" ref="http://www.treccani.it/enciclopedia/quinto-orazio-flacco/">Orazio</persName>
+                 </person>
+                 <person xml:id="Dati">
+                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/9836658" ref="http://www.treccani.it/enciclopedia/carlo-roberto-dati_%28Dizionario-Biografico%29/">Carlo Roberto Dati</persName>
                  </person>
          </listPerson>
          </sourceDesc>
@@ -161,8 +199,8 @@
           </p>
           <p hand="#penna_D">
               <quote>Tutta la notte piove<lb/>
-             E ritornan le feste a la dimane:<lb/>
-             Fan del regno a metà Cesare e Giove.<lb/>
+                  E ritornan le feste a la dimane:<lb/>
+                  Fan del regno a metà Cesare e Giove.<lb/>
               <bibl>
                   <author ref="#E.D.">Elio Donato</author>
                   <title ref="#Vita">Vita Vergilii</title>
@@ -173,8 +211,31 @@
               Dal niente in letteratura si passa al mezzo e al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del vero bello, come faceano.
           </p>
           <p hand="#penna_D">
-              <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il quattrocento non fu corruzione nè  </seg> </seg>
+              <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>
+                  <!-- Sovrascritto a ? -->ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add><!-- Sovrascritto a ? --> dal corrotto stimo che non si possa. </seg> </seg>
           </p>
+          <p hand="#penna_D">
+              Non il Bello ma il Vero o sia l'imitazione della Natura <del hand="#penna_D">qualsiasi</del><add hand="#penna_D">qualunque</add>, si è l'oggetto delle Belle arti. Se fosse il Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion metafisica, la quale in vece di piacere fa stomaco nelle art<del hand="#penna_D">e</del><add hand="#penna_D">i</add>. Non vale il dire che è il solo bello dentro i limiti della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che fa il diletto delle belle<del hand="#penna_D">,</del> <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che dovrebbe come <add hand="#penna_D">h</add><!-- Sovrascritto a ? --><del hand="#penna_D">lo</del><del hand="#penna_D">quello ch</del>o detto più piacere il maggior bello, e così più piacere la descrizione di un bel mondo ideale che del <choice><abbr>nŕo</abbr><expan>nostro</expan></choice>. 
+          
+          <quote> E che non sia il solo bello naturale lo scopo delle B.A. vedesi in tutti i poeti specialmente in <persName ref="#Omero">Omero</persName>, perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto Achille infinitamente men bello di quello che potea farlo, e così gli Dei ec. e sarebbe maggior poeta <persName ref="#Anacreonte">Anacreonte</persName> che <persName ref="#Omero">Omero</persName> ec. e noi proviamo che ci piace più Achille che Enea ec. onde è falso anche che quello di <persName ref="#Virgilio">Virgilio</persName> sia maggior poema ec. Passioni morti tempeste ec. piacciono egregiamente benchè sian brutte per questo solo che son bene imitate, e se è vero quel che dice il <persName ref="#Parini">Parini</persName> nella Oraz. della poesia, <quote>perchè l'uomo niente tanto odia quanto la noia, e però gli piace di veder qualche novità ancorchè brutta.
+              <bibl>  
+                  
+                  <author ref="#Parini">Parini</author>
+                  <title ref="#Discorso">Discorso sopra la poesia</title>
+                  
+              </bibl></quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera quistion di nome il contrastar se questa sia poesia. Basta che tutti la intendono per poesia <persName ref="#Aristotele">Aristot.</persName> e <persName ref="Orazio">Orazio</persName> singolarmente e che io dicendo poesia intendo anche questi generi.
+              <bibl>  
+                  
+                  <author ref="#Dati">Carlo Roberto Dati</author>
+                  <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                  
+              </bibl></quote> <add hand="#penna_E">V. <persName ref="#Dati">Dati</persName>, Pittori ed. Siena 1795. p. 57, 66.</add>
+              </p>
+          
+          
+          <p hand="#penna_F">Il brutto come tutto il resto deve star nel suo luogo: e nell'Epica e lirica avrà luogo più di raro ma spessissimo nella Commed. Trag. Sat. ed è quistion di parole ec. come sop. Il vile di raro si dee descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual meno degno,</p> 
+          
+          <pb n="3" xml:id="p_3"/>
       </body> 
       <back>
       <!--SOURCES DIV-->
@@ -199,7 +260,26 @@
                 </bibl> 
                 <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove Caesar habet</quote> 
             </cit>
+            <!-- La cit per l'edizione dell'opera Vite de' Pittori Antichi è tutta puramente esemplificativa; ho inserito il link alla digitalizzazione Google dell'edizione Stella 1667, I edizione, che quindi non corrisponde all'edizione menzionata da Leopardi.  -->
+            <cit xml:id="Dati_Pittori">
+                <bibl>
+                    <author ref="#Dati">Carlo Roberto Dati</author>
+                    <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                    <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
+                </bibl>
+                <quote></quote>
+            </cit>
+            <!-- La cit per il Discorso sopra la poesia è esemplificativa, tratta dal Commento dell'edizione Mondadori, p.3232-->
+            <cit xml:id="Parini_Discorso">
+                <bibl>
+                    <author ref="#Parini">Parini</author>
+                    <title ref="#Discorso">Discorso sopra la poesia</title>
+                    <citedRange corresp="#Discorso">Discorso sopra la poesia, in Opere, a cura di G.M. Zuradelli, Torino 1965, vol. II, p.271</citedRange>
+                </bibl>
+                <quote>L'anima nostra, che ama di essere sempre in azione e in movimento, niente più aborre che la noia</quote>
+            </cit>
         </div>
+        
         <!--PARALLEL PASSAGES DIV-->
         <div>
             <head>Parallel passages</head>
