@@ -170,7 +170,9 @@
  </teiHeader>   
     <text n="Zibaldone di Pensieri" xml:id="Zib">
       <body>
-          <pb n="1" xml:id="p_1"/>
+          <
+	      
+	      n="1" xml:id="p_1"/>
           <p hand="#penna_A">
            Palazzo bello. Cane di notte dal casolare, al passar del viandante.<lb/></p>
                 <p><add hand="#penna_B">  <lg>
@@ -213,7 +215,7 @@
           </p>
           <p hand="#penna_D">
               <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>
-                  <!-- Sovrascritto a ? -->ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add><!-- Sovrascritto a ? --> dal corrotto stimo che non si possa. </seg> </seg>
+                  ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add> dal corrotto stimo che non si possa. </seg> </seg>
           </p>
           <p hand="#penna_D">
               Non il Bello ma il Vero o sia l'imitazione della Natura <del hand="#penna_D">qualsiasi</del><add hand="#penna_D">qualunque</add>, si è l'oggetto delle Belle arti. Se fosse il Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion metafisica, la quale in vece di piacere fa stomaco nelle art<del hand="#penna_D">e</del><add hand="#penna_D">i</add>. Non vale il dire che è il solo bello dentro i limiti della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che fa il diletto delle belle<del hand="#penna_D">,</del> <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che dovrebbe come <add hand="#penna_D">h</add><!-- Sovrascritto a ? --><del hand="#penna_D">lo</del><del hand="#penna_D">quello ch</del>o detto più piacere il maggior bello, e così più piacere la descrizione di un bel mondo ideale che del <choice><abbr>nŕo</abbr><expan>nostro</expan></choice>. 
