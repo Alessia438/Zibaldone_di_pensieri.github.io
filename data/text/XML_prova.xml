@@ -179,23 +179,17 @@
                   <l>Era la luna nel cortile, un lato<lb/>
                       Tutto ne illuminava, e discendea<lb/>
                       sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <ref type="parallelPassage" source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
+                    <l> <seg type="parallelPassage" source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
                   Il tintinnìo de' mobili sognali
-			    </ref></l> 
+			    </seg></l> 
                 </lg>
                </add></p>
                <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote source="Av_Fabulae_I_11_6">
                 una donna di contado piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e non gli facesse motto con sasso o altro, <persName ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi vedere
-                   <bibl>
-                   
-                        
-                       <author ref="#Aviano">Flavio Aviano</author>
-                       <title ref="#Av_Fabulae">Fabulae</title>
-                       
-                       </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
-                  <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
+                   </quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
+                  .)</add></p>
           <p hand="#penna_D">
               <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
           </p>
