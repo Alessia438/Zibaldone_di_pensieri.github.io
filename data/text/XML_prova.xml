@@ -179,11 +179,15 @@
                   <l>Era la luna nel cortile, un lato<lb/>
                       Tutto ne illuminava, e discendea<lb/>
                       sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <ref type="parallelPassage" source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
+                    <l> <ref type="parallelPassage">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
-                  Il tintinnìo de' mobili sonagli
-                        
+                  Il tintinnìo de' mobili sognali
+                        <bibl>
+                            <author ref="#G.L.">Giacomo Leopardi</author>
+                            <title ref="#Canti">Canti</title>
+                            <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
+                        </bibl>
                     </ref></l> 
                 </lg>
                </add></p>
