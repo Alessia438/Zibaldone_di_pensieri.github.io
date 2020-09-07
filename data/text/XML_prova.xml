@@ -179,14 +179,14 @@
                   <l>Era la luna nel cortile, un lato<lb/>
                       Tutto ne illuminava, e discendea<lb/>
                       sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <seg ana="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
+                    <l> <ref type="parallelPassage" source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
                   Il tintinnìo de' mobili sognali
-			    </seg></l> 
+			    </ref></l> 
                 </lg>
                </add></p>
-               <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote>
+               <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote source="Av_Fabulae_I_11_6">
                 una donna di contado piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e non gli facesse motto con sasso o altro, <persName ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi vedere
                    <bibl>
                    
