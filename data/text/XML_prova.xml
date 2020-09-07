@@ -179,7 +179,7 @@
                   <l>Era la luna nel cortile, un lato<lb/>
                       Tutto ne illuminava, e discendea<lb/>
                       sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <seg source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
+                    <l> <seg source="Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
                   Il tintinnìo de' mobili sonagli
@@ -198,7 +198,7 @@
                        </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
                   <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
           <p hand="#penna_D">
-              <seg source="#Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
+              <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
           </p>
           <p hand="#penna_D">
               <quote>Tutta la notte piove<lb/>
@@ -214,7 +214,7 @@
               Dal niente in letteratura si passa al mezzo e al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del vero bello, come faceano.
           </p>
           <p hand="#penna_D">
-              <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>
+              <seg source="ottoagosto1817"> <seg source="ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>
                   ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add> dal corrotto stimo che non si possa. </seg> </seg>
           </p>
           <p hand="#penna_D">
