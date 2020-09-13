@@ -287,6 +287,7 @@
                     <author ref="#G.L.">Giacomo Leopardi</author>
                     <title ref="#Canti">C</title>
                     <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
+            	    <date when="1829">1829</date>
             	    <ref>http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115</ref>
                 </bibl>
                 <quote><l>E, dalla via corrente, odi lontano</l><lb/>
@@ -298,6 +299,7 @@
                     <author ref="#G.L">Giacomo Leopardi</author> 
                     <title ref="#Operette">O. M.</title> 
                     <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
+                    <date when="1824">1824</date>
                 </bibl> 
                 <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
             </cit>
@@ -308,7 +310,8 @@
                         <author ref="#G.L.">Giacomo Leopardi</author> 
                         <title ref="#Epistolario">Ep</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
-                        <ref> http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml&chunk.id=d80e3179&toc.depth=1&toc.id=&brand=newlook </ref>
+                        <date when="1817-08-08">8 agosto 1817</date>
+                        <ref> http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml </ref>
                     </bibl> 
                     <quote>citazione</quote> 
                 </cit>
@@ -319,7 +322,8 @@
                         <author ref="#G.L">Giacomo Leopardi</author> 
                         <title ref="#Epistolario">Ep</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
-                        <ref>http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml&chunk.id=d80e3721&toc.depth=1&toc.id=&brand=newlook</ref>
+                        <date when="1817-09-21">21 novembre 1817</date>
+                        <ref>http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml</ref>
                     </bibl> 
                     <quote>citazione</quote> 
                 </cit>
