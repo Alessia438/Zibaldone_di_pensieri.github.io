@@ -48,8 +48,7 @@
                  <msIdentifier>
                      <settlement>Napoli</settlement>
                      <repository>Biblioteca Nazionale (BNN)</repository>
-			 <idno>Carte Leopardi, C.L._V.1</idno>
-                 
+                     <idno>Carte Leopardi, C.L._V.1</idno>
                  </msIdentifier>
                  <physDesc>
                      <handDesc>
@@ -170,32 +169,31 @@
  </teiHeader>   
     <text n="Zibaldone di Pensieri" xml:id="Zib">
       <body>
-          <pb
-	      
-	      n="1" xml:id="p_1"/>
+          <pb n="1" xml:id="p_1"/>
           <p hand="#penna_A">
            Palazzo bello. Cane di notte dal casolare, al passar del viandante.<lb/></p>
                 <p><add hand="#penna_B">  <lg>
                   <l>Era la luna nel cortile, un lato<lb/>
                       Tutto ne illuminava, e discendea<lb/>
                       sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <seg source="#Quiete" type="source">Nella (dalla) maestra via s'udiva il carro <lb/>
+                    <l> <seg source="Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
                   Del passegger, che stritolando i sassi<lb/>
                   Mandava un suon, cui precedea da lungi<lb/>
                   Il tintinnìo de' mobili sonagli
-			   </seg></l>
+                        
+                    </seg></l> 
                 </lg>
                </add></p>
-               <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote source="Av_Fabulae_I_11_6">
+          <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote source="Av_Fabulae_I_11_6">
                 una donna di contado piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e non gli facesse motto con sasso o altro, <persName ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi vedere
-                    <bibl>
+                   <bibl>
                    
                         
                        <author ref="#Aviano">Flavio Aviano</author>
                        <title ref="#Av_Fabulae">Fabulae</title>
                        
                        </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
-                  .)</add></p>
+                  <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
           <p hand="#penna_D">
               <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
           </p>
@@ -213,8 +211,7 @@
               Dal niente in letteratura si passa al mezzo e al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del vero bello, come faceano.
           </p>
           <p hand="#penna_D">
-              <seg source="ottoagosto1817"> <seg source="ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>
-                  ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add> dal corrotto stimo che non si possa. </seg> </seg>
+              <seg source="ottoagosto1817"> <seg source="ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add>dal corrotto stimo che non si possa. </seg> </seg>
           </p>
           <p hand="#penna_D">
               Non il Bello ma il Vero o sia l'imitazione della Natura <del hand="#penna_D">qualsiasi</del><add hand="#penna_D">qualunque</add>, si è l'oggetto delle Belle arti. Se fosse il Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion metafisica, la quale in vece di piacere fa stomaco nelle art<del hand="#penna_D">e</del><add hand="#penna_D">i</add>. Non vale il dire che è il solo bello dentro i limiti della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che fa il diletto delle belle<del hand="#penna_D">,</del> <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che dovrebbe come <add hand="#penna_D">h</add><!-- Sovrascritto a ? --><del hand="#penna_D">lo</del><del hand="#penna_D">quello ch</del>o detto più piacere il maggior bello, e così più piacere la descrizione di un bel mondo ideale che del <choice><abbr>nŕo</abbr><expan>nostro</expan></choice>. 
@@ -235,9 +232,9 @@
               </p>
           
           
-          <p hand="#penna_F">Il brutto come tutto il resto deve star nel suo luogo: e nell'Epica e lirica avrà luogo più di raro ma spessissimo nella Commed. Trag. Sat. ed è quistion di parole ec. come sop. Il vile di raro si dee descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual meno degno,</p> 
+          <p hand="#penna_F">Il brutto come tutto il resto deve star nel suo luogo: e nell'Epica e lirica avrà luogo più di raro ma spessissimo nella Commed. Trag. Sat. ed è quistion di parole ec. come sop. Il vile di raro si dee descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual meno degno,
           
-          <pb n="3" xml:id="p_3"/>
+              <pb n="3" xml:id="p_3"/>niente vieta che dei diversi generi di poesia altro abbia per oggetto più particolarmente il bello altro il doloroso altro anche il brutto e il vile, e però qual sia più nobile e degno qual meno e non per tanto tutti sieno generi di poesia, nè ci sia oggetto di veruno di essi che non possa essere oggetto della poesia e delle arti imitative ec.</p> 
       </body> 
       <back>
       <!--SOURCES DIV-->
@@ -288,8 +285,9 @@
             <cit xml:id="Quiete"> 
             	<bibl>
                     <author ref="#G.L.">Giacomo Leopardi</author>
-                    <title ref="#Canti">Canti</title>
+                    <title ref="#Canti">C</title>
                     <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
+            	    <ref>http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115</ref>
                 </bibl>
                 <quote><l>E, dalla via corrente, odi lontano</l><lb/>
                     <l>Tintinnio di sonagli; il carro stride</l><lb/>
@@ -298,7 +296,7 @@
             <cit xml:id="Ottonieri">  
                 <bibl> 
                     <author ref="#G.L">Giacomo Leopardi</author> 
-                    <title ref="#Operette">Operette</title> 
+                    <title ref="#Operette">O. M.</title> 
                     <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
                 </bibl> 
                 <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
@@ -308,8 +306,9 @@
                 <cit xml:id="ottoagosto1817">  
                     <bibl> 
                         <author ref="#G.L.">Giacomo Leopardi</author> 
-                        <title ref="#Epistolario">Epistolario</title> 
+                        <title ref="#Epistolario">Ep</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
+                        <ref> http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml&chunk.id=d80e3179&toc.depth=1&toc.id=&brand=newlook </ref>
                     </bibl> 
                     <quote>citazione</quote> 
                 </cit>
@@ -318,8 +317,9 @@
                 <cit xml:id="ventunonovembre1817">  
                     <bibl> 
                         <author ref="#G.L">Giacomo Leopardi</author> 
-                        <title ref="#Epistolario">Epistolario</title> 
+                        <title ref="#Epistolario">Ep</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
+                        <ref>http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml&chunk.id=d80e3721&toc.depth=1&toc.id=&brand=newlook</ref>
                     </bibl> 
                     <quote>citazione</quote> 
                 </cit>
