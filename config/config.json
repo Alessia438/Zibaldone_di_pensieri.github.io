@@ -62,7 +62,7 @@
         }
     ],
 
-    "defaultEdition": "critical",
+    "defaultEdition": "diplomatic",
     "showEditionLevelSelector": true,
     "availableEditionLevel": [
         {
