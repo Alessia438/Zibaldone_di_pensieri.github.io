@@ -158,9 +158,9 @@
         }
     ],
 
-    "showInlineCriticalApparatus": true,
-    "showInlineSources": true,
-    "showInlineAnalogues": true,
+    "showInlineCriticalApparatus": false,
+    "showInlineSources": false,
+    "showInlineAnalogues": false,
     "showReadingExponent": true,
 
     "toolHeatMap": true,
