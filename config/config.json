@@ -160,7 +160,7 @@
 
     "showInlineCriticalApparatus": false,
     "showInlineSources": false,
-    "showInlineAnalogues": false,
+    "showInlineAnalogues": true,
     "showReadingExponent": true,
 
     "toolHeatMap": true,
