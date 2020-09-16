@@ -1,19 +1,23 @@
+  <!--SOURCES DIV-->
 <div>
-<head>Parallel passages</head>
-
-<cit xml:id="burhan_2-7-165-7-10">
-    <bibl>
-        <author ref="#p_Avicenna">Avicenna</author>
-        <title ref="#w_burhan">Burhān</title>
-        <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
-    </bibl>
-</cit>
-
-<cit xml:id="burhan_2-9-178-17-19">
-    <bibl>
-        <author ref="#p_Avicenna">Avicenna</author>
-        <title ref="#w_burhan">Burhān</title>
-        <citedRange corresp="#Afifi1956">II, 9, p. 178, 17-19</citedRange>
-    </bibl>
-</cit>
+            <head>Sources</head>
+            <cit xml:id="Av_Fabulae_I_11_6">
+                <bibl>
+                    <author ref="#Aviano">Aviano</author>
+                    <title ref="#Av_Fabulae">Fabulae</title>
+                    <citedRange corresp="#Av_Fabulae" target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html">I, vv. 11-6</citedRange>
+                    <!-- @comm.Ale: ho aggiunto un link a un sito bruttissimo a titolo d'esempio -->
+                </bibl>
+                <quote>Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat arte notari, / Foemineam quisquis credidit esse fidem.</quote>
+                <!-- @comm.Ale: anche dentro al quote vanno i tag <l>? -->
+            </cit>
+            <cit xml:id="Vita_ElioD"> 
+                <bibl> 
+                    <author ref="#E.D.">Elio Donato</author> 
+                    <title ref="#Vita">Vita Vergilii</title> 
+                   
+                    
+                </bibl> 
+                <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove Caesar habet</quote> 
+            </cit>
 </div>
