@@ -159,7 +159,7 @@
     ],
 
     "showInlineCriticalApparatus": false,
-    "showInlineSources": true,
+    "showInlineSources": false,
     "showInlineAnalogues": false,
     "showReadingExponent": true,
 
