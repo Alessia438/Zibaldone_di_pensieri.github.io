@@ -16,7 +16,7 @@
     "visCollImageList": "",
     "visCollDataModel": "",
 
-    "defaultViewMode": "readingTxt",
+    "defaultViewMode": "versions",
     "availableViewModes": [
         {
             "label": "READING_TEXT",
@@ -134,9 +134,9 @@
     "witnessesGroups": [
     ],
 
-    "showInlineCriticalApparatus": true,
-    "showInlineSources": true,
-    "showInlineAnalogues": true,
+    "showInlineCriticalApparatus": false,
+    "showInlineSources": false,
+    "showInlineAnalogues": false,
     "showReadingExponent": true,
 
     "toolHeatMap": true,
