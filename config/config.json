@@ -132,35 +132,11 @@
     "maxWitsLoadTogether": 5,
 
     "witnessesGroups": [
-        {
-            "groupName": "Group 1",
-            "witnesses": [
-                "V",
-                "P",
-                "N",
-                "M",
-                "G",
-                "C",
-                "R"
-            ]
-        },
-        {
-            "groupName": "Group 2",
-            "witnesses": [
-                "F",
-                "D",
-                "O",
-                "W",
-                "M5mg",
-                "B",
-                "U"
-            ]
-        }
     ],
 
-    "showInlineCriticalApparatus": false,
-    "showInlineSources": false,
-    "showInlineAnalogues": false,
+    "showInlineCriticalApparatus": true,
+    "showInlineSources": true,
+    "showInlineAnalogues": true,
     "showReadingExponent": true,
 
     "toolHeatMap": true,
