@@ -284,7 +284,7 @@
             <head>Parallel passages</head>
             <cit xml:id="Quiete"> 
             	<bibl>
-                    <author ref="#G.L.">Giacomo Leopardi</author>
+                    
                     <title ref="#Canti">C (1829) </title>
                     <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
             	    
@@ -296,7 +296,7 @@
             </cit>
             <cit xml:id="Ottonieri">  
                 <bibl> 
-                    <author ref="#G.L">Giacomo Leopardi</author> 
+                   
                     <title ref="#Operette">OM (1824)</title> 
                     <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
                     
@@ -307,7 +307,6 @@
                
                 <cit xml:id="ottoagosto1817">  
                     <bibl> 
-                        <author ref="#G.L.">Giacomo Leopardi</author> 
                         <title ref="#Epistolario">Ep (8 agosto 1817)</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
                         <date when="1817-08-08">8 agosto 1817</date>
@@ -319,7 +318,7 @@
              
                 <cit xml:id="ventunonovembre1817">  
                     <bibl> 
-                        <author ref="#G.L">Giacomo Leopardi</author> 
+                    
                         <title ref="#Epistolario">Ep (21 novembre 1817)</title> 
                         <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
                         <date when="1817-09-21">21 novembre 1817</date>
