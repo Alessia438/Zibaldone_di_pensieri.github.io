@@ -79,7 +79,7 @@
                  </bibl>
                  <bibl xml:id="Av_Fabulae">
                  	<author ref="#Aviano">Flavio Aviano</author>
-                 	<title ref="#Av_Fabulae">Phaedri Augusti liberti, et Fl. Aviani Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
+                 	<title ref="#Av_Fabulae">Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
                  	
                      <pubPlace>Bologna</pubPlace>
                      <publisher>Stamperia dell'Istituto delle scienze</publisher>
@@ -193,7 +193,7 @@
                    
                         
                        <author ref="#Aviano">Flavio Aviano</author>
-                       <title ref="#Av_Fabulae">Phaedri Augusti liberti, et Fl. Aviani Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
+                       <title ref="#Av_Fabulae">Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
                        <pubPlace>Bologna</pubPlace>
                      <publisher>Stamperia dell'Istituto delle scienze</publisher>
                      <date>1787</date>
