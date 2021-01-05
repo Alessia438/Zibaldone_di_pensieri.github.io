@@ -79,8 +79,11 @@
                  </bibl>
                  <bibl xml:id="Av_Fabulae">
                  	<author ref="#Aviano">Flavio Aviano</author>
-                 	<title ref="#Av_Fabulae">Fabulae</title>
-                 	<!-- Arricchire con dettagli edizione -->
+                 	<title ref="#Av_Fabulae">Phaedri Augusti liberti, et Fl. Aviani Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
+                 	
+                     <pubPlace>Bologna</pubPlace>
+                     <publisher>Stamperia dell'Istituto delle scienze</publisher>
+                     <date>1787</date>
                  </bibl>
                   
                      <biblStruct xml:id="Operette"> 
@@ -190,8 +193,10 @@
                    
                         
                        <author ref="#Aviano">Flavio Aviano</author>
-                       <title ref="#Av_Fabulae">Fabulae</title>
-                       
+                       <title ref="#Av_Fabulae">Phaedri Augusti liberti, et Fl. Aviani Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
+                       <pubPlace>Bologna</pubPlace>
+                     <publisher>Stamperia dell'Istituto delle scienze</publisher>
+                     <date>1787</date>
                        </bibl></quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
                   <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
           <p hand="#penna_D">
