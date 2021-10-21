@@ -6,7 +6,7 @@
     "dataUrl": "data/text/XML_prova.xml",
     "sourcesUrl": "data/text/sources.xml",
     "analoguesUrl": "data/text/analogues.xml",
-    "sourcesTextsUrl": "data/text/sources/",
+    "sourcesTextsUrl": "data/text/",
     "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     
