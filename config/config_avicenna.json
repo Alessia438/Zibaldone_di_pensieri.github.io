@@ -85,9 +85,10 @@
         }
     ],
     
-    "showDocumentSelector": false,
-    "enableNavBar": false,
-    "initNavBarOpened": false,
+    "showDocumentSelector": true,
+    "enableNavBar": true,
+    "initNavBarOpened": true,
+    
     "thumbnailsButton": false,
     "viscollButton": false,
 
@@ -158,9 +159,9 @@
         }
     ],
 
-    "showInlineCriticalApparatus": false,
-    "showInlineSources": false,
-    "showInlineAnalogues": false,
+    "showInlineCriticalApparatus": true,
+    "showInlineSources": true,
+    "showInlineAnalogues": true,
     "showReadingExponent": true,
 
     "toolHeatMap": true,
