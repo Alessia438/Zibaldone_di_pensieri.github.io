@@ -245,7 +245,7 @@
       <!--SOURCES DIV-->
         <div>
             <head>Sources</head>
-            <cit xml:id="Av_Fabulae_I_11_6" source="#Av_Fabulae_I_11_6">
+            <cit xml:id="Av_Fabulae_I_11_6">
                 <bibl>
                     <author ref="#Aviano">Aviano</author>
                     <title ref="#Av_Fabulae">Fabulae</title>
