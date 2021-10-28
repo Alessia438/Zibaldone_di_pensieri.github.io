@@ -62,7 +62,7 @@
         }
     ],
 
-    "defaultEdition": "critical",
+    "defaultEdition": "diplomatic",
     "showEditionLevelSelector": true,
     "availableEditionLevel": [
         {
@@ -75,7 +75,7 @@
             "value": "diplomatic",
             "label": "Diplomatic",
             "title": "Diplomatic edition",
-            "visible": false
+            "visible": true
         },
         {
             "value": "interpretative",
