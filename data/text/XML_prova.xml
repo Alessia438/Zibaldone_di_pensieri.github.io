@@ -244,8 +244,7 @@
                     <citedRange corresp="#Av_Fabulae" target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html">I, vv. 11-6</citedRange>
                     <!-- @comm.Ale: ho aggiunto un link a un sito bruttissimo a titolo d'esempio -->
                 </bibl>
-                <quote>Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat arte notari, / Foemineam quisquis credidit esse fidem.</quote>
-                <!-- @comm.Ale: anche dentro al quote vanno i tag <l>? -->
+                <quote/>
             </cit>
             <cit xml:id="Vita_ElioD"> 
                 <bibl> 
