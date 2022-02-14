@@ -389,13 +389,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 poco concede loro perché troppo non gli rapiscano.
             </p>
             <quote> <lg>        
-                <l n="1">Padron, se con lamenti e con rammarichi</l>
-                <l n="2"> Si rimediasse a le nostre miserie,</l>
-                <l n="3">Bisognerebbe comperar le lagrime </l>
-                <l n="4">A peso d’or: ma queste tanto possono </l>   
-                <l n="5">Le disgrazie scemar, quanto le prefiche </l>
-                <l n="6">Svegliare i morti con le loro istorie: </l>
-                <l n="7">Ne’ guai non ci vuol pianto ma consiglio. </l>
+                <l n="1">Padron, se con lamenti e con rammarichi</l> <lb/>
+                <l n="2"> Si rimediasse a le nostre miserie,</l> <lb/>
+                <l n="3">Bisognerebbe comperar le lagrime </l> <lb/>
+                <l n="4">A peso d’or: ma queste tanto possono </l> <lb/>   
+                <l n="5">Le disgrazie scemar, quanto le prefiche </l> <lb/>
+                <l n="6">Svegliare i morti con le loro istorie: </l><lb/>
+                <l n="7">Ne’ guai non ci vuol pianto ma consiglio. </l><lb/>
                 
             </lg> <bibl><author ref="#Algarotti">Algarotti</author> <title>Opere</title> <pubPlace>Cremona</pubPlace><date>1778</date></bibl></quote>
             <pb n="6" xml:id="p_6"/>
