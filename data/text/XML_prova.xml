@@ -198,7 +198,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <person xml:id="Tasso">
                         <persName type="pers_citata" sameAs="http://viaf.org/viaf/4936996"
                             ref="https://www.treccani.it/enciclopedia/torquato-tasso_%28Dizionario-Biografico%29/">
-                            Torquato Tasso</persName>
+                            Torquato Tasso</persName> </person>
                                        <person xml:id="Algarotti">
                         <persName type="pers:citata" sameAs="http://viaf.org/viaf/68955699"
                             ref="https://www.treccani.it/enciclopedia/francesco-algarotti_%28Dizionario-Biografico%29/">
