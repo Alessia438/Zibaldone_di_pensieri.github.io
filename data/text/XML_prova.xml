@@ -1,337 +1,570 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
     xmlns:enrich="http://projects.oucs.ox.ac.uk/ENRICH/ODD/RomaResults/enrich.rng">
- <teiHeader>
-     <fileDesc>
-         <titleStmt>
-             <title>Zibaldone di Pensieri</title>
-             <author xml:id="G.L.">Giacomo Leopardi</author>
-             <respStmt>
-                 <resp>Responsabile del progetto</resp>
-                 <name xml:id="R.P.">Roberta Priore</name>
-             </respStmt>
-             <respStmt>
-                 <resp>Responsabili sviluppo interfaccia web</resp>
-                 <name xml:id="A.C.">Alessia Cioffi</name>
-                 <name xml:id="F.G.">Francesca Genovese</name>
-             </respStmt>
-             <respStmt>
-                 <resp>Analisi e codifica del testo</resp>
-                 <name ref="#R.P.">Roberta Priore</name>
-                 
-                 <name xml:id="L.S.">Lorenzo Sabatino</name>
-                 <name xml:id="M.S.">Marco Seghizzi</name>
-                 <name xml:id="A.T.">Alessandra Terenzi</name>
-             </respStmt>
-         </titleStmt>
-         <publicationStmt>
-             <publisher>ZdP Project;</publisher>
-             <pubPlace>Bologna</pubPlace>
-             <date>2020</date>
-             <availability>
-                 <p>Questa risorsa digitale è liberamente accessibile per uso personale o
-                     scientifico. Ogni uso commerciale è vietato</p>
-             </availability>
-         </publicationStmt>
-         <sourceDesc>
-             <bibl>
-                 <author ref="#G.L.">Giacomo Leopardi</author>
-                 <title>Zibaldone di pensieri</title>
-                 <editor xml:id="R.D.">Rolando Damiani</editor>
-                 <publisher>Mondadori</publisher>
-                 <pubPlace>Milano</pubPlace>
-                 <date>2014</date>
-             </bibl>
-             <msDesc>
-                 <msIdentifier>
-                     <settlement>Napoli</settlement>
-                     <repository>Biblioteca Nazionale (BNN)</repository>
-                     <idno>Carte Leopardi, C.L._V.1</idno>
-                 </msIdentifier>
-                 <physDesc>
-                     <handDesc>
-	                     <handNote xml:id="penna_A">Penna A con tratto sottile e marroncino</handNote>
-	                     <handNote xml:id="penna_B">Penna B con tratto spesso e inchiostro scuro</handNote>
-	                     <handNote xml:id="penna_C">Penna C con tratto spesso e inchiostro bruno (?)</handNote>
-                         <handNote xml:id="penna_D">Penna D con tratto piuttisto sottile e inchiostro nero</handNote>
-                         <handNote>
-                             <timeline xml:id="strat_penne" origin="penna_A" unit="d">
-                                <when corresp="#penna_A" absolute="1817-07"/>
-                                <when corresp="#penna_B" interval="1" since="#penna_A"/>
-                                <when corresp="#penna_C" interval="1" since="#penna_B"/>
-                                 <when corresp="#penna_D" interval="1" since="penna_C"/>
-                            </timeline>
-                        </handNote>
-                     </handDesc>
-                 </physDesc>
-             </msDesc>
-            
-             <listBibl>
-                 <bibl xml:id="Canti">
-                     <author ref="#G.L.">Giacomo Leopardi</author>
-                     <title ref="#Canti">Canti</title>
-                     <editor>Gavazzeni</editor>
-                     <pubPlace>Firenze</pubPlace>
-                     <publisher>Accademia della Crusca</publisher>
-                     <date>2009</date>
-                 </bibl>
-                 <bibl xml:id="Av_Fabulae">
-                 	<author ref="#Aviano">Flavio Aviano</author>
-                 	<title ref="#Av_Fabulae">Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
-                 	
-                     <pubPlace>Bologna</pubPlace>
-                     <publisher>Stamperia dell'Istituto delle scienze</publisher>
-                     <date>1787</date>
-                 </bibl>
-                  
-                     <biblStruct xml:id="Operette"> 
-                         <analytic><title>Prose</title><editor ref="#R.D.">Rolando Damiani</editor></analytic>
-                         <monogr>
-                             
-                         <author ref="#G.L.">Giacomo Leopardi</author> 
-                         <title ref="#Operette">Operette Morali</title> 
-                             <imprint>
-                                 <publisher>Mondadori i Meridiani</publisher>
-                                 <date>1988</date>
-                             </imprint>
-                         </monogr>
-                     </biblStruct>
-                 <bibl>
-                     <author xml:id="E.D.">Elio Donato</author>
-                     <title xml:id="Vita">Vita Vergilii</title>
-                 </bibl>
-                 <bibl xml:id="Epistolario">
-                     <author ref="#G.L.">Giacomo Leopardi</author>
-                     <title ref="#Epistolario">Epistolario</title>
-                     <editor>Franco Brioschi, Patrizia Landi</editor>
-                     <pubPlace>Torino</pubPlace>
-                     <publisher>Bollati Boringhieri</publisher>
-                     <date>1998</date>
-                 </bibl>
-                 <bibl xml:id="Pittori">
-                     <author ref="#Dati">Carlo Roberto Dati</author>
-                     <title ref="#Pittori">Vite de' Pittori Antichi</title>
-                     <!-- Arricchire con dettagli edizione -->
-                 </bibl>
-                 <biblStruct xml:id="Discorso"> 
-                     <analytic><title>Poesie minori e prose</title><editor>Gianna Maria Zuradelli</editor></analytic>
-                     <monogr>
-                         
-                         <author ref="#Parini">Giuseppe Parini</author> 
-                         <title ref="#Discorso">Discorso sopra la poesia</title> 
-                         <imprint>
-                             <publisher>Torino: Unione tipografico-editrice torinese</publisher>
-                             <date>1965</date>
-                         </imprint>
-                     </monogr>
-                 </biblStruct>
-             </listBibl>
-
-             <listPerson>
-             	<person xml:id="Aviano">
-             		<persName type="pers_citata" sameAs="https://viaf.org/viaf/41836105/" ref="http://www.treccani.it/enciclopedia/aviano">Flavio Aviano</persName>
-             	</person>
-                <person xml:id="Omero">
-                    <persName type="pers_citata" sameAs="https://viaf.org/viaf/224924963/" ref="http://www.treccani.it/enciclopedia/omero">Omero</persName>
-                </person>
-                <person xml:id="Virgilio">
-                    <persName type="pers_citata" sameAs="https://viaf.org/viaf/8194433/"
-                        ref="http://www.treccani.it/enciclopedia/publio-virgilio-marone/"
-                        >Virgilio</persName>
-                </person>
-                 <person xml:id="Cesare">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/286265178" ref="http://www.treccani.it/enciclopedia/gaio-giulio-cesare/">Giulio Cesare</persName>
-                 </person>
-                 <person xml:id="Poliziano">
-                     <persName type="pers_citata" sameAs="https://viaf.org/viaf/9867884/" ref="http://www.treccani.it/enciclopedia/ambrogini-angelo-detto-il-poliziano_(Dizionario-Biografico)">Angelo Poliziano</persName>
-                 </person>
-                 <person xml:id="Pulci">
-                     <persName type="pers_citata" sameAs="https://viaf.org/viaf/71453100/" ref="http://www.treccani.it/enciclopedia/luigi-pulci_(Dizionario-Biografico)">Luigi Pulci</persName>
-                 </person>
-                 <person xml:id="Anacreonte">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/100165204" ref="http://www.treccani.it/enciclopedia/anacreonte/">Anacreonte</persName>
-                 </person>
-                 <person xml:id="Parini">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/9860797" ref="http://www.treccani.it/enciclopedia/giuseppe-parini_%28Dizionario-Biografico%29/">Parini</persName>
-                 </person>
-                 <person xml:id="Aristotele">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/7524651" ref="http://www.treccani.it/enciclopedia/aristotele/">Aristotele</persName>
-                 </person>
-                 <person xml:id="Orazio">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/100227522" ref="http://www.treccani.it/enciclopedia/quinto-orazio-flacco/">Orazio</persName>
-                 </person>
-                 <person xml:id="Dati">
-                     <persName type="pers_citata" sameAs="http://viaf.org/viaf/9836658" ref="http://www.treccani.it/enciclopedia/carlo-roberto-dati_%28Dizionario-Biografico%29/">Carlo Roberto Dati</persName>
-                 </person>
-         </listPerson>
-         </sourceDesc>
-         
-     </fileDesc>
- </teiHeader>   
-    <text n="Zibaldone di Pensieri" xml:id="Zib">
-      <body>
-          <pb n="1" xml:id="p_1"/>
-          <p hand="#penna_A">
-           Palazzo bello. Cane di notte dal casolare, al passar del viandante.<lb/></p>
-                <p><add hand="#penna_B">  <lg>
-                  <l>Era la luna nel cortile, un lato<lb/>
-                      Tutto ne illuminava, e discendea<lb/>
-                      sopra il contiguo lato obliquo un raggio...<lb/></l>
-                    <l> <seg source="#Quiete">Nella (dalla) maestra via s'udiva il carro <lb/>
-                  Del passegger, che stritolando i sassi<lb/>
-                  Mandava un suon, cui precedea da lungi<lb/>
-                  Il tintinnìo de' mobili sonagli
-                        
-                    </seg></l> 
-                </lg>
-               </add></p>
-          <p hand="#penna_A">Onde <persName ref="#Aviano">Aviano</persName> raccontando una favoletta dice che <quote source="Av_Fabulae1">
-                una donna di contado piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e non gli facesse motto con sasso o altro, <persName ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi vedere
-                     <bibl>
-
-
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zibaldone di Pensieri</title>
+                <author xml:id="G.L.">Giacomo Leopardi</author>
+                <respStmt>
+                    <resp>Responsabile del progetto</resp>
+                    <name xml:id="R.P.">Roberta Priore</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabili sviluppo interfaccia web</resp>
+                    <name xml:id="A.C.">Alessia Cioffi</name>
+                    <name xml:id="F.G.">Francesca Genovese</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Analisi e codifica del testo</resp>
+                    <name ref="#R.P.">Roberta Priore</name>
+                    <name xml:id="L.S.">Lorenzo Sabatino</name>
+                    <name xml:id="M.S.">Marco Seghizzi</name>
+                    <name xml:id="A.T.">Alessandra Terenzi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ZdP Project;</publisher>
+                <pubPlace>Bologna</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <p> Questa risorsa digitale è liberamente accessibile per uso personale o
+                        scientifico. Ogni uso commerciale è vietato </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author ref="#G.L.">Giacomo Leopardi</author>
+                    <title>Zibaldone di pensieri</title>
+                    <editor xml:id="R.D.">Rolando Damiani</editor>
+                    <publisher>Mondadori</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date>2014</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale (BNN)</repository>
+                        <idno>Carte Leopardi, C.L._V.1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="penna_A">Penna A con tratto sottile e
+                                marroncino</handNote>
+                            <handNote xml:id="penna_B">Penna B con tratto spesso e inchiostro
+                                scuro</handNote>
+                            <handNote xml:id="penna_C">Penna C con tratto spesso e inchiostro bruno
+                                (?)</handNote>
+                            <handNote xml:id="penna_D"> Penna D con tratto piuttisto sottile e
+                                inchiostro nero </handNote>
+                            <handNote>
+                                <timeline xml:id="strat_penne" origin="penna_A" unit="d">
+                                    <when corresp="#penna_A" absolute="1817-07"/>
+                                    <when corresp="#penna_B" interval="1" since="#penna_A"/>
+                                    <when corresp="#penna_C" interval="1" since="#penna_B"/>
+                                    <when corresp="#penna_D" interval="1" since="penna_C"/>
+                                </timeline>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl xml:id="Canti">
+                        <author ref="#G.L.">Giacomo Leopardi</author>
+                        <title ref="#Canti">Canti</title>
+                        <editor>Gavazzeni</editor>
+                        <pubPlace>Firenze</pubPlace>
+                        <publisher>Accademia della Crusca</publisher>
+                        <date>2009</date>
+                    </bibl>
+                    <bibl xml:id="Av_Fabulae">
                         <author ref="#Aviano">Flavio Aviano</author>
-                        <title ref="#Av_Fabulae">Fabulae cum adnotationibus. Ad usum Seminarii Patavini</title>
+                        <title ref="#Av_Fabulae"> Fabulae cum adnotationibus. Ad usum Seminarii
+                            Patavini </title>
                         <pubPlace>Bologna</pubPlace>
-                      <publisher>Stamperia dell'Istituto delle scienze</publisher>
-                      <date>1787</date>
-                        </bibl> </quote>.<add hand="#penna_C" place="interlinea">(<date notBefore="1817-07" notAfter="1817-08">Luglio o Agosto 1817</date>
-                  <!-- @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? -->.)</add></p>
-          <p hand="#penna_D">
-              <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non s'usavano</add> al tempo suo<add hand="#penna_D">.</add><del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che s'usassero perchè sono molto antiche</seg>
-          </p>
-          <p hand="#penna_D">
-              <quote>Tutta la notte piove<lb/>
-                  E ritornan le feste a la dimane:<lb/>
-                  Fan del regno a metà Cesare e Giove.<lb/>
-              <bibl>
-                  <author ref="#E.D.">Elio Donato</author>
-                  <title ref="#Vita">Vita Vergilii</title>
-              </bibl>
-              </quote>
-          </p>
-          <p hand="#penna_D">
-              Dal niente in letteratura si passa al mezzo e al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del vero bello, come faceano.
-          </p>
-          <p hand="#penna_D">
-              <seg source="ottoagosto1817"> <seg source="ventunonovembre1817">Il <date when="1300">trecento</date> fu il principio della nostra letteratura, non già il colmo, imperocchè non ebbe se non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300">trecento</date>, ma un sonno della letteratura (che avea dato luogo <add hand="#penna_D">a</add>ll'erudizione) la quale restava ancora incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano">Poliziano</persName>, <persName ref="#Pulci">Pulci</persName>. Il <date when="1500">cinquecento</date> fu vera continuazione del <date when="1300">trecento</date> e il colmo della nostra letteratura. Di poi venne il raffinamento del <date when="1600">seicento</date>, che nel <del hand="#penna_D">tre</del>settecento s'è solamente mutato in corruzione d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più, nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal troppo buono o si<add hand="#penna_D">a</add>dal corrotto stimo che non si possa. </seg> </seg>
-          </p>
-          <p hand="#penna_D">
-              Non il Bello ma il Vero o sia l'imitazione della Natura <del hand="#penna_D">qualsiasi</del><add hand="#penna_D">qualunque</add>, si è l'oggetto delle Belle arti. Se fosse il Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion metafisica, la quale in vece di piacere fa stomaco nelle art<del hand="#penna_D">e</del><add hand="#penna_D">i</add>. Non vale il dire che è il solo bello dentro i limiti della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che fa il diletto delle belle<del hand="#penna_D">,</del> <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che dovrebbe come <add hand="#penna_D">h</add><!-- Sovrascritto a ? --><del hand="#penna_D">lo</del><del hand="#penna_D">quello ch</del>o detto più piacere il maggior bello, e così più piacere la descrizione di un bel mondo ideale che del <choice><abbr>nŕo</abbr><expan>nostro</expan></choice>. 
-          
-          <quote> E che non sia il solo bello naturale lo scopo delle B.A. vedesi in tutti i poeti specialmente in <persName ref="#Omero">Omero</persName>, perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto Achille infinitamente men bello di quello che potea farlo, e così gli Dei ec. e sarebbe maggior poeta <persName ref="#Anacreonte">Anacreonte</persName> che <persName ref="#Omero">Omero</persName> ec. e noi proviamo che ci piace più Achille che Enea ec. onde è falso anche che quello di <persName ref="#Virgilio">Virgilio</persName> sia maggior poema ec. Passioni morti tempeste ec. piacciono egregiamente benchè sian brutte per questo solo che son bene imitate, e se è vero quel che dice il <persName ref="#Parini">Parini</persName> nella Oraz. della poesia, <quote>perchè l'uomo niente tanto odia quanto la noia, e però gli piace di veder qualche novità ancorchè brutta.
-              <bibl>  
-                  
-                  <author ref="#Parini">Parini</author>
-                  <title ref="#Discorso">Discorso sopra la poesia</title>
-                  
-              </bibl></quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera quistion di nome il contrastar se questa sia poesia. Basta che tutti la intendono per poesia <persName ref="#Aristotele">Aristot.</persName> e <persName ref="Orazio">Orazio</persName> singolarmente e che io dicendo poesia intendo anche questi generi.
-              <bibl>  
-                  
-                  <author ref="#Dati">Carlo Roberto Dati</author>
-                  <title ref="#Pittori">Vite de' Pittori Antichi</title>
-                  
-              </bibl></quote> <add hand="#penna_E">V. <persName ref="#Dati">Dati</persName>, Pittori ed. Siena 1795. p. 57, 66.</add>
-              </p>
-          
-          
-          <p hand="#penna_F">Il brutto come tutto il resto deve star nel suo luogo: e nell'Epica e lirica avrà luogo più di raro ma spessissimo nella Commed. Trag. Sat. ed è quistion di parole ec. come sop. Il vile di raro si dee descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual meno degno,
-          
-              <pb n="3" xml:id="p_3"/>niente vieta che dei diversi generi di poesia altro abbia per oggetto più particolarmente il bello altro il doloroso altro anche il brutto e il vile, e però qual sia più nobile e degno qual meno e non per tanto tutti sieno generi di poesia, nè ci sia oggetto di veruno di essi che non possa essere oggetto della poesia e delle arti imitative ec.</p> 
-      </body> 
-      <back>
-      <!--SOURCES DIV-->
-        <div>
-            <head>Sources</head>
-            <cit xml:id="Av_Fabulae1">
-                <bibl>
-                    <author ref="#Aviano">Aviano</author>
-                    <title ref="#Av_Fabulae">Fabulae</title>
-                    <citedRange corresp="#Av_Fabulae" target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html">I, vv. 11-6</citedRange>
-                    <!-- @comm.Ale: ho aggiunto un link a un sito bruttissimo a titolo d'esempio -->
-                </bibl>
-                <quote>Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat arte notari, / Foemineam quisquis credidit esse fidem.</quote>
-                <!-- @comm.Ale: anche dentro al quote vanno i tag <l>? -->
-            </cit>
-            <cit xml:id="Vita_ElioD"> 
-                <bibl> 
-                    <author ref="#E.D.">Elio Donato</author> 
-                    <title ref="#Vita">Vita Vergilii</title> 
-                   
-                    
-                </bibl> 
-                <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove Caesar habet</quote> 
-            </cit>
-            <!-- La cit per l'edizione dell'opera Vite de' Pittori Antichi è tutta puramente esemplificativa; ho inserito il link alla digitalizzazione Google dell'edizione Stella 1667, I edizione, che quindi non corrisponde all'edizione menzionata da Leopardi.  -->
-            <cit xml:id="Dati_Pittori">
-                <bibl>
-                    <author ref="#Dati">Carlo Roberto Dati</author>
-                    <title ref="#Pittori">Vite de' Pittori Antichi</title>
-                    <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
-                </bibl>
-                <quote></quote>
-            </cit>
-            <!-- La cit per il Discorso sopra la poesia è esemplificativa, tratta dal Commento dell'edizione Mondadori, p.3232-->
-            <cit xml:id="Parini_Discorso">
-                <bibl>
-                    <author ref="#Parini">Parini</author>
-                    <title ref="#Discorso">Discorso sopra la poesia</title>
-                    <citedRange corresp="#Discorso">Discorso sopra la poesia, in Opere, a cura di G.M. Zuradelli, Torino 1965, vol. II, p.271</citedRange>
-                </bibl>
-                <quote>L'anima nostra, che ama di essere sempre in azione e in movimento, niente più aborre che la noia</quote>
-            </cit>
-        </div>
-        
-        <!--PARALLEL PASSAGES DIV-->
-        <div>
-            <head>Parallel passages</head>
-            <cit xml:id="Quiete"> 
-            	<bibl>
-                    
-                    <title ref="#Canti">C (1829) </title>
-                    <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
-            	    
-            	    <ref>http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115</ref>
-                </bibl>
-                <quote><l>E, dalla via corrente, odi lontano/</l><lb/>
-                    <l>Tintinnio di sonagli; il carro stride/</l><lb/>
-                    <l>Del passegger che il suo cammin ripiglia.</l><lb/></quote>
-            </cit>
-            <cit xml:id="Ottonieri">  
-                <bibl> 
-                   
-                    <title ref="#Operette">OM (1824)</title> 
-                    <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
-                    
-                </bibl> 
-                <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
-            </cit>
-         
-               
-                <cit xml:id="ottoagosto1817">  
-                    <bibl> 
-                        <title ref="#Epistolario">Ep (8 agosto 1817)</title> 
-                        <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
+                        <publisher>Stamperia dell'Istituto delle scienze</publisher>
+                        <date>1787</date>
+                    </bibl>
+                    <biblStruct xml:id="Operette">
+                        <analytic>
+                            <title>Prose</title>
+                            <editor ref="#R.D.">Rolando Damiani</editor>
+                        </analytic>
+                        <monogr>
+                            <author ref="#G.L.">Giacomo Leopardi</author>
+                            <title ref="#Operette">Operette Morali</title>
+                            <imprint>
+                                <publisher>Mondadori i Meridiani</publisher>
+                                <date>1988</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <bibl>
+                        <author xml:id="E.D.">Elio Donato</author>
+                        <title xml:id="Vita">Vita Vergilii</title>
+                    </bibl>
+                    <bibl xml:id="Epistolario">
+                        <author ref="#G.L.">Giacomo Leopardi</author>
+                        <title ref="#Epistolario">Epistolario</title>
+                        <editor>Franco Brioschi, Patrizia Landi</editor>
+                        <pubPlace>Torino</pubPlace>
+                        <publisher>Bollati Boringhieri</publisher>
+                        <date>1998</date>
+                    </bibl>
+                    <bibl xml:id="Pittori">
+                        <author ref="#Dati">Carlo Roberto Dati</author>
+                        <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                        <!--  Arricchire con dettagli edizione  -->
+                    </bibl>
+                    <biblStruct xml:id="Discorso">
+                        <analytic>
+                            <title>Poesie minori e prose</title>
+                            <editor>Gianna Maria Zuradelli</editor>
+                        </analytic>
+                        <monogr>
+                            <author ref="#Parini">Giuseppe Parini</author>
+                            <title ref="#Discorso">Discorso sopra la poesia</title>
+                            <imprint>
+                                <publisher>Torino: Unione tipografico-editrice torinese</publisher>
+                                <date>1965</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+                <listPerson>
+                    <person xml:id="Aviano">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/41836105/"
+                            ref="http://www.treccani.it/enciclopedia/aviano">Flavio
+                            Aviano</persName>
+                    </person>
+                    <person xml:id="Omero">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/224924963/"
+                            ref="http://www.treccani.it/enciclopedia/omero">Omero</persName>
+                    </person>
+                    <person xml:id="Virgilio">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/8194433/"
+                            ref="http://www.treccani.it/enciclopedia/publio-virgilio-marone/"
+                            >Virgilio</persName>
+                    </person>
+                    <person xml:id="Cesare">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/286265178"
+                            ref="http://www.treccani.it/enciclopedia/gaio-giulio-cesare/">Giulio
+                            Cesare</persName>
+                    </person>
+                    <person xml:id="Poliziano">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/9867884/"
+                            ref="http://www.treccani.it/enciclopedia/ambrogini-angelo-detto-il-poliziano_(Dizionario-Biografico)"
+                            >Angelo Poliziano</persName>
+                    </person>
+                    <person xml:id="Pulci">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/71453100/"
+                            ref="http://www.treccani.it/enciclopedia/luigi-pulci_(Dizionario-Biografico)"
+                            >Luigi Pulci</persName>
+                    </person>
+                    <person xml:id="Anacreonte">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/100165204"
+                            ref="http://www.treccani.it/enciclopedia/anacreonte/"
+                            >Anacreonte</persName>
+                    </person>
+                    <person xml:id="Parini">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/9860797"
+                            ref="http://www.treccani.it/enciclopedia/giuseppe-parini_%28Dizionario-Biografico%29/"
+                            >Parini</persName>
+                    </person>
+                    <person xml:id="Aristotele">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/7524651"
+                            ref="http://www.treccani.it/enciclopedia/aristotele/"
+                            >Aristotele</persName>
+                    </person>
+                    <person xml:id="Orazio">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/100227522"
+                            ref="http://www.treccani.it/enciclopedia/quinto-orazio-flacco/"
+                            >Orazio</persName>
+                    </person>
+                    <person xml:id="Dati">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/9836658"
+                            ref="http://www.treccani.it/enciclopedia/carlo-roberto-dati_%28Dizionario-Biografico%29/"
+                            >Carlo Roberto Dati</persName>
+                    </person>
+                    <person xml:id="Ariosto">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/71386455" 
+                            ref="https://www.treccani.it/enciclopedia/ludovico-ariosto_%28Dizionario-Biografico%29/">
+                            Ludovico Ariosto</persName>
+                    </person>
+                    <person xml:id="Tasso">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/4936996"
+                            ref="https://www.treccani.it/enciclopedia/torquato-tasso_%28Dizionario-Biografico%29/">
+                            Torquato Tasso</persName>
+                                       <person xml:id="Algarotti">
+                        <persName type="pers:citata" sameAs="http://viaf.org/viaf/68955699"
+                            ref="https://www.treccani.it/enciclopedia/francesco-algarotti_%28Dizionario-Biografico%29/">
+                            Francesco Algarotti</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text n="Zibaldone di Pensieri" xml:id="Zib">
+        <body>
+            <pb n="1" xml:id="p_1"/>
+            <p hand="#penna_A"> Palazzo bello. Cane di notte dal casolare, al passar del viandante.
+                <lb/>
+            </p>
+            <p>
+                <add hand="#penna_B">
+                    <lg>
+                        <l> Era la luna nel cortile, un lato <lb/> Tutto ne illuminava, e discendea
+                            <lb/> sopra il contiguo lato obliquo un raggio... <lb/>
+                        </l>
+                        <l>
+                            <seg source="#Quiete"> Nella (dalla) maestra via s'udiva il carro <lb/>
+                                Del passegger, che stritolando i sassi <lb/> Mandava un suon, cui
+                                precedea da lungi <lb/> Il tintinnìo de' mobili sonagli </seg>
+                        </l>
+                    </lg>
+                </add>
+            </p>
+            <p hand="#penna_A"> Onde <persName ref="#Aviano">Aviano</persName> raccontando una
+                favoletta dice che <quote source="Av_Fabulae1"> una donna di contado piangendo un
+                    suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare a un lupo. E
+                    che un lupo che a caso di là passava, udendo dir questo alla donna credettele
+                    che dicesse vero, e messosi innanzi all’uscio di casa così stette quivi tutto
+                    quel giorno ad aspettare che la donna gli portasse quella vivanda. Come poi vi
+                    stesse tutto quel tempo e la donna non se n’accorgesse e non n’avesse paura e
+                    non gli facesse motto con sasso o altro, <persName ref="#Aviano"
+                        >Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo non ebbe
+                    niente perchè il fanciullo s’addormentò, e quando bene non l’avesse fatto non ci
+                    sarìa stato pericolo. E fatto tardi, tornato alla moglie senza preda perchè
+                    s’era baloccato ad aspettare fino a sera, disse quello che nell’autore puoi
+                    vedere <bibl>
+                        <author ref="#Aviano">Flavio Aviano</author>
+                        <title ref="#Av_Fabulae"> Fabulae cum adnotationibus. Ad usum Seminarii
+                            Patavini </title>
+                        <pubPlace>Bologna</pubPlace>
+                        <publisher>Stamperia dell'Istituto delle scienze</publisher>
+                        <date>1787</date>
+                    </bibl>
+                </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
+                        notAfter="1817-08">Luglio o Agosto 1817</date>
+                    <!--
+ @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? 
+--> .) </add>
+            </p>
+            <p hand="#penna_D">
+                <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere
+                    alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele
+                    disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non
+                        s'usavano</add> al tempo suo <add hand="#penna_D">.</add>
+                    <del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che
+                    s'usassero perchè sono molto antiche </seg>
+            </p>
+            <p hand="#penna_D">
+                <quote> Tutta la notte piove <lb/> E ritornan le feste a la dimane: <lb/> Fan del
+                    regno a metà Cesare e Giove. <lb/>
+                    <bibl>
+                        <author ref="#E.D.">Elio Donato</author>
+                        <title ref="#Vita">Vita Vergilii</title>
+                    </bibl>
+                </quote>
+            </p>
+            <p hand="#penna_D"> Dal niente in letteratura si passa al mezzo e al vero, quindi al
+                raffinamento: da questo non c'è esempio che si sia tornato al vero. Greci latini
+                italiani. Lo squisito gusto del volgo de' letterati non può essere se non quando ei
+                non è ancora corrotto. P. E. i cinquecentisti volgari non peccavano d'altro che di
+                poco, non di troppo, e però erano attissimi a giudicar bene del molto, o sia del
+                vero bello, come faceano. </p>
+            <p hand="#penna_D">
+                <seg source="ottoagosto1817">
+                    <seg source="ventunonovembre1817"> Il <date when="1300">trecento</date> fu il
+                        principio della nostra letteratura, non già il colmo, imperocchè non ebbe se
+                        non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu
+                        corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300"
+                            >trecento</date> , ma un sonno della letteratura (che avea dato luogo
+                            <add hand="#penna_D">a</add> ll'erudizione) la quale restava ancora
+                        incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano"
+                            >Poliziano</persName> , <persName ref="#Pulci">Pulci</persName> . Il
+                            <date when="1500">cinquecento</date> fu vera continuazione del <date
+                            when="1300">trecento</date> e il colmo della nostra letteratura. Di poi
+                        venne il raffinamento del <date when="1600">seicento</date> , che nel <del
+                            hand="#penna_D">tre</del> settecento s'è solamente mutato in corruzione
+                        d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più,
+                        nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal
+                        troppo buono o si <add hand="#penna_D">a</add> dal corrotto stimo che non si
+                        possa. </seg>
+                </seg>
+            </p>
+            <p hand="#penna_D"> Non il Bello ma il Vero o sia l'imitazione della Natura <del
+                    hand="#penna_D">qualsiasi</del>
+                <add hand="#penna_D">qualunque</add> , si è l'oggetto delle Belle arti. Se fosse il
+                Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion
+                metafisica, la quale in vece di piacere fa stomaco nelle art <del hand="#penna_D"
+                    >e</del>
+                <add hand="#penna_D">i</add> . Non vale il dire che è il solo bello dentro i limiti
+                della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che
+                fa il diletto delle belle <del hand="#penna_D">,</del>
+                <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che
+                dovrebbe come <add hand="#penna_D">h</add>
+                <!--  Sovrascritto a ?  -->
+                <del hand="#penna_D">lo</del>
+                <del hand="#penna_D">quello ch</del> o detto più piacere il maggior bello, e così
+                più piacere la descrizione di un bel mondo ideale che del <choice>
+                    <abbr>nŕo</abbr>
+                    <expan>nostro</expan>
+                </choice> . <quote> E che non sia il solo bello naturale lo scopo delle B.A. vedesi
+                    in tutti i poeti specialmente in <persName ref="#Omero">Omero</persName> ,
+                    perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello
+                    naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto
+                    Achille infinitamente men bello di quello che potea farlo, e così gli Dei ec. e
+                    sarebbe maggior poeta <persName ref="#Anacreonte">Anacreonte</persName> che
+                        <persName ref="#Omero">Omero</persName> ec. e noi proviamo che ci piace più
+                    Achille che Enea ec. onde è falso anche che quello di <persName ref="#Virgilio"
+                        >Virgilio</persName> sia maggior poema ec. Passioni morti tempeste ec.
+                    piacciono egregiamente benchè sian brutte per questo solo che son bene imitate,
+                    e se è vero quel che dice il <persName ref="#Parini">Parini</persName> nella
+                    Oraz. della poesia, <quote> perchè l'uomo niente tanto odia quanto la noia, e
+                        però gli piace di veder qualche novità ancorchè brutta. <bibl>
+                            <author ref="#Parini">Parini</author>
+                            <title ref="#Discorso">Discorso sopra la poesia</title>
+                        </bibl>
+                    </quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera
+                    quistion di nome il contrastar se questa sia poesia. Basta che tutti la
+                    intendono per poesia <persName ref="#Aristotele">Aristot.</persName> e <persName
+                        ref="Orazio">Orazio</persName> singolarmente e che io dicendo poesia intendo
+                    anche questi generi. <bibl>
+                        <author ref="#Dati">Carlo Roberto Dati</author>
+                        <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                    </bibl>
+                </quote>
+                <add hand="#penna_E"> V. <persName ref="#Dati">Dati</persName> , Pittori ed. Siena
+                    1795. p. 57, 66. </add>
+            </p>
+            <p hand="#penna_F"> Il brutto come tutto il resto deve star nel suo luogo: e nell'Epica
+                e lirica avrà luogo più di raro ma spessissimo nella Commed. Trag. Sat. ed è
+                quistion di parole ec. come sop. Il vile di raro si dee descrivere perchè di raro
+                può star nel suo luogo nella poesia (eccetto nelle Sat. Commed. e poesia bernesca)
+                non perchè non possa essere oggetto della poesia. Ancora potendo esser molti generi
+                di una cosa e questi qual più qual meno degno, <pb n="3" xml:id="p_3"/> niente vieta
+                che dei diversi generi di poesia altro abbia per oggetto più particolarmente il
+                bello altro il doloroso altro anche il brutto e il vile, e però qual sia più nobile
+                e degno qual meno e non per tanto tutti sieno generi di poesia, nè ci sia oggetto di
+                veruno di essi che non possa essere oggetto della poesia e delle arti imitative ec.
+           
+            
+            </p> 
+             <pb n="5" xml:id="p_5"/> <p hand= "#penna_F"> Come i fanciulli e i giovinetti benchè di buona indole pure p.
+                la malizia naturale, di quando in quando scappano in qualche 
+                difetto e non per tanto sono differentissimi dagli uomini grandi 
+                e cattivi, così <del hand= "#penna_F"> i trecentisti e i quattrocentisti </del> <add hand= "#penna_F"> gli antichi</add> senza
+                conoscere nè amare i vizi <add hand= "#pennaF"> delle arti </add>, per la naturale tendenza dell'
+                ingegno alla ricercatezza e cose tali di quando in quando vi ricadevano
+                non riflettendo che fossero vizi, e non per tanto infinitamente
+                differivano dagli adulti artefici del 600 e 700 radicati nella
+                corruzione. E adesso chiunque, per pochissimo che abbia studiato
+                a prima giunta vede che quelli sono errori e <del hand= "#penna_F"> se </del> che gli antichi
+                hanno errato. P.E. chi non vede che è cosa ridicola e 
+                affettatissima il lamento d'Olimpia ec. nell' <persName ref="#Ariosto">Ariosto</persName>, quello
+                d'Erminia ec. nel <persName ref="#Tasso">Tasso</persName>? Eppure questi grandissimi poeti perchè
+                l'arte era giovane e senza esperzienza in buona fede cascavano in
+                questi errori, e noi perchè siamo vecchi nell'arte col nostro senno
+                e coll'esperienza dei tempi corrotti, ce ne ridiamo e li fuggiamo.
+                Ma questo senno e questa esperienza sono la morte della
+                poesia ec. Come però si dovrà dire cge l'<persName ref="#Ariosto">Ariosto</persName> per esempio
+                avesse somma arte se cadeva spessissimo in difetti che il più meschino
+                artefice d'oggidì conosce a prima vista? non avea somma 
+                arte ma sommo ingegno, pulitissimo, ma non corrotto, e meno
+                poi ripulito.
+            </p>
+            <p> Per guardarci dai vizi e dalla corruzione dello scrivere adesso
+                è necessario un infinito studio <del hand="#penna_F">dei</del> e una grandissima imitazione
+                dei Classici, molto maggiore di quella che agli antichi non 
+                bisognava<del hand="#penna_F">no</del> <del hand="#penna_F">colle</del> <add hand="#penna_F">senza le</add>
+                quali cose non si può essere insigne scrittore,
+                e colle quali non si può diventar grande come i grandi imitati.                            
+            </p>
+            <p>Come il cocchiere fa guidando i cavalli per la china, che
+                poco concede loro perché troppo non gli rapiscano.
+            </p>
+            <quote> <lg>        
+                <l n="1">Padron, se con lamenti e con rammarichi</l>
+                <l n="2"> Si rimediasse a le nostre miserie,</l>
+                <l n="3">Bisognerebbe comperar le lagrime </l>
+                <l n="4">A peso d’or: ma queste tanto possono </l>   
+                <l n="5">Le disgrazie scemar, quanto le prefiche </l>
+                <l n="6">Svegliare i morti con le loro istorie: </l>
+                <l n="7">Ne’ guai non ci vuol pianto ma consiglio. </l>
+                
+            </lg> <bibl><author ref="#Algarotti">Algarotti</author> <title>Opere</title> <pubPlace>Cremona</pubPlace><date>1778</date></bibl></quote>
+            <pb n="6" xml:id="p_6"/>
+            <p>Messer tale domandato da alcuni che disputavano sopra
+            una statua antica di Giove <del hand="#penna_F">, che ne sentis&lt;se&gt;</del> in terra cotta
+            che ne sentisse, rispose: Maravigliomi come vi siate
+            accorti che questo è un Giove in Creta<del hand="#penna_F">,</del>: volendo dire
+            in terra cotta, ma in sembianza, nell'isola di Creta dove Giove fu allevato.</p>
+            <p>Sistema di Belle Arti</p>
+            <p>Fine - il diletto; secondario, alle volte, l'utile - Oggetto o mezzo
+            di ottenere il fine - l'imitazione della natura, non del bello
+            necessariamente - Cagione <add hand="#penna_F">primaria</add> del fine prodotto da questo oggetto
+            o sia con questo mezzo - la meraviglia: forza del mirabile
+            e desiderio di esso innato nell'uomo: tendenza a credere
+            il mirabile: la meraviglia così è prodotta dalla imitazione del
+            bello come da quella di qualunque altra cosa reale o verisimile:
+            quindi il diletto delle tragedie ec. prodotto non dalla cosa 
+            imitata ma dall'imitazione che fa meraviglia - Cagioni 
+            secondari<del hand="#penna-F">a</del><add hand="#penna_F">e</add> e relative ai diversi oggetti imitati -
+            la bellezza, la rimembranza, l'attenzione che si pone a cose che
+            tuttogiorno si vedono senza badarci ec. - Cagione primitiva
+            del diletto destato dalla meraviglia ec. e però conseguentemente
+            del diletto destato dalle belle arti - <del hand="#penna_f">lo</del> l'orrore della noia
+            naturae all'uomo; ricerche sopra le cagioni di quest'orrore ec.
+            - Cagioni dei difetti nelle belle arti - Sproporzione sconvenevolezza,
+            cose poste fuor di luogo, <del hand="#penna_F">il</del><add hand="#penna_F">al</add> che <del hand="#penna_F"> fu che</del> solo
+            (contro l'opinione di chi pensa che provenga dall'avere le arti per
+            oggetto il bello) si riducono i difetti della bassezza della bruttezza 
+            deformità crudeltà sporchezza tristizia tutte cose che
+            rappresentate o impiegate nei loro luoghi non sono difetti giacchè
+            piacciono e per mezzo dell'imitazione producono la maraviglia,
+            ma sono difetti fuor di luogo p.e. in un'anacreontica
+            l'imagine di un ciclopo, (per lo più) in un'epopea per lo più
+            la figura di un deforme ec. Altri difetti e vizi; affettazione
+            ec. quasi tutti si riducono alla sconvenevolezza e inverosimiglianza
+            che proviene dallo sconvenirsi <add hand="#penna_F">tra loro</add> in natura quegli attributi
+            della cosa inverisimile, onde la mente che comprende la <pb n="7" xml:id="p_7"/> 
+            sconvenienza degli attributi concepisce l'inverisimiglianza - 
+            Diversi rami della imitazione che formano i diversi oggetti
+            delle belle arti e i diversi generi p.e. di poesia, i quali
+            tanto più son degni e nobili quanto più degni ec. sono gli 
+            oggetti, onde un genere che abbia per oggetto il deforme, 
+            sarà un genere poco stimabile e da non mettersi p.e.
+            coll'eopea, benchè anch<del hand="#penna_F">e</del><add hand="#penna_F">'</add>esso sia un genere di poesia
+            destando la maraviglia e quindi il diletto col mezzo dell'imitazione -</p>
+        </body>
+        <back>
+            <!-- SOURCES DIV -->
+            <div>
+                <head>Sources</head>
+                <cit xml:id="Av_Fabulae1">
+                    <bibl>
+                        <author ref="#Aviano">Aviano</author>
+                        <title ref="#Av_Fabulae">Fabulae</title>
+                        <citedRange corresp="#Av_Fabulae"
+                            target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html"
+                            >I, vv. 11-6</citedRange>
+                        <!--
+ @comm.Ale: ho aggiunto un link a un sito bruttissimo a titolo d'esempio 
+-->
+                    </bibl>
+                    <quote> Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
+                        fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia
+                        nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat
+                        arte notari, / Foemineam quisquis credidit esse fidem. </quote>
+                    <!--  @comm.Ale: anche dentro al quote vanno i tag <l>?  -->
+                </cit>
+                <cit xml:id="Vita_ElioD">
+                    <bibl>
+                        <author ref="#E.D.">Elio Donato</author>
+                        <title ref="#Vita">Vita Vergilii</title>
+                    </bibl>
+                    <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove
+                        Caesar habet </quote>
+                </cit>
+                <!--
+ La cit per l'edizione dell'opera Vite de' Pittori Antichi è tutta puramente esemplificativa; ho inserito il link alla digitalizzazione Google dell'edizione Stella 1667, I edizione, che quindi non corrisponde all'edizione menzionata da Leopardi.  
+-->
+                <cit xml:id="Dati_Pittori">
+                    <bibl>
+                        <author ref="#Dati">Carlo Roberto Dati</author>
+                        <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                        <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
+                    </bibl>
+                    <quote/>
+                </cit>
+                <!--
+ La cit per il Discorso sopra la poesia è esemplificativa, tratta dal Commento dell'edizione Mondadori, p.3232
+-->
+                <cit xml:id="Parini_Discorso">
+                    <bibl>
+                        <author ref="#Parini">Parini</author>
+                        <title ref="#Discorso">Discorso sopra la poesia</title>
+                        <citedRange corresp="#Discorso"> Discorso sopra la poesia, in Opere, a cura
+                            di G.M. Zuradelli, Torino 1965, vol. II, p.271 </citedRange>
+                    </bibl>
+                    <quote> L'anima nostra, che ama di essere sempre in azione e in movimento,
+                        niente più aborre che la noia </quote>
+                </cit>
+            </div>
+            <!-- PARALLEL PASSAGES DIV -->
+            <div>
+                <head>Parallel passages</head>
+                <cit xml:id="Quiete">
+                    <bibl>
+                        <title ref="#Canti">C (1829)</title>
+                        <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv.
+                            22-24</citedRange>
+                        <ref>
+                            http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115
+                        </ref>
+                    </bibl>
+                    <quote>
+                        <l>E, dalla via corrente, odi lontano/</l>
+                        <lb/>
+                        <l>Tintinnio di sonagli; il carro stride/</l>
+                        <lb/>
+                        <l>Del passegger che il suo cammin ripiglia.</l>
+                        <lb/>
+                    </quote>
+                </cit>
+                <cit xml:id="Ottonieri">
+                    <bibl>
+                        <title ref="#Operette">OM (1824)</title>
+                        <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange>
+                    </bibl>
+                    <quote> Da giovane, avendo composto alcuni versi, e adoperatovi certe voci
+                        antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li
+                        recitava, non li sapere intendere, perché quelle voci al tempo suo non
+                        correvano; rispose: anzi mi credeva che corressero; perché sono molto
+                        antiche. </quote>
+                </cit>
+                <cit xml:id="ottoagosto1817">
+                    <bibl>
+                        <title ref="#Epistolario">Ep (8 agosto 1817)</title>
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p.
+                            x</citedRange>
                         <date when="1817-08-08">8 agosto 1817</date>
-                        <ref> http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml </ref>
-                    </bibl> 
-                    <quote>citazione</quote> 
+                        <ref>
+                            http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                        </ref>
+                    </bibl>
+                    <quote>citazione</quote>
                 </cit>
-          
-             
-                <cit xml:id="ventunonovembre1817">  
-                    <bibl> 
-                    
-                        <title ref="#Epistolario">Ep (21 novembre 1817)</title> 
-                        <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
+                <cit xml:id="ventunonovembre1817">
+                    <bibl>
+                        <title ref="#Epistolario">Ep (21 novembre 1817)</title>
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p.
+                            x</citedRange>
                         <date when="1817-09-21">21 novembre 1817</date>
-                        <ref>http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml</ref>
-                    </bibl> 
-                    <quote>citazione</quote> 
+                        <ref>
+                            http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                        </ref>
+                    </bibl>
+                    <quote>citazione</quote>
                 </cit>
-        </div>
+                <cit xml:id="Algarotti_Muret">
+                    <bibl>
+                        <title>Opere</title> <author ref="#Algarotti">Algarotti</author>  </bibl>
+                        <quote>
+                            <l>Here, si querelis, ejulatu, fletibus <lb/>
+                                Medicina fieret miseriis mortalium,<lb/>
+                                auro parandae lacrumae contra forent:<lb/>
+                                nunc haec ad minuenda mala non magis valent,<lb/>
+                                quam naenia praeficae ad excitandos mortuos.<lb/>
+                                res turbidae consilium, non fletum expetunt.</l>
+                        </quote>                                   
+                </cit>
+            </div>
         </back>
     </text>
 </TEI>
