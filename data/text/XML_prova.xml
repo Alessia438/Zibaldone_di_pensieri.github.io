@@ -534,8 +534,17 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     hand="#penna_F">e</del><add hand="#penna_F">'</add>esso sia un genere di poesia
                 destando la maraviglia e quindi il diletto col mezzo dell'imitazione -</p>
             <p xml:id="p7_1" n="7.1" hand="#penna_F">
-                <cb>Del bello</cb>
-                <cb> Del sublime</cb>
+                <cb>Del bello <lb/>
+                Epopea Lirica ec <lb/> vari rami del bello. Bello
+delicato-grazioso -ameno-elegante. <quote source="Martignoni1">V.
+<persName ref="#Martignoni">Martignoni</persName> ec. Annali di
+scienze e lettere n. 8. P. 252-54 <bibl>
+<author/>
+
+</bibl></quote>. Ci può essere il bello delicato e il non delicato.
+Ercole Apollo. Bello sublime. Giove</cb>
+                <cb> Del sublime
+               </cb>
                         <cb>Del terribile</cb>
                         <cb>Del ridicolo, vizioso ec.</cb>
 
