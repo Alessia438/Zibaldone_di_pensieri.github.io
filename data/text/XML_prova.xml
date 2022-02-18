@@ -534,30 +534,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     hand="#penna_F">e</del><add hand="#penna_F">'</add>esso sia un genere di poesia
                 destando la maraviglia e quindi il diletto col mezzo dell'imitazione -</p>
             <p xml:id="p7_1" n="7.1" hand="#penna_F">
-                <table rows="4" cols="2">
-                    <row role="data">
-                        <cell cols="1">Del bello</cell>
-                        <cell cols="2"> Del sublime</cell>
-                        <cell cols="3">Del terribile</cell>
-                        <cell cols="4">Del ridicolo, vizioso ec.</cell>
+                <cb>Del bello</cb>
+                <cb> Del sublime</cb>
+                        <cb>Del terribile</cb>
+                        <cb>Del ridicolo, vizioso ec.</cb>
 
-                    </row>
-                    <row role="label">
-                        <cell cols="1"> Epopea Lirica ec, vari rami del bello. Bello
-                            delicato-grazioso -ameno-elegante. <quote source="Martignoni1">V.
-                                    <persName ref="#Martignoni">Martignoni</persName> ec. Annali di
-                                scienze e lettere n. 8. P. 252-54 <bibl>
-                                    <author/>
-                                    <title/>
-                                    <pubPlace/>
-                                    <date/>
-                                </bibl></quote>. Ci può essere il bello delicato e il non delicato.
-                            Ercole Apollo. Bello sublime. Giove </cell>
-                        <cell cols="2"> Lirica Epopea ec. </cell>
-                        <cell cols="3"> Tragica ec. </cell>
-                        <cell cols="4"> Commedia Satira Poesia Bernesca ec. </cell>
-                    </row>
-                </table>
+                    
             </p>
             <pb n="8" xml:id="p_8"/>
             <p xml:id="p8_1" n="8.1" hand="#penna_F">Provatevi a <del hand="penna_F">pensare</del>
