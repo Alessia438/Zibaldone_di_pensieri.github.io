@@ -149,7 +149,8 @@
     "versionDef": "<witness>, <change>",
     "fragmentMilestone": "<witStart>, <witEnd>",
     "lacunaMilestone": "<lacunaStart>, <lacunaEnd>",
-    "notSignificantVariant": "<orig>, <sic>, [type=orthographic]",
+    "notSignificantVariant": "<orig>, <sic>, [type=orthographic], <corr>", 
+  
     "quoteDef": "<quote>",
     "analogueDef": "<seg>,<ref[type=parallelPassage]>",
 
