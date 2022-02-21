@@ -1463,7 +1463,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     >Chiabrera</persName>, ma solamente che questi fu un vero poeta lirico. </p>
             <p xml:id="p25_1" n="25.1" hand="#penna_?"> Una considerazion fina intorno all’arte
                 dello scrivere è questa che alle volta, la collocazione, diremo, fortuita delle
-                parole, quantunque il senso dell’auto<pb xml:id="p_26"/>re sia chiaro tuttavia <add
+                parole, quantunque il senso dell’auto<pb xml:id="p_26" n="26"/>re sia chiaro tuttavia <add
                     hand="#penna_?">a</add> prima vista produca ne’ lettori un’altra idea, il che,
                 quando massime quest’idea non sia conveniente bisogna schivarlo, massime in poesia
                 dove il lettore <del hand="#penna_?">è</del>
@@ -1560,7 +1560,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 nella sua vita che quantunque paia come il <persName ref="#Chiabrera"
                     >Chiabrera</persName>, aver bevuto ai fonti greci, <hi rend="underline"
                     >nondimeno molto sembra aver preso dall’ebraico; talchè la sua apparenza ha
-                    assai più del Profetico che del Pinda<pb xml:id="p_27"/>rico</hi> e soggiunge
+                    assai più del Profetico che del Pinda<pb xml:id="p_27" n="27"/>rico</hi> e soggiunge
                 che in un certo libro si dice di lui che <hi rend="underline">da alcune forme di
                         <persName ref="#Dante">Dante</persName>, e dal <persName ref="#Chiabrera"
                         >Chiabrera</persName> accoppiate con certi modi delle Orientali favelle ha
