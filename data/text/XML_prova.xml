@@ -576,6 +576,10 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <pubPlace>Bologna</pubPlace>
                         <publisher>Stamperia dell'Istituto delle scienze</publisher>
                         <date>1787</date>
+                     <q><quote> Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
+                            fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia
+                            nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat
+                            arte notari, / Foemineam quisquis credidit esse fidem. </quote></q>
                     </bibl>
                 </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
                         notAfter="1817-08">Luglio o Agosto 1817</date>
