@@ -576,10 +576,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <pubPlace>Bologna</pubPlace>
                         <publisher>Stamperia dell'Istituto delle scienze</publisher>
                         <date>1787</date>
-                     <q><quote> Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
-                            fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia
-                            nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat
-                            arte notari, / Foemineam quisquis credidit esse fidem. </quote></q>
+                        <q><quote> "Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua
+                                delituisse fuga: / Nam quae praeda, rogo, quae spes contingere
+                                posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta
+                                putet, seque hac sciat arte notari, / Foemineam quisquis credidit
+                                esse fidem." </quote></q>
                     </bibl>
                 </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
                         notAfter="1817-08">Luglio o Agosto 1817</date>
@@ -834,14 +835,19 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 e colle quali non si può diventar grande come i grandi imitati. </p>
             <p xml:id="p5_3" n="5,3" hand="#penna_F">Come il cocchiere fa guidando i cavalli per la
                 china, che poco concede loro perché troppo non gli rapiscano. </p>
-            <quote source="#Algarotti_Muret">
+            <quote source="Algarotti_Muret">
                 <l>Padron, se con lamenti e con rammarichi<lb/> Si rimediasse a le nostre
                     miserie,<lb/> Bisognerebbe comperar le lagrime <lb/> A peso d’or: ma queste
                     tanto possono <lb/> Le disgrazie scemar, quanto le prefiche <lb/> Svegliare i
                     morti con le loro istorie: <lb/> Ne’ guai non ci vuol pianto ma consiglio. </l>
                 <bibl><author ref="#Algarotti">Algarotti</author>
                     <title ref="#Opere_Algarotti">Opere</title>
-                    <pubPlace>Cremona</pubPlace><date when="1778">1778</date></bibl></quote>
+                    <pubPlace>Cremona</pubPlace><date when="1778">1778</date><q><quote><l>"Here, si
+                                querelis, ejulatu, fletibus <lb/> Medicina fieret miseriis
+                                mortalium,<lb/> auro parandae lacrumae contra forent:<lb/> nunc haec
+                                ad minuenda mala non magis valent,<lb/> quam naenia praeficae ad
+                                excitandos mortuos.<lb/> res turbidae consilium, non fletum
+                                expetunt."</l></quote></q></bibl></quote>
             <pb n="6" xml:id="p_6"/>
             <p xml:id="p6_1" n="6.1" hand="#penna_F">
                 <seg source="#Ottonieri2"> Messer tale domandato da alcuni che disputavano sopra una
@@ -901,8 +907,71 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 Bello delicato-grazioso -ameno-elegante. <quote source="Martignoni1"
                                     >V. <persName ref="#Martignoni">Martignoni</persName> ec. Annali
                                     di scienze e lettere n. 8. P. 252-54 <bibl>
-                                        <author ref="#Martignoni">Martignoni</author>
-                                        <title/>
+                                        <title ref="#Annali_di_Scienze_e_Letteratura">Annali di Scienze e
+                                            Letteratura</title>
+                                        <author ref="#Borsieri">Pietro Borsieri</author>
+                                        <biblScope> n. 8.</biblScope>
+                                        <citedRange>pp. 252-54</citedRange>
+                                
+                                    
+                                        <q>"io sono infatti d'avviso, dice l'Autore, emergere la bellezza dal
+                                            concorso di alcuni attributi da' quali ornato un obbietto avvenente
+                                            e vago apparisce. E comecchè la cospirazione di tali qualità intanto
+                                            diletti quantochè in acconcio rapporto si trova coi nostri sensi e
+                                            colle intellettuali nostre facoltà, non è ad ogni modo che il <hi
+                                                rend="italic">bello</hi> in questa sola relazione consista:
+                                            conciosiachè ciò debba più presto ripetersi dall'infinita sapienza
+                                            di Dio, alla quale era consentaneo il crearci disposti in guisa che
+                                            le impressioni del bello colla fisica nostra struttura si
+                                            conformassero e coll'altezza dell'animo nostro. Altro è pertanto,
+                                            che gli obbietti i quali ci pajono vaghi e leggiadri armonizzino co'
+                                            nostri sensi ed affetti, altro p che da questa sola armonia prenda
+                                            la venustà loro ogni sua esistenza ed efficacia. L'ordine in fatti,
+                                            la proporzione, la grazia, l'eleganza, il decoro sono un non so che
+                                            di reale, il quale esiste negli obbietti indipendentemente da ogni
+                                            rapporto che siffatte qualità aver possano colla nostra maniera di
+                                            comprendere e di sentire"</q>. [...] Si potrebbe pertanto
+                                            dimandargli [all'autore] a qual utile fine ami egli di oltrepassare
+                                            ragionando i limiti de' nostri sensi, e introducendo le cause finali, e
+                                            l'essenza delle cose a noi perfettamente incognite, parlar così il
+                                            tenebroso linguaggio della metafisica artipsicologica? <lb/> Ma
+                                            procediamo nell'analisi. Negli obbietti visibili la bellezza si può
+                                            riscontrare nei <hi rend="italic">colori</hi>, nelle <hi rend="italic"
+                                                >forme</hi>, nel <hi rend="italic">movimento</hi>. Un color solo ed
+                                            isolato è bello quando armonizza colla facoltà nostra visiva, e la
+                                            esercita senza stancarla. Tale è il verde. Ma l'associazione dell'idee,
+                                            che è la causa più feconda di fenomeni intellettuali e morali nell'uomo,
+                                            concorre pure ad accrescere l'impressione piacevole che da un solo
+                                            colore si può derivare. Così il verde tanto più bello ne appare quando
+                                            ci richiama l'amenità delle scene campestri. Però nella associazione o
+                                            successione de' colori, nel loro contrasto, meglio si ravvisa l'immagine
+                                            del bello visibile, e di questo genere è la bellezza dei fiori, dei
+                                            frutti, delle meteore celesti, del levarsi e tramontare del sole. <lb/>
+                                            la <hi rend="italic">forma</hi> degli obbietti risveglia il sentimento
+                                            del <hi rend="italic">bello</hi> colla varietà delle linee, colla
+                                            regolarità delle proporzioni, e specialmente colla cospirazione delle
+                                            parti a formare un tutto vago ed armonico. La facilità ed un certo
+                                            ordine soave nel <hi rend="italic">moto</hi> danno pure una idea della
+                                            bellezza, come accade nel serpeggiare della fiamma e negli ondeggiamenti
+                                            del fumo. Così la natura ha sparso nella moltitudine delle cose vari
+                                            tratti di bellezza, i quali vengono dagli artisti, secondo l'indole
+                                            dell'arte loro, ravvicinati e raccolti in que' soggetti ch'essi assumono
+                                            per argomento delle loro imitazioni; e questo collegamento produce poi
+                                            quello che dicesi <hi rend="italic">bello ideale</hi>. Ma, essendo il
+                                            bello l'oggetto precipuo delle arti, non debbono gli artisti, per amor
+                                            soverchio dell'espressione, introdurre la deformità quando prendano ad
+                                            imitare oggetti terribili e dolorosi. Così i Greci, dice l'Autore,
+                                            combinarono la venustà delle forme colla significazione degli affetti.
+                                            Ne' gruppi del Laoconte e della Niobe l'espressione si ravvisa di un
+                                            dolore il più angoscioso e acerbo, ma sublime del pari, e scevro da
+                                            violenti fremiti e da contrazioni convulsive di muscoli, che,
+                                            distruggendo la bellezza, dissipato avrebbero con essa il più soave
+                                            incantesimo. E il nostro Petrarca, per applicare anche alla poesia
+                                            queste regole, applicazione a nostro credere un po' trascurata
+                                            dall'Autore, sacrificò egli pure al simulacro della bellezza, quando,
+                                            parlando del cadavere di Laura, disse <q>"Morte bella parea nel suo bel
+                                                viso"</q>. 
+                                    
                                     </bibl></quote>. Ci può essere il bello delicato e il non
                                 delicato. Ercole Apollo.</add>
                             <add hand="#penna_?">Bello sublime. Giove</add>
