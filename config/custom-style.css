@@ -21,6 +21,26 @@
 /* ***************************************************************** */
 .head {text-align:center;}
 
+
+/* creazione dello stile per le tabelle*/
+span.table {
+    display: table;
+    width: 100%;
+}
+span.row {
+    display: table-row;
+    table-layout: fixed;
+    max-width: 100%;
+}
+span.cell {
+    max-width: 50px;
+}
+span.cell:nth-child(4) {
+    max-width: 100px;
+}
+/* fine creazione dello stile per le tabelle*/
+
+
 .term {
 	background-color: coral;
 }
