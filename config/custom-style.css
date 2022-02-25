@@ -23,19 +23,19 @@
 
 
 /* creazione dello stile per le tabelle*/
-span.table {
+.table {
     display: table;!important
     width: 100%;!important
 }
-span.row {
+.row {
     display: table-row;!important
     table-layout: fixed;!important
     max-width: 100%;!important
 }
-span.cell {
+.cell {
     max-width: 50px;!important
 }
-span.cell:nth-child(4) {
+.cell:nth-child(4) {
     max-width: 100px;!important
 }
 /* fine creazione dello stile per le tabelle*/
