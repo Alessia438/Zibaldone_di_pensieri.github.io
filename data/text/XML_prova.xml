@@ -539,7 +539,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
     </teiHeader>
     <text n="Zibaldone di Pensieri" xml:id="Zib">
         <body>
-            <pb n="1" xml:id="p_1"/>
+            <pb n="1" xml:id="p_1"/> <lb n="[1]"/>
             <p xml:id="p1_1" n="1.1" hand="#penna_A"> Palazzo bello. Cane di notte dal casolare, al
                 passar del viandante. <lb/>
             </p>
@@ -857,7 +857,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             hand="penna_F"> :</add></q> volendo dire in terra cotta, ma in
                     sembianza, nell'isola di Creta dove Giove fu allevato.</seg>
             </p>
-            <p xml:id="p6_2" n="6.2" hand="#penna_F"> Sistema di Belle Arti</p>
+            <p xml:id="p6_2" n="6.2" hand="#penna_F"> <head>Sistema di Belle Arti</head></p>
             <p xml:id="p6_3" n="6.3" hand="#penna_F"><seg source="Disegni_LetterariV">Fine - il
                     diletto; secondario, alle volte, l'utile - Oggetto o mezzo di ottenere il fine -
                     l'imitazione della natura, non del bello necessariamente - Cagione <add
