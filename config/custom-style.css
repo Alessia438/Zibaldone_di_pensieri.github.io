@@ -40,6 +40,10 @@
 }
 /* fine creazione dello stile per le tabelle*/
 
+.diplomaticEdition .sic, .diplomaticEdition .orig {color:inherit !important; text-decoration:none !important}
+.diplomaticEdition .choice .corr {display:none !important}
+.diplomaticEdition .choice .sic {text-decoration:none !important}
+
 
 .term {
 	background-color: coral;
