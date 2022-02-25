@@ -887,7 +887,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             hand="penna_F"> :</add></q> volendo dire in terra cotta, ma in
                     sembianza, nell'isola di Creta dove Giove fu allevato.</seg>
             </p>
-            <p xml:id="p6_2" n="6.2" hand="#penna_F"> <head>Sistema di Belle Arti</head></p>
+            <p xml:id="p6_2" n="6.2" hand="#penna_F"> Sistema di Belle Arti</p>
             <p xml:id="p6_3" n="6.3" hand="#penna_F"><seg source="Disegni_LetterariV">Fine - il
                     diletto; secondario, alle volte, l'utile - Oggetto o mezzo di ottenere il fine -
                     l'imitazione della natura, non del bello necessariamente - Cagione <add
@@ -1201,6 +1201,28 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <del hand="#penna_G">.</del><add>,</add><add hand="#penna_H">e <quote
                         source="#Rudens1">in quella scena del Canapo dove mette una tenzone di <hi
                             rend="underline" xml:lang="lat">licet licet</hi>
+                    
+                    <bibl>
+                        <author ref="#Plauto">Plauto</author>
+                        <title ref="#Rudens">Rudens</title>
+                        <citedRange>vv. 1212-1226</citedRange>
+                    <q>
+                    <quote>
+                        <p>Eum roga[t] ut relinquat alias res et huc ueniat. TR. Licet. DAE. Dicito
+                            daturum meam illi filiam uxorem. TR. Licet. DAE. Et patrem eius me
+                            nouisse et mihi esse cognatum. TR. Licet. DAE. Sed propera. TR. Licet.
+                            DAE. Iam hic facsit, cena ut curetur. TR. Licet. DAE. Omnia [i]n' licet?
+                            TR. Licet. sed scin quid est quod te uolo? Quod promisisti ut memineris,
+                            hodie ut liber sim. DAE. Licet. TR. Fac ut exores Plesidippum, ut me
+                            manu emittat. DAE. Licet. TR. Et tua filia facito oret: facile exorabit.
+                            DAE. Licet. TR. Atque ut mi Ampelisca nubat, ubi ego sim liber. DAE.
+                            Licet. TR. Atque ut gratum mihi beneficium factis experiar. DAE. Licet.
+                            TR. Omnia [n'] licet? DAE. Licet: tibi rursum refero gratiam. Sed
+                            propera ire in urbem actutum et recipe te huc rursum. TR. Licet. Iam hic
+                            ero: tu interibi adorna ceterum quod opust. DAE. Licet. [TR.] Hercules
+                            istum infelicet cum sua licentia: Ita meas repleuit auris. quidquid
+                            memorabam, 'licet'.</p>
+                    </quote> </q></bibl>
                     </quote>e di altre tali risposte sempre ripetute, in un momento caldo e
                     importante, dov’è impossibile che i personaggi badassero a questi giuochi.</add>
             </p>
@@ -1257,7 +1279,14 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <abbr>Dial.</abbr>
                         <expan>Dialoghi</expan>
                     </choice> de’ morti; Ercole e Diogene; usa la parola <q><foreign xml:lang="grc"
-                            >αντανδρον</foreign></q></quote>. Cerca ne’ Lessici: spiegano:
+                            >αντανδρον</foreign></q>
+                    <bibl>
+                        <author ref="#Luciano">Luciano di Samosata</author>
+                        <title ref="#Dialoghi_dei_Morti"/>
+                        <citedRange>16, 2</citedRange>
+                    
+                        <q><quote/></q></bibl>
+                </quote>. Cerca ne’ Lessici: spiegano:
                 succedaneus ec. ma se tu volti: sostituto, o che so io, non arrivi per niente
                 all’efficacia burlesca e satirica di quella nuova parola di <persName ref="#Luciano"
                     >Luciano</persName> che vuol dire: contrappersona, e colla sua novità ha una
