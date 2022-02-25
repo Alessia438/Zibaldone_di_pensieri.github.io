@@ -593,7 +593,10 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             Patavini </title>
                         <pubPlace>Bologna</pubPlace>
                         <publisher>Stamperia dell'Istituto delle scienze</publisher>
-                        <date>1787</date>
+                        <date>1787</date> <q><quote> "Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
+                            fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia
+                            nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat
+                            arte notari, / Foemineam quisquis credidit esse fidem." </quote></q>
                     </bibl>
                 </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
                         notAfter="1817-08">Luglio o Agosto 1817</date>
@@ -615,7 +618,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <bibl>
                         <author ref="#E.D.">Elio Donato</author>
                         <title ref="#Vita">Vita Vergilii</title>
-                    </bibl>
+                        <q>  <quote> "Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove
+                            Caesar habet" </quote></q> </bibl>
                 </quote>
             </p>
             <p xml:id="p1_6" n="1.6" hand="#penna_D"> Dal niente in letteratura si passa al mezzo e
@@ -676,6 +680,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         però gli piace di veder qualche novità ancorchè brutta. <bibl>
                             <author ref="#Parini">Parini</author>
                             <title ref="#Discorso">Discorso sopra la poesia</title>
+                            <citedRange corresp="#Discorso"> Discorso sopra la poesia, in Opere, a cura
+                                di G.M. Zuradelli, Torino 1965, vol. II, p.271 </citedRange>
+                        <q>
+                        <quote> "L'anima nostra, che ama di essere sempre in azione e in movimento,
+                            niente più aborre che la noia" </quote></q>
                         </bibl>
                     </quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera
                     quistion di nome il contrastar se questa sia poesia. Basta che tutti la
@@ -684,6 +693,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     anche questi generi. <bibl>
                         <author ref="#Dati">Carlo Roberto Dati</author>
                         <title ref="#Pittori">Vite de' Pittori Antichi</title>
+                        <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
                     </bibl>
                 </quote>
                 <add hand="#penna_E"> V. <persName ref="#Dati">Dati</persName> , Pittori ed. Siena
@@ -933,7 +943,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
 
                     </row>
                     <row role="label">
-                        <cell cols="1"> Epopea Lirica ec, <add hand="#Penna_Y">vari rami del bello.
+                        <cell cols="1"> Epopea Lirica ec, <lb/><add hand="#Penna_Y">vari rami del bello.
                                 Bello delicato-grazioso-ameno-elegante. <quote source="Martignoni1"
                                     >V. <persName ref="#Martignoni">Martignoni</persName> ec. Annali
                                     di scienze e lettere n. 8. P. 252-54 
@@ -1006,7 +1016,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <q>
                             <quote>
                                 <p>
-                                    1 II. Ex his ceteris que lectione dignis auctoribus et verborum sumenda copia est et varietas figurarum et componendi ratio, tum ad exemplum virtutum omnium mens derigenda. neque enim dubitari potest, quin artis pars magna contineatur imitatione.nam ut invenire primum fuit est que praecipuum, sic ea, quae bene inventa sunt, utile sequi. 2 atque omnis vitae ratio sic constat, ut quae probamus in aliis, facere ipsi velimus. sic litterarum ductus, ut scribendi fiat usus, pueri sequuntur, sic musici vocem docentium, pictores opera priorum, rustici probatam experimento culturam in exemplum intuentur, omnis denique disciplinae initia ad propositum sibi praescriptum formari videmus.
+                                    "1 II. Ex his ceteris que lectione dignis auctoribus et verborum sumenda copia est et varietas figurarum et componendi ratio, tum ad exemplum virtutum omnium mens derigenda. neque enim dubitari potest, quin artis pars magna contineatur imitatione.nam ut invenire primum fuit est que praecipuum, sic ea, quae bene inventa sunt, utile sequi. 2 atque omnis vitae ratio sic constat, ut quae probamus in aliis, facere ipsi velimus. sic litterarum ductus, ut scribendi fiat usus, pueri sequuntur, sic musici vocem docentium, pictores opera priorum, rustici probatam experimento culturam in exemplum intuentur, omnis denique disciplinae initia ad propositum sibi praescriptum formari videmus."
                                 </p>
                             </quote></q>
                         </bibl>
@@ -1042,7 +1052,21 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             belli in italia nel 500. neri al presente. Diversissime opinioni de’
                             barbari intorno alla bellezza che pur mostrano che in natura non ce n’è
                             idea fissa. V. <persName ref="#Camper">Camper</persName>
-                            <quote source="#Camper1">Diss. Sur le beau physique</quote>. Cavalli
+                            <quote source="#Camper1">Diss. Sur le beau physique
+                                <bibl>
+                                    <author ref="#Camper">Pierre Camper</author>
+                                    <title>Discours sur le moyen de répresenter les passions q ue se manifestent
+                                        sur le visage. Sur la conformité entre l’hommes et les animaux et sur le
+                                        Beau phisique</title>
+                                    <citedRange>p. 106</citedRange>
+                               <q>  <quote xml:lang="french">
+                                    <p>"Nous n'avons aucun sentiment inné de cette forme de Beau, comme nous en
+                                        avons un très-distinct due Beau Morale: mais que nous sommes obligés
+                                        d'apprendre à reconoître la Beau en faît d'Arts, par l'étude, par
+                                        l'exercice assidu et non sans beaucop de peine."</p>
+                               </quote></q> </bibl>
+                              
+                            </quote>. Cavalli
                             scodati. Cani colle orecchie tagliate.<add hand="#penna_Y"> opinione e
                                 senso de’ nostri contadini circa la bellezza, e v. quelle descritte
                                 nella Beca e nella Nencia non già da scherzo, ma perchè di quella
@@ -1194,7 +1218,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <q>
                     <quote>
                         <p>
-                            Perii: pudet: hoc[c]ine me aetatis ludos bis factum esse indigne? Magis quam id reputo, tam magis uror quae meus filius turbauit. Perditus sum atque [etiam] eradicatus sum: omnibus exemplis excrucior. Omnia me mala consectantur, omnibus exitiis interii. Chrysalus me[d] hodie lacerauit, Chrysalus me miserum spoliauit: Is me scelus auro usque attondit dolis doctis indoctum ut lubitumst. Ita miles memorat meretricem esse eam quam ille uxorem esse aiebat: Omnia que ut quidque actumst memorauit: eam sibi hunc annum conductam: Relicuom id auri factum quod ego ei stultissumus homo promisissem. Hoc hoc est quod [cor] perac[c]escit, hoc est demum quod percrucior: [Me hoc aetatis ludificari: immo edepol sic ludos factum,] Cano capite atque alba barba miserum me auro esse emunctum.
+                            "Perii: pudet: hoc[c]ine me aetatis ludos bis factum esse indigne? Magis quam id reputo, tam magis uror quae meus filius turbauit. Perditus sum atque [etiam] eradicatus sum: omnibus exemplis excrucior. Omnia me mala consectantur, omnibus exitiis interii. Chrysalus me[d] hodie lacerauit, Chrysalus me miserum spoliauit: Is me scelus auro usque attondit dolis doctis indoctum ut lubitumst. Ita miles memorat meretricem esse eam quam ille uxorem esse aiebat: Omnia que ut quidque actumst memorauit: eam sibi hunc annum conductam: Relicuom id auri factum quod ego ei stultissumus homo promisissem. Hoc hoc est quod [cor] perac[c]escit, hoc est demum quod percrucior: [Me hoc aetatis ludificari: immo edepol sic ludos factum,] Cano capite atque alba barba miserum me auro esse emunctum."
                         </p>
                     </quote></q></bibl>
                 </quote>
@@ -1208,7 +1232,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <citedRange>vv. 1212-1226</citedRange>
                     <q>
                     <quote>
-                        <p>Eum roga[t] ut relinquat alias res et huc ueniat. TR. Licet. DAE. Dicito
+                        <p>"Eum roga[t] ut relinquat alias res et huc ueniat. TR. Licet. DAE. Dicito
                             daturum meam illi filiam uxorem. TR. Licet. DAE. Et patrem eius me
                             nouisse et mihi esse cognatum. TR. Licet. DAE. Sed propera. TR. Licet.
                             DAE. Iam hic facsit, cena ut curetur. TR. Licet. DAE. Omnia [i]n' licet?
@@ -1221,7 +1245,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             propera ire in urbem actutum et recipe te huc rursum. TR. Licet. Iam hic
                             ero: tu interibi adorna ceterum quod opust. DAE. Licet. [TR.] Hercules
                             istum infelicet cum sua licentia: Ita meas repleuit auris. quidquid
-                            memorabam, 'licet'.</p>
+                            memorabam, 'licet'."</p>
                     </quote> </q></bibl>
                     </quote>e di altre tali risposte sempre ripetute, in un momento caldo e
                     importante, dov’è impossibile che i personaggi badassero a questi giuochi.</add>
@@ -1261,9 +1285,9 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <citedRange>Vol. II, epoca IV, cap.6, p.47</citedRange>
                    <q>
                     <quote>
-                        non dubitai punto, ciò visto, di lavorare con la maggior pertinacia ed ardore all'importante opera di
+                       "non dubitai punto, ciò visto, di lavorare con la maggior pertinacia ed ardore all'importante opera di
                         <hi rend="italic">spiemontizzarmi</hi>
-                        per quanto fosse possibile; ed a lasciare per sempre, ed anche a qualunque costo il mio mal sortito nido natio.
+                        per quanto fosse possibile; ed a lasciare per sempre, ed anche a qualunque costo il mio mal sortito nido natio."
                     </quote></q> </bibl>
                 </quote>ec. ec. Onde tu che traduci, posto ancora che abbi trovato
                 una parola corrispondentissima proprissima equivalentissima, tuttavia non hai fatto
@@ -1345,7 +1369,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <citedRange>V, vv. 855-863</citedRange>
                         <q>
                         <quote>
-                            Per secondo balzò Diomede, l'eroe possente nel grido di guerra,
+                            "Per secondo balzò Diomede, l'eroe possente nel grido di guerra,
                             <lb/>
                             con la lancia di bronzo, e Pallade Atena la spinse
                             <lb/>
@@ -1361,7 +1385,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <lb/>
                             Un tremito colse i Greci e i Troiani atterriti,
                             <lb/>
-                            tanto forte gridava Ares, insaziabile
+                            tanto forte gridava Ares, insaziabile"
                         </quote></q></bibl>
                     </quote>
                 <quote source="#Iliade_IV">quella caduta dello stesso Dio che disteso occupa sette
@@ -1371,7 +1395,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <title ref="#Iliade">Iliade</title>
                         <citedRange>XXI, v. 407</citedRange>
                     <q>
-                    <quote>Cadde occupando sette pletri, e sporcò i capelli;</quote></q></bibl>
+                    <quote>"Cadde occupando sette pletri, e sporcò i capelli;"</quote></q></bibl>
                 </quote> di
                 quelle <del>al&lt;tre&gt;</del>
                 <add>tante</add> imagini sublimissime della Bibbia, perchè nella poesia umana ci
