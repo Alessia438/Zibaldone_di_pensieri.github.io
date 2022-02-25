@@ -19,24 +19,24 @@
 /*                                                                   */
 
 /* ***************************************************************** */
-.head {text-align:center;}
+.head {text-align:center;!important}
 
 
 /* creazione dello stile per le tabelle*/
 span.table {
-    display: table;
-    width: 100%;
+    display: table;!important
+    width: 100%;!important
 }
 span.row {
-    display: table-row;
-    table-layout: fixed;
-    max-width: 100%;
+    display: table-row;!important
+    table-layout: fixed;!important
+    max-width: 100%;!important
 }
 span.cell {
-    max-width: 50px;
+    max-width: 50px;!important
 }
 span.cell:nth-child(4) {
-    max-width: 100px;
+    max-width: 100px;!important
 }
 /* fine creazione dello stile per le tabelle*/
 
