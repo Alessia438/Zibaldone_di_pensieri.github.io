@@ -174,6 +174,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <pubPlace>Amsterdam</pubPlace>
                         <date when="1619">1619</date>
                     </bibl>
+                    <bibl xml:id="Vita_Alfieri">
+                        <author ref="#Alfieri">Vittorio Alfieri</author>
+                        <title ref="Vita_Alfieri">Vita di Vittorio Alfieri da Asti scritta da
+                            esso</title>
+                        <pubPlace>boh</pubPlace>
+                        <date when="1806">1806</date>
+                    </bibl>
                     <bibl xml:id="Annali_di_scienze_e_lettere">
                         <author ref="#Borsieri">Pietro Borsieri</author>
                         <title/>
@@ -184,6 +191,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <editor>Antonfrancesco Gori</editor>
                         <pubPlace>Bologna</pubPlace>
                         <date when="1748">1748</date>
+                    </bibl>
+                    <bibl xml:id="Ragion_Poetica">
+                        <author ref="#Gravina">Gianvincenzo Gravina</author>
+                        <title ref="#Ragion_Poetica">Della ragion poetica</title>
+                        <pubPlace>Napoli</pubPlace>
+                        <date when="1731">1731</date>
                     </bibl>
 
                 </listBibl>
@@ -532,6 +545,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             ref="http://www.enciclopediabresciana.it/enciclopedia/index.php?title=BORGNO_Gerolamo_Federico"
                             >Girolamo Federico Borgno</persName>
                     </person>
+                    <person xml:id="Platone">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/303814984"
+                            ref="https://www.treccani.it/enciclopedia/platone_%28Enciclopedia-Italiana%29/"
+                            > Platone </persName>
+                    </person>
 
                 </listPerson>
             </sourceDesc>
@@ -539,7 +557,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
     </teiHeader>
     <text n="Zibaldone di Pensieri" xml:id="Zib">
         <body>
-            <pb n="1" xml:id="p_1"/> <lb n="[1]"/>
+            <pb n="1" xml:id="p_1"/> <lb n="1"/>
             <p xml:id="p1_1" n="1.1" hand="#penna_A"> Palazzo bello. Cane di notte dal casolare, al
                 passar del viandante. <lb/>
             </p>
@@ -576,11 +594,6 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <pubPlace>Bologna</pubPlace>
                         <publisher>Stamperia dell'Istituto delle scienze</publisher>
                         <date>1787</date>
-                        <q><quote> "Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua
-                                delituisse fuga: / Nam quae praeda, rogo, quae spes contingere
-                                posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta
-                                putet, seque hac sciat arte notari, / Foemineam quisquis credidit
-                                esse fidem." </quote></q>
                     </bibl>
                 </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
                         notAfter="1817-08">Luglio o Agosto 1817</date>
@@ -616,7 +629,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <seg source="ventunonovembre1817"> Il <date when="1300">trecento</date> fu il
                         principio della nostra letteratura, non già il colmo, imperocchè non ebbe se
                         non tre scrittori grandi: il <date when="1400">quattrocento</date> non fu
-                        corruzione nè <pb n="2" xml:id="p_2"/> raffinamento del <date when="1300"
+                        corruzione nè <pb n="2" xml:id="p_2"/> <lb n="2"/>raffinamento del <date when="1300"
                             >trecento</date> , ma un sonno della letteratura (che avea dato luogo
                             <add hand="#penna_D">a</add> ll'erudizione) la quale restava ancora
                         incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano"
@@ -648,7 +661,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 più piacere la descrizione di un bel mondo ideale che del <choice>
                     <abbr>nŕo</abbr>
                     <expan>nostro</expan>
-                </choice>. <quote> E che non sia il solo bello naturale lo scopo delle B.A. vedesi
+                </choice>. <quote source="#Parini_Discorso"> E che non sia il solo bello naturale lo scopo delle B.A. vedesi
                     in tutti i poeti specialmente in <persName ref="#Omero">Omero</persName> ,
                     perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello
                     naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto
@@ -683,7 +696,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle
                     Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della
                     poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual
-                    meno degno, <pb n="3" xml:id="p_3"/> niente vieta che <del hand="#penna_F">la
+                    meno degno, <pb n="3" xml:id="p_3"/> <lb n="3"/> niente vieta che <del hand="#penna_F">la
                         quest&lt;ione&gt;</del> dei diversi generi di poesia altro abbia per oggetto
                     più particolarmente il bello altro il doloroso altro anche il brutto e il vile,
                         <add hand="#penna_F">e però qual sia più nobile e degno qual meno</add> e
@@ -739,7 +752,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <del hand="#penna_F">e il</del> Ricadute le nostre lettere (nella imitazione e
                 studio degli stranieri) <del hand="#penna_F">comparivano</del>
                 <add hand="#penna_F">son comparsi</add> nella <add hand="#penna_F">seconda</add>
-                metà del 700 e principio dell'800 i nostri <pb n="4" xml:id="p_4"/>ultimi lavori
+                metà del 700 e principio dell'800 i nostri <pb n="4" xml:id="p_4"/> <lb n="4"/>ultimi lavori
                 d’arte. Queste sono di quegli <add hand="#penna_F">scrittori</add> che nella
                 corruzione si conservano illesi, non possono essere stimati da molti ec. Ma adesso
                 l’arte è venuta in un incredibile accrescimento, tutto è arte e poi arte, non <del
@@ -801,7 +814,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <persName ref="#Senofonte">Senofonte</persName>: ma questi eran passati <add
                     hand="#penna_F">per un’età</add> e si trovavano ancora in un’età più tosto di
                 debolezza che di corruzione. </p>
-            <pb n="5" xml:id="p_5"/>
+            <pb n="5" xml:id="p_5"/><lb n="5"/>
             <p xml:id="p5_1" hand="#penna_F" n="5,1"> Come i fanciulli e i giovinetti benchè di
                 buona indole pure <choice>
                     <abbr> p. </abbr>
@@ -835,20 +848,37 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 e colle quali non si può diventar grande come i grandi imitati. </p>
             <p xml:id="p5_3" n="5,3" hand="#penna_F">Come il cocchiere fa guidando i cavalli per la
                 china, che poco concede loro perché troppo non gli rapiscano. </p>
-            <quote source="Algarotti_Muret">
+            <quote source="#Algarotti_Muret">
                 <l>Padron, se con lamenti e con rammarichi<lb/> Si rimediasse a le nostre
                     miserie,<lb/> Bisognerebbe comperar le lagrime <lb/> A peso d’or: ma queste
                     tanto possono <lb/> Le disgrazie scemar, quanto le prefiche <lb/> Svegliare i
                     morti con le loro istorie: <lb/> Ne’ guai non ci vuol pianto ma consiglio. </l>
-                <bibl><author ref="#Algarotti">Algarotti</author>
+                <bibl>
+                    <author ref="#Algarotti">Algarotti</author>
                     <title ref="#Opere_Algarotti">Opere</title>
-                    <pubPlace>Cremona</pubPlace><date when="1778">1778</date><q><quote><l>"Here, si
-                                querelis, ejulatu, fletibus <lb/> Medicina fieret miseriis
-                                mortalium,<lb/> auro parandae lacrumae contra forent:<lb/> nunc haec
-                                ad minuenda mala non magis valent,<lb/> quam naenia praeficae ad
-                                excitandos mortuos.<lb/> res turbidae consilium, non fletum
-                                expetunt."</l></quote></q></bibl></quote>
-            <pb n="6" xml:id="p_6"/>
+                    <pubPlace>Cremona</pubPlace>
+                    <date when="1778">1778</date>
+                    <q>
+                        <quote>
+                            <l>
+                                "Here, si querelis, ejulatu, fletibus
+                                <lb/>
+                                Medicina fieret miseriis mortalium,
+                                <lb/>
+                                auro parandae lacrumae contra forent:
+                                <lb/>
+                                nunc haec ad minuenda mala non magis valent,
+                                <lb/>
+                                quam naenia praeficae ad excitandos mortuos.
+                                <lb/>
+                                res turbidae consilium, non fletum expetunt."
+                            </l>
+                        </quote>
+                    </q>
+                </bibl>
+           
+            </quote>
+            <pb n="6" xml:id="p_6"/> <lb n="6"/>
             <p xml:id="p6_1" n="6.1" hand="#penna_F">
                 <seg source="#Ottonieri2"> Messer tale domandato da alcuni che disputavano sopra una
                     statua antica di Giove <del hand="#penna_F">, che ne sentis&lt;se&gt;</del> in
@@ -857,7 +887,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             hand="penna_F"> :</add></q> volendo dire in terra cotta, ma in
                     sembianza, nell'isola di Creta dove Giove fu allevato.</seg>
             </p>
-            <p xml:id="p6_2" n="6.2" hand="#penna_F"> <head>Sistema di Belle Arti</head></p>
+            <p xml:id="p6_2" n="6.2" hand="#penna_F"> Sistema di Belle Arti</p>
             <p xml:id="p6_3" n="6.3" hand="#penna_F"><seg source="Disegni_LetterariV">Fine - il
                     diletto; secondario, alle volte, l'utile - Oggetto o mezzo di ottenere il fine -
                     l'imitazione della natura, non del bello necessariamente - Cagione <add
@@ -884,7 +914,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     Altri difetti e vizi; affettazione ec. quasi tutti si riducono alla
                     sconvenevolezza e inverosimiglianza che proviene dallo sconvenirsi <add
                         hand="#penna_F">tra loro</add> in natura quegli attributi della cosa
-                    inverisimile, onde la mente che comprende la <pb n="7" xml:id="p_7"/>
+                inverisimile, onde la mente che comprende la <pb n="7" xml:id="p_7"/> <lb n="7"/>
                     sconvenienza degli attributi concepisce l'inverisimiglianza - Diversi rami della
                     imitazione che formano i diversi oggetti delle belle arti e i diversi generi
                     p.e. di poesia, i quali tanto più son degni e nobili quanto più degni ec. sono
@@ -904,75 +934,46 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     </row>
                     <row role="label">
                         <cell cols="1"> Epopea Lirica ec, <add hand="#Penna_Y">vari rami del bello.
-                                Bello delicato-grazioso -ameno-elegante. <quote source="Martignoni1"
+                                Bello delicato-grazioso-ameno-elegante. <quote source="Martignoni1"
                                     >V. <persName ref="#Martignoni">Martignoni</persName> ec. Annali
-                                    di scienze e lettere n. 8. P. 252-54 <bibl>
-                                        <title ref="#Annali_di_Scienze_e_Letteratura">Annali di Scienze e
-                                            Letteratura</title>
-                                        <author ref="#Borsieri">Pietro Borsieri</author>
-                                        <biblScope> n. 8.</biblScope>
-                                        <citedRange>pp. 252-54</citedRange>
-                                
-                                    
-                                        <q>"io sono infatti d'avviso, dice l'Autore, emergere la bellezza dal
-                                            concorso di alcuni attributi da' quali ornato un obbietto avvenente
-                                            e vago apparisce. E comecchè la cospirazione di tali qualità intanto
-                                            diletti quantochè in acconcio rapporto si trova coi nostri sensi e
-                                            colle intellettuali nostre facoltà, non è ad ogni modo che il <hi
-                                                rend="italic">bello</hi> in questa sola relazione consista:
-                                            conciosiachè ciò debba più presto ripetersi dall'infinita sapienza
-                                            di Dio, alla quale era consentaneo il crearci disposti in guisa che
-                                            le impressioni del bello colla fisica nostra struttura si
-                                            conformassero e coll'altezza dell'animo nostro. Altro è pertanto,
-                                            che gli obbietti i quali ci pajono vaghi e leggiadri armonizzino co'
-                                            nostri sensi ed affetti, altro p che da questa sola armonia prenda
-                                            la venustà loro ogni sua esistenza ed efficacia. L'ordine in fatti,
-                                            la proporzione, la grazia, l'eleganza, il decoro sono un non so che
-                                            di reale, il quale esiste negli obbietti indipendentemente da ogni
-                                            rapporto che siffatte qualità aver possano colla nostra maniera di
-                                            comprendere e di sentire"</q>. [...] Si potrebbe pertanto
-                                            dimandargli [all'autore] a qual utile fine ami egli di oltrepassare
-                                            ragionando i limiti de' nostri sensi, e introducendo le cause finali, e
-                                            l'essenza delle cose a noi perfettamente incognite, parlar così il
-                                            tenebroso linguaggio della metafisica artipsicologica? <lb/> Ma
-                                            procediamo nell'analisi. Negli obbietti visibili la bellezza si può
-                                            riscontrare nei <hi rend="italic">colori</hi>, nelle <hi rend="italic"
-                                                >forme</hi>, nel <hi rend="italic">movimento</hi>. Un color solo ed
-                                            isolato è bello quando armonizza colla facoltà nostra visiva, e la
-                                            esercita senza stancarla. Tale è il verde. Ma l'associazione dell'idee,
-                                            che è la causa più feconda di fenomeni intellettuali e morali nell'uomo,
-                                            concorre pure ad accrescere l'impressione piacevole che da un solo
-                                            colore si può derivare. Così il verde tanto più bello ne appare quando
-                                            ci richiama l'amenità delle scene campestri. Però nella associazione o
-                                            successione de' colori, nel loro contrasto, meglio si ravvisa l'immagine
-                                            del bello visibile, e di questo genere è la bellezza dei fiori, dei
-                                            frutti, delle meteore celesti, del levarsi e tramontare del sole. <lb/>
-                                            la <hi rend="italic">forma</hi> degli obbietti risveglia il sentimento
-                                            del <hi rend="italic">bello</hi> colla varietà delle linee, colla
-                                            regolarità delle proporzioni, e specialmente colla cospirazione delle
-                                            parti a formare un tutto vago ed armonico. La facilità ed un certo
-                                            ordine soave nel <hi rend="italic">moto</hi> danno pure una idea della
-                                            bellezza, come accade nel serpeggiare della fiamma e negli ondeggiamenti
-                                            del fumo. Così la natura ha sparso nella moltitudine delle cose vari
-                                            tratti di bellezza, i quali vengono dagli artisti, secondo l'indole
-                                            dell'arte loro, ravvicinati e raccolti in que' soggetti ch'essi assumono
-                                            per argomento delle loro imitazioni; e questo collegamento produce poi
-                                            quello che dicesi <hi rend="italic">bello ideale</hi>. Ma, essendo il
-                                            bello l'oggetto precipuo delle arti, non debbono gli artisti, per amor
-                                            soverchio dell'espressione, introdurre la deformità quando prendano ad
-                                            imitare oggetti terribili e dolorosi. Così i Greci, dice l'Autore,
-                                            combinarono la venustà delle forme colla significazione degli affetti.
-                                            Ne' gruppi del Laoconte e della Niobe l'espressione si ravvisa di un
-                                            dolore il più angoscioso e acerbo, ma sublime del pari, e scevro da
-                                            violenti fremiti e da contrazioni convulsive di muscoli, che,
-                                            distruggendo la bellezza, dissipato avrebbero con essa il più soave
-                                            incantesimo. E il nostro Petrarca, per applicare anche alla poesia
-                                            queste regole, applicazione a nostro credere un po' trascurata
-                                            dall'Autore, sacrificò egli pure al simulacro della bellezza, quando,
-                                            parlando del cadavere di Laura, disse <q>"Morte bella parea nel suo bel
-                                                viso"</q>. 
-                                    
-                                    </bibl></quote>. Ci può essere il bello delicato e il non
+                                    di scienze e lettere n. 8. P. 252-54 
+                                        <bibl>
+                                            <title ref="#Annali_di_Scienze_e_Letteratura">
+                                                Annali di Scienze e Letteratura
+                                            </title>
+                                            <author ref="#Borsieri">Pietro Borsieri</author>
+                                            <biblScope>n. 8.</biblScope>
+                                            <citedRange>pp. 252-54</citedRange>
+                                            <q>
+                                                "io sono infatti d'avviso, dice l'Autore, emergere la bellezza dal concorso di alcuni attributi da' quali ornato un obbietto avvenente e vago apparisce. E comecchè la cospirazione di tali qualità intanto diletti quantochè in acconcio rapporto si trova coi nostri sensi e colle intellettuali nostre facoltà, non è ad ogni modo che il
+                                                <hi rend="italic">bello</hi>
+                                                in questa sola relazione consista: conciosiachè ciò debba più presto ripetersi dall'infinita sapienza di Dio, alla quale era consentaneo il crearci disposti in guisa che le impressioni del bello colla fisica nostra struttura si conformassero e coll'altezza dell'animo nostro. Altro è pertanto, che gli obbietti i quali ci pajono vaghi e leggiadri armonizzino co' nostri sensi ed affetti, altro p che da questa sola armonia prenda la venustà loro ogni sua esistenza ed efficacia. L'ordine in fatti, la proporzione, la grazia, l'eleganza, il decoro sono un non so che di reale, il quale esiste negli obbietti indipendentemente da ogni rapporto che siffatte qualità aver possano colla nostra maniera di comprendere e di sentire"
+                                            </q>
+                                            . [...] Si potrebbe pertanto dimandargli [all'autore] a qual utile fine ami egli di oltrepassare ragionando i limiti de' nostri sensi, e introducendo le cause finali, e l'essenza delle cose a noi perfettamente incognite, parlar così il tenebroso linguaggio della metafisica artipsicologica?
+                                            <lb/>
+                                            Ma procediamo nell'analisi. Negli obbietti visibili la bellezza si può riscontrare nei
+                                            <hi rend="italic">colori</hi>
+                                            , nelle
+                                            <hi rend="italic">forme</hi>
+                                            , nel
+                                            <hi rend="italic">movimento</hi>
+                                            . Un color solo ed isolato è bello quando armonizza colla facoltà nostra visiva, e la esercita senza stancarla. Tale è il verde. Ma l'associazione dell'idee, che è la causa più feconda di fenomeni intellettuali e morali nell'uomo, concorre pure ad accrescere l'impressione piacevole che da un solo colore si può derivare. Così il verde tanto più bello ne appare quando ci richiama l'amenità delle scene campestri. Però nella associazione o successione de' colori, nel loro contrasto, meglio si ravvisa l'immagine del bello visibile, e di questo genere è la bellezza dei fiori, dei frutti, delle meteore celesti, del levarsi e tramontare del sole.
+                                            <lb/>
+                                            la
+                                            <hi rend="italic">forma</hi>
+                                            degli obbietti risveglia il sentimento del
+                                            <hi rend="italic">bello</hi>
+                                            colla varietà delle linee, colla regolarità delle proporzioni, e specialmente colla cospirazione delle parti a formare un tutto vago ed armonico. La facilità ed un certo ordine soave nel
+                                            <hi rend="italic">moto</hi>
+                                            danno pure una idea della bellezza, come accade nel serpeggiare della fiamma e negli ondeggiamenti del fumo. Così la natura ha sparso nella moltitudine delle cose vari tratti di bellezza, i quali vengono dagli artisti, secondo l'indole dell'arte loro, ravvicinati e raccolti in que' soggetti ch'essi assumono per argomento delle loro imitazioni; e questo collegamento produce poi quello che dicesi
+                                            <hi rend="italic">bello ideale</hi>
+                                            . Ma, essendo il bello l'oggetto precipuo delle arti, non debbono gli artisti, per amor soverchio dell'espressione, introdurre la deformità quando prendano ad imitare oggetti terribili e dolorosi. Così i Greci, dice l'Autore, combinarono la venustà delle forme colla significazione degli affetti. Ne' gruppi del Laoconte e della Niobe l'espressione si ravvisa di un dolore il più angoscioso e acerbo, ma sublime del pari, e scevro da violenti fremiti e da contrazioni convulsive di muscoli, che, distruggendo la bellezza, dissipato avrebbero con essa il più soave incantesimo. E il nostro Petrarca, per applicare anche alla poesia queste regole, applicazione a nostro credere un po' trascurata dall'Autore, sacrificò egli pure al simulacro della bellezza, quando, parlando del cadavere di Laura, disse
+                                            <q>
+                                                "Morte bella parea nel suo bel viso"
+                                            </q>
+                                            .
+                                        </bibl>
+                                </quote>. Ci può essere il bello delicato e il non
                                 delicato. Ercole Apollo.</add>
                             <add hand="#penna_?">Bello sublime. Giove</add>
                         </cell>
@@ -982,7 +983,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     </row>
                 </table>
             </p>
-            <pb n="8" xml:id="p_8"/>
+            <pb n="8" xml:id="p_8"/> <lb n="8"/>
             <p xml:id="p8_1" n="8.1" hand="#penna_F">Provatevi a <del hand="penna_F">pensare</del>
                 respirare artificialmente, e a fare pensatamente qualcuno di quei moltissimi atti
                 che si fanno per natura; non potrete, se non a grande stento e men bene. Così la
@@ -1000,7 +1001,15 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         naturale anche minore dell’ideale. <bibl><author ref="#Quintiliano"
                                 >Quintiliano</author>
                             <title ref="#Institutiones_Oratoriae">Institutiones
-                            Oratoriae</title></bibl>
+                            Oratoriae</title>
+                            <citedRange corresp="#Institutiones_Oratoriae">X, 2, 1-2</citedRange>
+                        <q>
+                            <quote>
+                                <p>
+                                    1 II. Ex his ceteris que lectione dignis auctoribus et verborum sumenda copia est et varietas figurarum et componendi ratio, tum ad exemplum virtutum omnium mens derigenda. neque enim dubitari potest, quin artis pars magna contineatur imitatione.nam ut invenire primum fuit est que praecipuum, sic ea, quae bene inventa sunt, utile sequi. 2 atque omnis vitae ratio sic constat, ut quae probamus in aliis, facere ipsi velimus. sic litterarum ductus, ut scribendi fiat usus, pueri sequuntur, sic musici vocem docentium, pictores opera priorum, rustici probatam experimento culturam in exemplum intuentur, omnis denique disciplinae initia ad propositum sibi praescriptum formari videmus.
+                                </p>
+                            </quote></q>
+                        </bibl>
                     </quote>
                 </add>.</p>
             <p xml:id="p8_3" n="8.3" hand="#penna_F">Due gran dubbi mi stanno in mente circa le
@@ -1039,17 +1048,32 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 nella Beca e nella Nencia non già da scherzo, ma perchè di quella
                                 sorta piacciono ai villani. Bello ideale ch’esprimerebbe p.e. un
                                 pittore moro di qualunque genio ed entusiasmo si fosse. Il bello
-                                ideale non è <pb n="9" xml:id="p_9"/> altro che l’idea della
+                                ideale non è <pb n="9" xml:id="p_9"/> <lb n="9"/> altro che l’idea della
                                 convenienza che un artista si forma secondo le opinioni e gli usi
                                 del suo tempo, e della sua ragione. Barba e capelli tagliati o
                                 no.</add></cell>
-                        <cell cols="2">Pittura ec. de’ cinesi. Musica de’ turchi v. <persName
+                        <cell cols="2">Pittura ec. de’ cinesi. <quote source="#Martignoni2">Musica de’ turchi v. <persName
                                 ref="#Martignoni">Martignoni </persName> annal. di Scienze e lett.
-                            N. 8. P. 245. nota ove <quote source="#Martignoni2">anche della musica
-                                francese e italiana</quote>. Presso noi non disdicono le fabbriche a
+                            N. 8. P. 245. nota ove anche della musica
+                                francese e italiana. Presso noi non disdicono le fabbriche a
                             mattoni nudi, anzi son ridicole imbiancate e colorite. Il contrario de’
                             Cinesi ai quali le nostre facciate parrebbero cosa affatto greggia e
-                            rozza.</cell>
+                            rozza.
+                            <bibl>
+                                <title ref="#Annali_di_Scienze_e_Letteratura">
+                                    Annali di Scienze e Letteratura
+                                </title>
+                                <author ref="#Borsieri">Pietro Borsieri</author>
+                                <biblScope>n. 8.</biblScope>
+                                <citedRange>p. 245</citedRange>
+                           <q> 
+                            <quote>
+                               
+                                    
+                                    "Ai Turchi è detestabile la nostra musica per lo meno tanto quanto a noi è detestabile la musica loro, ch'essi però trovano deliziosa: un orecchio Italiano fugge l'opera Francese che l'orecchio Francese ascolta con diletto: e come noi crediamo già che la musica Greca, come semplice musica, ove si facesse pur anche sentire agli orecchi nostri in tutta la sua purezza, fosse per operare alcuna delle meraviglie conservateci non sappiamo dire se dalla storia o dalla favola. nè molti altri esempi ci mancherebbero in questo particolare, ove volessimo addurli, tutti comprovanti che l'educazione, l'abitudine e le situazioni relative, nella musica stessa, benchè ripudiata dall'Autore la miglior pruova del suo assunto, sono condizioni, che hanno per lo meno altrettanto potere a renderla piacevole, quanto l'essenza armonica per dir così, in cui si vuol che consista."
+                                
+                            </quote></q></bibl>
+                        </quote></cell>
                     </row>
                 </table>
             </p>
@@ -1082,7 +1106,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 pericolo (o di fallare o di rompere ec.) una delle cose più necessarie perchè
                 riescano bene è non pensare al pericolo e portarsi con franchezza. Così i poeti
                 antichi non solamente non pensavano al pericolo in cui erano di <pb n="10"
-                    xml:id="p_10"/> errare, ma (specialmente <persName ref="Omero">Omero</persName>)
+                    xml:id="p_10"/> <lb n="10"/>errare, ma (specialmente <persName ref="Omero">Omero</persName>)
                 appena sapevano che ci fosse, e però franchissimamente si diportavano, con quella
                 bellissima negligenza che accusa l’opera della natura e non della fatica. Ma noi
                 timidissimi, non solamente sapendo che si può errare, ma avendo sempre <add
@@ -1121,7 +1145,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     ref="#Cesare">Cesare</persName> ch’egli manca di forza Comica, a ragione, perchè
                 l’azione importando poco per se e non avendo la importanza della tragedia, se non è
                 continuamente rallegrata e rinforzata dal ridicolo, resta debole, e come morta)
-                ottiene il fine della Commedia che è di disto<pb n="11" xml:id="p_11"/>gliere dal
+                ottiene il fine della Commedia che è di disto<pb n="11" xml:id="p_11"/> <lb n="11"/>gliere dal
                 vizio il che principalmente è operato dal ridicolo. Ma i costumi <term
                     xml:lang="grc"><orig>ηθηις</orig><corr resp="#pacella">ηθη</corr></term> presso
                     <persName ref="#Plauto">Plauto</persName> sono poco insigni. Ciascuno opera è
@@ -1161,17 +1185,26 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     hand="#penna_G">già</add> l’inaspettato verisimile che si raccomanda in poesia,
                 ma l’inaspettato inverisimile e grossolano che però appunto è più ridicolo, come nel
                 fine delle <quote source="#Bacchides">
+                     Bacchidi fa innamorare all’improvviso per istrazio quei due vecchi
+                    venuti all’opposto per bravare quelle meretrici
                     <bibl>
                         <author ref="#Plauto">Plauto</author>
-                    </bibl> Bacchidi fa innamorare all’improvviso per istrazio quei due vecchi
-                    venuti all’opposto per bravare quelle meretrici</quote>
+                        <title ref="#Bacchides">Bacchides</title>
+                        <citedRange>vv. 1190-1200</citedRange>
+                    <q>
+                    <quote>
+                        <p>
+                            Perii: pudet: hoc[c]ine me aetatis ludos bis factum esse indigne? Magis quam id reputo, tam magis uror quae meus filius turbauit. Perditus sum atque [etiam] eradicatus sum: omnibus exemplis excrucior. Omnia me mala consectantur, omnibus exitiis interii. Chrysalus me[d] hodie lacerauit, Chrysalus me miserum spoliauit: Is me scelus auro usque attondit dolis doctis indoctum ut lubitumst. Ita miles memorat meretricem esse eam quam ille uxorem esse aiebat: Omnia que ut quidque actumst memorauit: eam sibi hunc annum conductam: Relicuom id auri factum quod ego ei stultissumus homo promisissem. Hoc hoc est quod [cor] perac[c]escit, hoc est demum quod percrucior: [Me hoc aetatis ludificari: immo edepol sic ludos factum,] Cano capite atque alba barba miserum me auro esse emunctum.
+                        </p>
+                    </quote></q></bibl>
+                </quote>
                 <del hand="#penna_G">.</del><add>,</add><add hand="#penna_H">e <quote
                         source="#Rudens1">in quella scena del Canapo dove mette una tenzone di <hi
                             rend="underline" xml:lang="lat">licet licet</hi>
                     </quote>e di altre tali risposte sempre ripetute, in un momento caldo e
                     importante, dov’è impossibile che i personaggi badassero a questi giuochi.</add>
             </p>
-            <pb xml:id="p_12" n="12"/>
+            <pb xml:id="p_12" n="12"/> <lb n="12"/>
             <p xml:id="p12_1" n="12.1" hand="#penna">L’arte di <persName ref="#Ovidio"
                     >Ovidio</persName> di metter le cose sotto gli occhi, non si chiama efficacia,
                 ma pertinacia. ec.</p>
@@ -1184,7 +1217,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <add>imita</add> a maraviglia quel gesto che l’uomo fa e quella voce che manda
                 scontorcendo la bocca e il naso quando è stomacato. Ma <hi rend="underline"
                     >nosé</hi> non imita niente, ed è come quelle cose che spogliate degli spiriti e
-                dei sali, umori, grasso ec. restano tanti capomorti. <add hand="#penna_p_95">
+                dei sali, umori, grasso ec. restano tanti
+                cap<del>i</del><add>o</add><del>m</del>morti. <add hand="#penna_p_95">
                     <seg source="#Zib_95">(capogatti ec. non capigatti) V. questi pensieri p.
                                 95.<bibl><author ref="#G.L.">Giacomo Leopardi</author><title
                                 ref="#Zib">Zibaldone di Pensieri</title></bibl></seg></add></p>
@@ -1199,8 +1233,17 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 nello scritto come fanno le parole nuove di zecca, e come in noi italiani fanno
                 quelle tante parole dell’<persName ref="#Alfieri">Alfieri</persName> p. e. <quote
                     source="#Vita_Alfieri1"><hi rend="underline">spiemontizzare</hi>
-                    <bibl><author ref="#Alfieri">Vittorio Alfieri</author><title ref="#Vita_Alfieri"
-                        /></bibl></quote>ec. ec. Onde tu che traduci, posto ancora che abbi trovato
+                    <bibl>
+                        <author ref="#Alfieri">Vittorio Alfieri</author>
+                        <title ref="Vita_Alfieri">Vita</title>
+                        <citedRange>Vol. II, epoca IV, cap.6, p.47</citedRange>
+                   <q>
+                    <quote>
+                        non dubitai punto, ciò visto, di lavorare con la maggior pertinacia ed ardore all'importante opera di
+                        <hi rend="italic">spiemontizzarmi</hi>
+                        per quanto fosse possibile; ed a lasciare per sempre, ed anche a qualunque costo il mio mal sortito nido natio.
+                    </quote></q> </bibl>
+                </quote>ec. ec. Onde tu che traduci, posto ancora che abbi trovato
                 una parola corrispondentissima proprissima equivalentissima, tuttavia non hai fatto
                 niente se questa parola non è nuova e non fa in noi quell’impressione che facea ne’
                 greci. E qui è così comune l’inavvertenza che nulla più. Perchè se traducendo trovi
@@ -1225,7 +1268,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 intendere, vero o no che sia<add>,</add><del>)</del> la mia proposizione e
                 osservazione.) Quello che io ho detto delle parole va inteso anche dei modi frasi,
                 ec. ec. ec. </p>
-            <pb xml:id="p_13" n="13"/>
+            <pb xml:id="p_13" n="13"/> <lb n="13"/>
             <p xml:id="p13_1" n="13.1" hand="#penna">Non credo che siano molto da ascoltare quelli
                 che credono che certi passi sublimi della Bibbia avanzino ogni altro passo sublime
                 di qualsivoglia autore; e lo provano colla grandezza materiale dell’imagine; p. e.
@@ -1238,18 +1281,69 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 pure io ardirò di affermare che<del>,umanamente parlando</del> quelle tali
                 espressioni della Bibbia, nella poesia umana sono esagerazioni, e che in essa poesia
                 vale assolutamente più in rigore di pregio poetico, quel <quote source="#Iliade_I"
-                    >Giove accennante col capo e scuotente l’Olimpo<bibl><author ref="#Omero"
-                            >Omero</author><title ref="#Iliade">Iliade</title></bibl></quote>; quel
+                    >Giove accennante col capo e scuotente l’Olimpo
+                    <bibl>
+                        <author ref="#Omero">Omero</author>
+                        <title ref="#Iliade">Iliade</title>
+                        <citedRange>I, vv. 529-530</citedRange>
+                   <q>
+                    <quote>
+                        "fece il cenno: sopra il capo immortale ondeggiarono
+                        <lb/>
+                        i capelli divini, e fece tremare il grande Olimpo."
+                    </quote></q> 
+                </bibl>
+                </quote>; quel
                     <quote source="#Iliade_II">Nettuno che in quattro passi traversa
-                            provincie<bibl><author ref="#Omero">Omero</author><title ref="#Iliade"
-                            >Iliade</title></bibl></quote>; <quote source="#Iliade_III">quel grido
+                            provincie
+                        <bibl>
+                            <author ref="#Omero">Omero</author>
+                            <title ref="#Iliade">Iliade</title>
+                            <citedRange>XIII, v.20</citedRange>
+                            <q> <quote>
+                                "Tre volte si slanciò, e alla quarta raggiunse la meta,"
+                            </quote></q>
+                        </bibl>
+                       
+                    
+                    </quote>; <quote source="#Iliade_III">quel grido
                     di Marte ferito che pareggia il grido di diecimila combattenti e d’improvviso
-                    atterrisce ambedue gli eserciti, Greco e troiano; (Il. 5)<bibl><author
-                            ref="#Omero">Omero</author><title ref="#Iliade"
-                    >Iliade</title></bibl></quote>
+                    atterrisce ambedue gli eserciti, Greco e troiano; (Il. 5)
+                    
+                    <bibl>
+                        <author ref="#Omero">Omero</author>
+                        <title ref="#Iliade">Iliade</title>
+                        <citedRange>V, vv. 855-863</citedRange>
+                        <q>
+                        <quote>
+                            Per secondo balzò Diomede, l'eroe possente nel grido di guerra,
+                            <lb/>
+                            con la lancia di bronzo, e Pallade Atena la spinse
+                            <lb/>
+                            nel basso ventre del dio, dove si agganciava la fascia.
+                            <lb/>
+                            Lo colse là e lacerò la bellissima pelle,
+                            <lb/>
+                            poi ritrasse la lancia: urlò il bronzeo Ares
+                            <lb/>
+                            quanto gridano nove o diecimila uomini in guerra,
+                            <lb/>
+                            quando ingaggiano la contesa guerriera.
+                            <lb/>
+                            Un tremito colse i Greci e i Troiani atterriti,
+                            <lb/>
+                            tanto forte gridava Ares, insaziabile
+                        </quote></q></bibl>
+                    </quote>
                 <quote source="#Iliade_IV">quella caduta dello stesso Dio che disteso occupa sette
-                    iugeri di terreno; (Il. 21. 407.) <bibl><author ref="#Omero"
-                            >Omero</author><title ref="#Iliade">Iliade</title></bibl></quote> di
+                    iugeri di terreno; (Il. 21. 407.) 
+                    <bibl>
+                        <author ref="#Omero">Omero</author>
+                        <title ref="#Iliade">Iliade</title>
+                        <citedRange>XXI, v. 407</citedRange>
+                    <q>
+                    <quote>Cadde occupando sette pletri, e sporcò i capelli;</quote></q></bibl>
+                </quote> di
                 quelle <del>al&lt;tre&gt;</del>
                 <add>tante</add> imagini sublimissime della Bibbia, perchè nella poesia umana ci
                 vuole il mezzo dappertutto, il mezzo, che è il gran luogo di verità e di natura, e
@@ -1269,7 +1363,18 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <expan>Dissertazione</expan>
                     </choice> sopra i Sepolcri d<del>i</del><add>el</add>
                     <persName ref="#Foscolo">Foscolo</persName> Milano 1813. p. 86. nota
-                        <del>)</del><add>i.)</add></quote> che per esser subito persuasi del
+                        <del>)</del><add>i.)</add>
+                    <bibl>
+                        <author ref="#Borgno">Girolamo Federico Borgno</author>
+                        <title ref="#Sul_Carme_di_Foscolo">
+                            Sul Carme di Ugo Foscolo "Dei Sepolcri" e sulla poesia lirica
+                        </title>
+                   <q>
+                    <quote>
+                        I cantici di Mosè, ed i Salmi hanno tale sublimità d'immagini, e di sentenze, che mai si potrà nè uguagliare, nè superare. Molti dicono essere ciò proprio dello stile orientale; ma io con molti dico essere effetto di maggior commozione d'animo eccitata da maggior comprendimento degli eccelsi meravigliosi attribuiti alla divinità [...]. Ognuno sentesi da maggior meraviglia vinto in udir i Profeti che in udir Omero, e Virgilio; perchè il crear la luce col solo volere; il gettar i fondamenti della terra, il misurar le acque con la destra, pesar i cieli con la palme ci offrono un'immagine più sublime dell'Onnipotenza, che quella di crollar l'Olimpo con l'accennar del capo, e di scagliar la folgore dall'alto di Ato, e di Rodope, e coll'orribile scoppio riempir di spavento i cuori de' mortali
+                    </quote></q>  </bibl>
+                
+                </quote> che per esser subito persuasi del
                 contrario basta osservare i luoghi della Bibbia dove non si parla di Dio nè di cose
                 affatto sublimi, come p. e. tutta la Cantica dove anzi si parla di amore e cose
                 delicate, e pure vi si vedono le stesse metaforone e traslatoni e cose eccessive:
@@ -1286,7 +1391,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 circostanza dell’esser nuova. </p>
             <p xml:id="p13_3" n="13.3" hand="#penna"> Nelle poesie del <persName ref="#Monti"
                     >Monti</persName> (specialmente nelle Cantiche) sono osservabili la <pb
-                    xml:id="p_14" n="14"/> bellezza novità efficacia delle imagini, particolarmente
+                        xml:id="p_14" n="14"/> <lb n="14"/> bellezza novità efficacia delle imagini, particolarmente
                 sublimi, ma anche di ogni altro genere, la mollezza e dirò così sveltezza, agilità,
                 disinvoltura dell’espressione; la gran felicità nell’esprimere cose e imagini
                 difficilissime, la disinvolta e spedita nobiltà dello stile, e quella data colla
@@ -1333,7 +1438,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 minutamente colle più argute e profonde riflessioni la sua vita: nemici grandissimi,
                 ostacoli terribili alla grandezza: che anche l’illusioni ora si conoscono
                 chiarissimamente esser tali, <del>si</del>
-                <add>e si</add> fomentano con una certa <pb xml:id="p_15" n="15"/> compiacenza di se
+                <add>e si</add> fomentano con una certa <pb xml:id="p_15" n="15"/><lb n="15"/>compiacenza di se
                 stesse, sapendo però benissimo quello che sono. Ora come è possibile che sieno <hi
                     rend="underline">durevoli</hi> e <hi rend="underline">forti</hi> quanto basta,
                 essendo così scoperte? e che muovano a grandi cose? e senza le illusioni qual
@@ -1357,12 +1462,14 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 illecite, e condannate dalla ragione<del>.</del><add>: e la natura spesso tende con
                     questi appetiti a danneggiare e a distrugger se stessa.</add>
             </p>
-            <p xml:id="p15_1" n="15.1"> Finisco in questo punto di leggere nello Spettatore n. 91.
-                le <quote source="#Breme1"><choice>
+            <p xml:id="p15_1" n="15.1"> Finisco in questo punto di leggere nello <quote
+                    source="#Breme1">Spettatore n. 91. le <choice>
                         <abbr>Osservaz.</abbr>
                         <expan>Osservazioni</expan>
                     </choice> di <persName ref="#Breme">Lod. di Breme</persName> sopra la poesia
-                    moderna o romantica</quote> che la vogliamo chiamare, e perchè ci ho veduto una
+                    moderna o romantica
+            
+            </quote> che la vogliamo chiamare, e perchè ci ho veduto una
                 serie di ragionamenti che può imbrogliare e inquietare, e io per mia natura non sono
                 lontano dal dubbio anche sopra le cose credute indubitabili, però avendo nella mente
                 le risposte che a quei ragionamenti si possono e debbono fare, per mia quiete le
@@ -1396,7 +1503,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <del>come</del> la vedevano gli antichi: le circostanze, naturali, non
                 proccurate mica a bella posta, ma venute spontaneamente: quell’albero,
                 quell’uccello, quel canto, quell’edifizio, quella selva, quel monte, <pb
-                    xml:id="p_16" n="16"/> tutto da per se, senz’artifizio, e senza che questo monte
+                    xml:id="p_16" n="16"/> <lb n="[16]"/> tutto da per se, senz’artifizio, e senza che questo monte
                 sappia in nessunissimo modo di dover eccitare questi sentimenti, nè ch’altri ci
                 aggiunga perchè li possa eccitare, nessun’arte ec. ec. In somma questi oggetti,
                 insomma la natura da per se e per propria forza insita in lei, e non tolta in
@@ -1415,23 +1522,53 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 presentano gli oggetti comuni, vale a dire così imitati, che si considerino nella
                 poesia, dovechè nella realtà non si consideravano, e se ne traggano quelle
                 riflessioni ec. ec. che nella realtà per esser comuni non somministravano ec. ec.
-                come il <persName ref="#Gravina">Gravina</persName> nella Ragion poet.) e bisogna
-                poi perchè producano quei tali sentimenti andarli a prendere pel loro verso: ed ecco
-                ottenuto dagli antichi il grand’effetto, che domandano i romantici, ed ottenuto in
-                modo che ci rapiscono e ci sublimano e c’immergono in un mare di dolcezza, e tutte
-                le età e tutti i secoli, e tutti i grandi uomini e poeti che son venuti dopo di
-                loro, ne sono testimoni. Ma che? quando questi poeti, imitavano così la natura, e
-                preparavano questa piena di sentimenti ai lettori, <del>e</del> essi stessi o non la
-                provavano, o non dicevano di provarla; semplicissimamente, come <del>un</del>
-                    pastorell<del>o</del><add>i</add>i, descrivevano quel che vedevano, e non ci
-                aggiugnevano niente del loro; ecco il gran peccato della poesia antica, per cui, non
-                è <add>più</add> poesia, e i moderni <del>li</del> vincono a cento doppi gli antichi
-                ec. ec. E non si avvedono i romantici, che se questi sentimenti son prodotti dalla
-                    <hi rend="underline">nuda</hi> natura, per destarli bisogna imitare la <hi
-                    rend="underline">nuda</hi> natura, e quei semplici e innocenti oggetti, che <hi
-                    rend="underline">per loro propria forza, inconsapevoli</hi> producono nel nostro
-                animo quegli effetti, <add>bisogna</add> trasportarli come sono nè più nè meno nella
-                poesia, e <add>che</add> così bene e divinamente imitati, aggiuntaci la maraviglia e
+                    <quote source="#Gravina_Poetica">come il <persName ref="#Gravina"
+                        >Gravina</persName> nella Ragion <choice>
+                        <abbr>poet.</abbr>
+                        <expan>poetica</expan>
+                    </choice>
+                        <bibl>
+                            <author ref="#Gravina">Gianvincenzo Gravina</author>
+                            <title ref="#Ragion_Poetica">Della ragion poetica</title>
+                            <citedRange>I, 2, p. 9</citedRange>
+                        <q>
+                            <quote>Or la poesia, colla rappresentazion viva, e colla sembianza, ed efficace
+                                similitudine del vero, circonda d'ogn'intorno la fantasia nostra, poesia. e
+                                tien da lei discosto l'immagini delle cose contrarie e che confutano la
+                                realtà di quello, che dal Poeta s'esprime. Onde ci dispone verso il finto,
+                                nel modo come fogliamo essere disposti verso il vero. E perchè i moti
+                                dell’animo nostro non corrispondono all'intero delle cose, e non esprimono
+                                l'intrinseco esser loro ; ma corrispondono all' impressione, che dalle cose
+                                si fa dentro la fantasia, ed esprimono le vestigia da i corpi esterni in
+                                essa segnate; chi con altri strumenti, che con le cose reali medesime, desta
+                                in noi l’istesse immagini già dalle cose reali impresse, e spinge
+                                l'immaginazione nostra secondo il corso, e tenore de i corpi esterni;
+                                ecciterà gli affetti simili a quelli, che son destati dalle cose vere,
+                                siccome avviene ne’ sogni. Quindi è che il Poeta, per mezzo delle immagini
+                                esprimenti il naturale, e della rappresentazion viva, è somigliante alla
+                                vera esistenza; e natura delle cose immaginate, commove , ed agita la
+                                fantasia nel modo , che fanno gli oggetti reali, e produce dentro di noi gli
+                                effetti medesimi, che si destano da i veri successi: perchè gli affetti son
+                                tratti dietro la fantasia in un medesimo corso, e s'aggirano al pari
+                                dell'immaginazione , alzandosi , ed inchinandosi secondo il moto; è quiete
+                                di essa, siccome l'onde per l'impeto, o posa de' venti.</quote></q></bibl></quote>)
+                e bisogna poi perchè producano quei tali sentimenti andarli a
+                prendere pel loro verso: ed ecco ottenuto dagli antichi il grand’effetto, che
+                domandano i romantici, ed ottenuto in modo che ci rapiscono e ci sublimano e
+                c’immergono in un mare di dolcezza, e tutte le età e tutti i secoli, e tutti i
+                grandi uomini e poeti che son venuti dopo di loro, ne sono testimoni. Ma che? quando
+                questi poeti, imitavano così la natura, e preparavano questa piena di sentimenti ai
+                lettori, <del>e</del> essi stessi o non la provavano, o non dicevano di provarla;
+                semplicissimamente, come <del>un</del> pastorell<del>o</del><add>i</add>i,
+                descrivevano quel che vedevano, e non ci aggiugnevano niente del loro; ecco il gran
+                peccato della poesia antica, per cui, non è <add>più</add> poesia, e i moderni
+                    <del>li</del> vincono a cento doppi gli antichi ec. ec. E non si avvedono i
+                romantici, che se questi sentimenti son prodotti dalla <hi rend="underline"
+                    >nuda</hi> natura, per destarli bisogna imitare la <hi rend="underline"
+                    >nuda</hi> natura, e quei semplici e innocenti oggetti, che <hi rend="underline"
+                    >per loro propria forza, inconsapevoli</hi> producono nel nostro animo quegli
+                effetti, <add>bisogna</add> trasportarli come sono nè più nè meno nella poesia, e
+                    <add>che</add> così bene e divinamente imitati, aggiuntaci la maraviglia e
                 l’attenzione alle minute parti <del>di questi oggetti,</del>
                 <add>loro</add> che nella realtà non si notavano, e nella imitazione si notano, è
                 forza che destino in noi questi stessissimi sentimenti che costoro vanno cercando,
@@ -1439,7 +1576,21 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 poeta quanto più parla in persona <del>sua</del>
                 <add>propria</add> e quanto più aggiunge di suo, tanto meno imita, (<quote
                     source="#Poetica1">cosa già notata da <persName ref="#Aristotele"
-                        >Aristotele</persName></quote>, al quale volendo o non volendo
+                        >Aristotele</persName>
+                    <bibl>
+                        <author ref="#Aristotele">Aristotele</author>
+                        <title ref="#Poetica">Poetica</title>
+                        <citedRange>1460a</citedRange>
+                    <q>
+                    <quote>Omero poi, come è degno di essere lodato in molte altre cose, cosi lo è
+                        anche perché lui solo fra i poeti non ignora quale debba essere la sua
+                        parte; il poeta infatti in persona propria deve parlare il meno possibile,
+                        giacché non è imitatore a questo modo. E dunque, mentre gli altri poeti si
+                        mettono sempre in mostra e poco imitano e poche volte, Omero invece, dopo un
+                        breve proemio in cui parla lui, subito introduce un uomo o una donna o un
+                        qualche altro personaggio, e nessuno poco caratterizzato ma ciascuno con il
+                        suo carattere.</quote></q></bibl>
+                </quote>, al quale volendo o non volendo
                 senz’avvedersene si ritorna) e che il sentimentale non è prodotto dal sentimentale,
                 ma dalla natura, <hi rend="underline">qual ella è</hi>, e la natura <hi
                     rend="underline">qual ella è</hi> bisogna imitare, ed hanno imitata gli antichi,
@@ -1447,7 +1598,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 spasimi e senza svenimenti, e un’ode d’<persName ref="#Anacreonte"
                     >Anacreonte</persName>, vi destano una folla di fantasie, e vi riempiono la
                 mente e il cuore senza paragone più che cento mila versi sentimentali; perchè quivi
-                parla la natura, e qui parla il poeta: e non si av<pb xml:id="p_17" n="17"/>vedono
+                parla la natura, e qui parla il poeta: e non si av<pb xml:id="p_17" n="17"/><lb n="[17]"/>vedono
                 che appunto questo grand’ideale dei tempi nostri, questo conoscere così intimamente
                 il cuor nostro, questo analizzarne, prevederne, distinguerne ad uno ad uno tutti i
                 più minuti affetti, quest’arte insomma psicologica, distrugge l’illusione senza cui
@@ -1492,11 +1643,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 le odi di <persName ref="#Anacreonte">Anacreonte</persName> ec. ec. ec. non fosse
                 poesia, o almeno ai moderni non paresse più tale, o almeno (non si sa poi perchè,
                 quando non si ammettano le due cose precedenti) dai moderni non dovesse più esser
-                    <del>p-rodotta??</del> coltivata; come non deve parere una pazzia difficile a
+                    <del>p&lt;rodotta??&gt;</del> coltivata; come non deve parere una pazzia difficile a
                 credere che sia caduta in testa d’un uomo savio? Dunque <persName ref="#Virgilio"
                     >Virgilio</persName> non è poeta altro che nel quarto <del>libro</del>
                 dell’Eneide, e nell’episodio di Niso ed Eurialo, e che so io? dunque <pb
-                    xml:id="p_18" n="18"/> non ci sarà più altro che un solo genere di poesia? e in
+                    xml:id="p_18" n="18"/><lb n="[18]"/>non ci sarà più altro che un solo genere di poesia? e in
                 uno stesso componimento non si dovrà più tenere altro che un tuono solo? <add>(E
                     dopo tutto questo ci rinfacciano la monotonia delle favole antiche.)</add> Ma
                 che? abbiamo mutato natura affatto? non c’è più gioia se non mezzo malinconica, non
@@ -1557,7 +1708,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 probabilmente di tutti i suoi settari) è dove parlando della mitologia greca, dice
                 che la natura è vita, che la fantasia umana e la poesia si compiace in immaginare
                 che tutto viva, cioè <hi rend="underline">conosca di essere</hi>, e qui si diffonde
-                in magnificare <pb xml:id="p_19" n="19"/> questa sorgente della poesia moderna che
+                in magnificare <pb xml:id="p_19" n="19"/><lb n="[19]"/> questa sorgente della poesia moderna che
                 consiste in non guardare <del>niente</del>
                 <add>nessuna cosa</add> con noncuranza, in <hi rend="underline">attribuir senso a
                     ogni cosa e riconoscer vita sotto tutte le possibili forme</hi>, in avvivare
@@ -1569,7 +1720,20 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <persName ref="#Byron">lord Byron</persName> dove <quote source="#Byron_Rosa"
                     >attribuisce <del>un</del>
                     <hi rend="underline">sospir<del>o</del><add>i</add> fragranti</hi> alla rosa
-                    innamorata</quote>. Ma che? non vuole che si avvivi la natura così
+                    innamorata
+                        <bibl>
+                            <author ref="#Byron">Byron</author>
+                            <title>Giaurro</title>
+                            <editor>Gioacchino Rossi</editor>
+                        <q>
+                        <quote>
+                            <l>Lontana là dal verno occidentale, da freddi venti, da gelata brina,
+                                <lb/>e blandita da zefiro vitale,<lb/> la del giardin, dell'usignol
+                                regina <lb/> il profumo che a lei natura diede <lb/>ne' suoi calici, e
+                                sì lo affina<lb/>che in più soave incenso al ciel poi riede.<lb/> Oh
+                                quanta i suoi sospir spargon fragranza</l>
+                       </quote></q> </bibl> 
+                    </quote>. Ma che? non vuole che si avvivi la natura così
                 individualmente, diremo, e mediatamente, come i mitologi faceano, personificando
                 affetti e numi e piante ec. ma la natura immediatamente, senza <hi rend="underline"
                     >convertirla in individui, e riconoscendo vita sotto tutte le forme e non
@@ -1592,7 +1756,17 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     e immaginativa, attribuirebbe a Dio, (il cavallo sarebbe allora ragionevole,
                     onde nessuno si <del>fa</del> scandalizzi di quel che dirò) e alle cose
                     inanimate ec. ec. la figura e gli affetti e i pensieri del cavallo, e così gli
-                    altri animali</quote>; (e questo pensiero non è mio ma dell’antico <persName
+                    altri animali
+                    <bibl>
+                        <author ref="#Senofane">Senofane</author>
+                        <editor ref="#G.L.">Giacomo Leopardi</editor>
+                    <q>
+                    <quote>Se i buoi se gli elefanti avessero mani, e con queste potessero
+                        dipingere, e fare quelle cose che fanno gli uomini, allora i cavalli
+                        dipingendo gli Dei gli avrebbero fatti di figura cavallina, e i buoi di
+                        figura bovina, e dato loro un corpo simile al proprio.</quote></q></bibl>
+                
+                </quote>; (e questo pensiero non è mio ma dell’antico <persName
                     ref="#Senofane">Senofane</persName>, perchè molte cose son vecchie che si
                 credono nuove, e molta sapienza è antica alla quale si crede che quei cervelli non
                 arrivassero) non si avvede che se la rosa sospira ed è innamorata, la rosa nella
@@ -1610,7 +1784,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 facile o difficile? ognuno che li sente è sicuro purchè si metta a scrivere di
                 comunicarli subito agli altri, o no? Se sì, me ne rallegro, e avrò piacere di
                 vederne l’esperimento; se no<del>n</del>, se questa cosa è tra le difficili
-                    difficilissi<pb xml:id="p_20" n="20"/>ma, se quand’uno ha concepito, non ha
+                difficilissi<pb xml:id="p_20" n="20"/><lb n="[20]"/>ma, se quand’uno ha concepito, non ha
                 fatto appena metà del cammino, se mille e centomila che provando affetti e sentendo
                 vivamente, hanno scritto, non sono riusciti a muovere negli altri gli stessi
                 affetti, e non si leggono da nessuno, se infiniti esempi e ragioni provano quanta
@@ -1669,7 +1843,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 avvicinarsi sempre più alla natura, che è il fine di tutti quegli studi e di quelle
                 emendazioni ec. di cui il <persName ref="#Breme">Breme</persName> si burla, di cui
                 si burlano i romantici, contraddicendo a se stessi; che mentre <pb xml:id="p_21"
-                    n="21"/> bestemmiano l’arte e predicano la natura, non s’accorgono che la minor
+                    n="21"/><lb n="[21]"/> bestemmiano l’arte e predicano la natura, non s’accorgono che la minor
                 arte è minor natura.</p>
             <p xml:id="p21_1" n="21.1"> Non solamente bisogna che il poeta imiti e dipinga a
                 perfezione la natura, ma anche che la imiti e dipinga con
@@ -1729,7 +1903,88 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <seg source="#Dialogo_Murco_Filosofo"><quote source="#Sublime1">Cercava <persName
                             ref="#Longino">Longino</persName> (nel fine <del hand="#penna_?">del
                             Sublime</del> del trattato del Sublime) perchè al suo tempo ci fosse
-                        tanta scarsezza di anime grandi</quote> e portava per ragione parte la fine
+                        tanta scarsezza di anime grandi
+                    <bibl>
+                        <author ref="#Longino">Pseudo Longino</author>
+                        <editor>Antonfrancesco Gori</editor>
+                    <q>
+                    <quote>Ora in quanto a ciò che mi resta, o Terenziano carissimo, più non
+                        indugerò ad aggiugnere, e dichiarare ciò che andava cercando un moderno
+                        Filosofo. lo mi maraviglio (diceva egli) siccome molt’altri ancora meco se
+                        ne maravigliano, per che al nostro secolo non nascano, se non di rado,
+                        ingegni sommamente persuasivi, politici e forti e chiari, e spezialmente
+                        nati a’ vezzi delle orazioni, e sublimi oltre modo e sopraggrandi: tanta è
+                        la scarsezza universale, che n’occupa ogni giorno la vita... O si debb’egli
+                        credere (soggiugne egli) quello, che li decanta, che la Democrazia o popolar
+                        reggenza sia de grandi ingegni buona nutrice; essendo quasi in essa sola
+                        fioriti, e intieme con essa morti i fieri e i terribili nella eloquenza?
+                        Imperciocchè (dicono essi) che la libertà è atta a nodrire ed allevare i
+                        sentimenti degli spiriti grandi е a dar loro insieme impulso d’emularsi
+                        coraggiosamente l’un l'altro e del primo posto invaghirsi. Oltre di che, per
+                        via de’ premj proposti nelle Repubbliche, le doti dell’animo per lo continuo
+                        esercizio da’ Dicitori s'affinano ed aguzzano, e si fanno scappar fuori, e
+                        nelle cause stesse libere e franche, siccome conviene, lampeggiano. Ma noi
+                        d'oggidì (segue a dire) sembra , che allevati siamo fin da ragazzi in una
+                        giusta e legittima servitù e ne’ costumi e negl’instituti di quella fin da’
+                        teneri sentimenti poco meno che in culla fasciati, senza gustare il
+                        bellissimo e fecondissimo fonte dell' eloquenza, dico la libertà . Perlochè
+                        a niun altra cosa siano buoni, che ad esser magnifici adulatori. Laonde,
+                        disse egli, anche in un servo cadere gli altri abiti della vita: niuno
+                        schiavo però divenire Oratore; poichè in un tratto scappa su la temenza e
+                        quell’essere come imprigionato, ed avvezzo sempre a esser tenuto sotto co’
+                        pugni; giusta quel detto d'Omero, <lb/> La metà del valor , servitù
+                        toglie.<lb/> Siccome adunque (se pur questo, dic’egli , è credibile) le
+                        cassette, nelle quali io sento esser nodriti i Pimmei, che nani appelliamo,
+                        non solo impediscono il crescere a quelli, che entro serrati vi sono; ma
+                        anche a cagion della museruola, gli tengono rannicchiati; così potrebbe
+                        alcuno dimostrare che ogni servitù, ancorchè giustissima, è dell'anima un
+                        incassamento, ed una pubblica e comune prigione. Ma agevol cosa e propria
+                        dell’uomo (diss’io soggiugnendo) si è, o galantuomo il lagnarsi sempre delle
+                        cose presenti. Di più, a dire il vero si aggiungono anche quelle passioni,
+                        che al presente accompagnano la nostra vita, e si la strascinano e la
+                        trasportano. Perocche l’Avarizia, di cui tutti insaziabilmente siamo malati
+                        ed il Piacere in ischiavitù menano, o piuttosto (com’altri direbbe),
+                        sprofondano insieme co’ gli uomini stessi anche i secoli e ‘l mondo. E certo
+                        l’Avarizia è una infermità, che ci fa gretti: il Piacere poi ed abjetti e
+                        vili. Ne trovar posto, pensando e ripensando, perchè mai apprezzando noi la
+                        smisurata ricchezza (o per dir cosa più vera) come sacrosanta cosa tenendola
+                        e venerandola non accolghiamo poi que’ mali, che nati con essa ad un istesso
+                        portato, gli animi nostri saccheggiano. Poichè colla smisurata e
+                        intemperante ricchezza, detta altrimenti Pluto, congiunta va in coppia e del
+                        pari la sontuosità e la morbidezza; spalancando ella gli aditi della città e
+                        delle case, nelle quali insacca e soggiorna: laonde durando poi questi vizj
+                        a trattenersi nella vita (secondo i dotti) vi fanno il nido, e a far razza e
+                        a far covate si danno in un momento, partorendone arroganza, orgoglio,
+                        effemminatezza prole non naturale di essi, ma del tutto legittima. Che se
+                        alcuno questa generazione dello Dio Pluto lascia crescere e venire in età,
+                        tosto s’ingenerano negli animi, tiranni inesorabili, la villania,
+                        l’iniquità, e la sfacciataggine. E che così avvenga, ne viene di necessità e
+                        che gli uomini all'insù non riguardino, nè abbiano mira alla fama; ma
+                        venendo una tal corruttela appoco appoco al colmo, indi marciscano e putride
+                        divengano e prive d’emulazione le sovrane doti dell'animo, ammirando essi le
+                        caduche ed inutili parti loro, trasandato l’avanzamento delle virtù.
+                        Perocchè non puote mai avvenire, che uno che è di corrotto e guasto
+                        giudizio, sia libero e schietto giudice in quelle cose che giuste sono ed
+                        oneste. Quando poi le corruttele regolano omai tutti i nostri costumi, e
+                        l’andare a caccia dell’altrui morte, e gli aguati de’ testamenti, e ‘l
+                        cercar di lucrare da ogni cosa si ricava dall' anima, fatto schiavo ciascuno
+                        della sua propria cupidigia; pensiamo noi, che in tanta e sì pestilenziale
+                        corruttela del mondo e de’ costumi trovar si possa libero un giudice delle
+                        cose grandi, o che spettano all'eternità e che sia incorrotto, e non
+                        signoreggiato dal disio di approvecciarsi e d’arricchire? Ma forse meglio a
+                        noi come a noi e l'esser signoreggiati, che l’esser liberi; dacchè quelle
+                        sfrenate voglie d’aver sempre più, lasciate andare come da una carcere con
+                        tra il prossimo, a fuoco e fiamma posson mettere colle sciagure tutto il
+                        mondo. Diceva io in somma, che LA PIGRIZIA L' ANNEGHITTIMENTO. È LA ROVINA
+                        DEGL' INGEGNI DEL NOSTRO TEMPO: in cui, eccettochè pochi, tutti ce ne
+                        viviamo, non faticando per altra cosa, che per lo piacere, pel diletto e non
+                        per l'utilità, che degna sia d’emulazione e d’onore. Ma meglio fia
+                        tralasciar queste cose, e tornare a quel che seguita, ed è congiunto colla
+                        nostra materia, cioè alle Passioni, di cui ho promesso antecedentemente di
+                        scriverne un Trattato ex professo: poichè queste (siccome io giudico) e
+                        d’ogni genere di dire, e dello stesso SUBLIME tengono parte certamente non
+                        piccola.</quote></q></bibl>
+                </quote> e portava per ragione parte la fine
                     delle repubbliche e della libertà, parte <add hand="#penna_?">l’avarizia</add>
                     la lussuria e l’ignavia. <del hand="#penna_?">Ma</del>
                     <add hand="#penna_?">Ora</add> queste non sono madri ma sorelle di quell’effetto
@@ -1742,7 +1997,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     azioni che per lo più sono pazzie. Quando ognuno è bene illuminato in vece dei
                     diletti e dei beni vani come sono la gloria l’amor della patria <del
                         hand="#penna_?">e</del> la libertà ec. ec. cerca i solidi cioè i piaceri
-                    carnali osceni <pb xml:id="p_22" n="22"/>
+                    carnali osceni <pb xml:id="p_22" n="22"/><lb n="[22]"/>
                     <del hand="#penna_?"><add hand="#penna_?">fiscici ec.</add></del> ec. in somma i
                     terrestri, <add hand="#penna_?">cerca l’utile suo proprio sia consistente nel
                         danaro o altro</add> diventa egoista necessariamente, nè si vuol sacrificare
@@ -1797,7 +2052,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         hand="#penna_?">degli altri</add> dei posteri <del hand="#penna_?">de</del>
                     ec. eran fatti egoisti, pesavano il proprio utile, consideravano quello che in
                     un caso poteva succedere, non più ardore non impeto, non grandezza d’animo,
-                    l’esempio dei maggiori <del>,</del> era una frivo<pb xml:id="p_23" n="23"/>lezza
+                    l’esempio dei maggiori <del>,</del> era una frivo<pb xml:id="p_23" n="23"/><lb n="[23]"/>lezza
                     in quei tempi tanto diversi: così perdevano la libertà <del hand="#penna_?"
                         >vennero gl’imperatori,</del> non <del hand="#penna_?">seppero</del>
                     <add hand="#penna_?">si arrivò a</add> avere e difendere quello che pur
@@ -1820,9 +2075,9 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
             <p xml:id="p23_4" n="23.4" hand="#penna_?"> Non è favoloso ma ragionevole e vero il
                 porre i tempi Eroici tra gli antichissimi. L’eroismo e il sacrifizio di se stesso e
                 la gloriosa morte <add hand="#penna_?">ec.</add> di cui parla il <persName
-                    ref="Breme">Breme </persName>
-                <quote>Spettatore p.47</quote> finiscono colle illusioni, e non <del hand="#penna_?"
-                    >ce</del>
+                    ref="Breme">Breme</persName>
+                <quote source="#Spettatore_47">Spettatore p.47</quote> finiscono colle illusioni, e
+                non <del hand="#penna_?">ce</del>
                 <del hand="#penna_?">c’è</del><del hand="#penna_?">ve</del><del hand="#penna_?"
                     >v’è</del> è un minchione che le voglia <add hand="#penna_?">in se</add> in
                 tempi di ragione e di filosofia <del hand="#penna_?">;</del>
@@ -1832,7 +2087,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 l’eloquenza, e abbagliando meno persuade e muove più, e più dolcemente massime nel
                 tenero, non si trova <del hand="#penna_?">nè</del>in nessun lirico, nè antico nè
                 moderno se non nel <persName ref="#Petrarca">Petrarca</persName>, almeno almeno in
-                quel grado: e <persName ref="#Orazio"> Orazio</persName> quantunque fosse sia
+                quel grado: e <persName ref="#Orazio">Orazio</persName> quantunque fosse sia
                 superiore nelle immagini e nelle sentenze, in questo affetto ed eloquenza e copia
                 non può pur venire al paragone col Petrarca: il cui stile ha in oltre <del
                     hand="#penna_?">un</del> (io non parlo qui solo delle canzoni amorose ma anche
@@ -1885,7 +2140,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <expan>tenacemente</expan>
                 </choice> imbrattata dalla pece del suo secolo, che nella prima parte appena appena
                 si scorge qua e la come macchiuzze e forse qualche canzona n’è libera affatto e può
-                parere d’un altro secolo. Inoltre la dicitura <pb xml:id="p_24" n="24"/> diventa
+                parere d’un altro secolo. Inoltre la dicitura <pb xml:id="p_24" n="24"/><lb n="[24]"/> diventa
                 meno elegante e pulita <add hand="#penna_?">spesso <del>ins&lt;omma&gt;</del>le voci
                     e le locuzioni <del hand="#penna_?">sono prosai&lt;che&gt;</del> le metafore i
                     traslati sono prosaici</add> e <del hand="#penna_?">dà nel prosaico</del>. In
@@ -1957,7 +2212,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <l>L’aspro cor dell’Eacide superbo?</l></quote>Canz. Eroica 71: <quote
                     source="#Chiabrera71">Sol fe<del>’</del> contrasto il gran sangue di
                     Guisa</quote> ec. Imitò anche bene i greci e <persName ref="#Pindaro"
-                    >Pindaro</persName> e <persName ref="#Orazio"> Orazio</persName> nell’economia
+                    >Pindaro</persName> e <persName ref="#Orazio">Orazio</persName> nell’economia
                 del componimento. E certo alle volte è nobilissimo tanto pel <choice>
                     <abbr>sentim.</abbr>
                     <expan>sentimento</expan>
@@ -1972,7 +2227,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <expan>costruzioni</expan>
                 </choice> gli equivoci (non già voluti, come i seicentisti, ma non avvertiti o
                 trascurati) la soppressione delle idee intermedie ne’ personaggi (se ben questa è
-                naturale, perchè <pb xml:id="p_25" n="25"/> il poeta fervido quantunque non passi
+                naturale, perchè <pb xml:id="p_25" n="25"/><lb n="[25]"/> il poeta fervido quantunque non passi
                 mai da un pensiero all’altro senza una qualche cagione e occasione che è come il
                 legame delle diverse idee, nondimeno questo legame essendo sottilissimo lo salta
                 facilmente, o anche non saltandolo affatto, il lettore non lo arriva a vedere) e
@@ -2007,15 +2262,26 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 è disugualissimo ridondante di grezzi deboli <add hand="#penna_?">pel
                     sentimento</add> anzi <del hand="#penna_?">di Canzoni</del> anche di Canzoni o
                 intere o quasi di stile per l’ordinario infelice <del hand="#penna_?">benchè da
-                    lui</del> lingua incolta (<foreign xml:lang="lat">neglexit linguae cultum
-                </foreign>, dice il <persName ref="Gravina">Gravina</persName> nella lettera <choice>
-                    <abbr>lat.</abbr>
-                    <expan>latina</expan>
-                </choice> a <persName ref="#Maffei">Maffei</persName>, e così è) sì che non sono se
-                non rarissimi quei pezzi dei quali si possa dire tutto il bene, e in cui, quando
-                anche l’immagini e i sentimenti sieno perfetti il che non è tanto raro, l’esteriore
-                dello stile non abbia difetti che saltano grandissimamente all’occhio e disgustano.
-                Che s’egli avesse avuto <del hand="#penna_?">lima</del> scelta (<foreign
+                    lui</del> lingua incolta (<quote source="#Gravina_Maffei"><foreign
+                        xml:lang="lat">neglexit linguae cultum </foreign>, dice il <persName
+                        ref="Gravina">Gravina</persName> nella lettera <choice>
+                        <abbr>lat.</abbr>
+                        <expan>latina</expan>
+                    </choice> a <persName ref="#Maffei">Maffei</persName>
+                        <bibl>
+                            <author ref="#Gravina">Gianvincenzo Gravina</author>
+                            <title>De poesi, ad Scipionem Maffeium epistola</title>
+                        <q>
+                        <quote><foreign xml:lang="lat">Chiabrera vero, esti eruditionis et judicii
+                            novorumque luminum haberet satis, tamen suamet copia mersus amisit
+                            limam, delectumque neglexit rerum, et linguae cultum, ut novitate sua
+                            nihil tamen veteribus Petrarchae imitatoribus dederit
+                            invidendum</foreign></quote></q></bibl>
+                    </quote>, e così è) sì che
+                non sono se non rarissimi quei pezzi dei quali si possa dire tutto il bene, e in
+                cui, quando anche l’immagini e i sentimenti sieno perfetti il che non è tanto raro,
+                l’esteriore dello stile non abbia difetti che saltano grandissimamente all’occhio e
+                disgustano. Che s’egli avesse avuto <del hand="#penna_?">lima</del> scelta (<foreign
                     xml:lang="lat">delectum rerum et limam amisit</foreign>, dice verisimilmente il
                     <persName ref="#Gravina">Gravina</persName> l.c.) e lima (delle quali forse e
                 massime delle seconde non era capace) sarebbe il più gran lirico pindarico che abbia
@@ -2032,7 +2298,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     >Chiabrera</persName>, ma solamente che questi fu un vero poeta lirico. </p>
             <p xml:id="p25_1" n="25.1" hand="#penna_?"> Una considerazion fina intorno all’arte
                 dello scrivere è questa che alle volta, la collocazione, diremo, fortuita delle
-                parole, quantunque il senso dell’auto<pb xml:id="p_26"/>re sia chiaro tuttavia <add
+                parole, quantunque il senso dell’auto<pb xml:id="p_26" n="26"/><lb n="[26]"/>re sia chiaro tuttavia <add
                     hand="#penna_?">a</add> prima vista produca ne’ lettori un’altra idea, il che,
                 quando massime quest’idea non sia conveniente bisogna schivarlo, massime in poesia
                 dove il lettore <del hand="#penna_?">è</del>
@@ -2083,7 +2349,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 </choice> momentanea (bastando <del hand="#penna_?">q&lt;ueste&gt;</del> che queste
                 parole del <persName ref="#Chiabrera">
                     <choice>
-                        <abbr>Chiabr</abbr>
+                        <abbr>Chiabr.</abbr>
                         <expan>Chiabrera</expan>
                     </choice></persName> servano <choice>
                     <abbr>d’esemp.</abbr>
@@ -2129,7 +2395,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 nella sua vita che quantunque paia come il <persName ref="#Chiabrera"
                     >Chiabrera</persName>, aver bevuto ai fonti greci, <hi rend="underline"
                     >nondimeno molto sembra aver preso dall’ebraico; talchè la sua apparenza ha
-                    assai più del Profetico che del Pinda<pb xml:id="p_27"/>rico</hi> e soggiunge
+                        assai più del Profetico che del Pinda<pb xml:id="p_27" n="27"/><lb n="[27]"/>rico</hi> e soggiunge
                 che in un certo libro si dice di lui che <hi rend="underline">da alcune forme di
                         <persName ref="#Dante">Dante</persName>, e dal <persName ref="#Chiabrera"
                         >Chiabrera</persName> accoppiate con certi modi delle Orientali favelle ha
@@ -2171,14 +2437,15 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     >luoghi</del> sublimi che sono sparsi a larghissima mano per tutte le sue <choice>
                     <abbr>Canz.</abbr>
                     <expan>Canzoni </expan>
-                </choice> non sono formati rapidamente dalla scelta τῶν άκρων λημμάτων, come dice
-                    <persName ref="#Longino">Longino</persName>, come fa <persName ref="#Pindaro"
-                    >Pindaro</persName> e <persName ref="#Omero">Omero</persName> e il <persName
-                    ref="#Chiabrera">Chiabrera</persName>, che vengono ad ἐπιπλήττειν il Lettore e
-                te lo strascinano e sbalzano qua e là stordito e confuso a voglia loro, ma è
-                composto placidissimamente di <del hand="#penna_?">una</del> lunghe enumerazioni di
-                cose di parti di immagini accozzate e messe una dopo l’altra ordinatamente e in
-                simmetria senza rapidità di stile e freddam. Sì che quantunq. Le immagini, <add
+                </choice> non sono formati rapidamente dalla scelta <foreign xml:lang="grc">των
+                    άκρων λημμάτων</foreign>, come dice <persName ref="#Longino">Longino</persName>,
+                come fa <persName ref="#Pindaro">Pindaro</persName> e <persName ref="#Omero"
+                    >Omero</persName> e il <persName ref="#Chiabrera">Chiabrera</persName>, che
+                vengono ad <foreign xml:lang="grc">επιπληττειν</foreign> il Lettore e te lo
+                strascinano e sbalzano qua e là stordito e confuso a voglia loro, ma è composto
+                placidissimamente di <del hand="#penna_?">una</del> lunghe enumerazioni di cose di
+                parti di immagini accozzate e messe una dopo l’altra ordinatamente e in simmetria
+                senza rapidità di stile e freddam. Sì che quantunq. Le immagini, <add
                     hand="#penna_?">le metafore</add> ec. stieno in regola e però non ci siano
                 turgidezza, contuttociò non fanno altro che un gran fresco perchè il sublime non si
                 può formare in quel modo. In somma ha bisogno di una pagina per formre un quadro o
@@ -2187,7 +2454,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <persName ref="#Dante">Dante</persName> è nel dipingere, quello com’è <persName
                     ref="#Ovidio">Ovidio</persName>. La dicitura non ha altro pregio che una
                 purgatezza competente, senz’ombra di proprietà nè d’effi<pb xml:id="p_28" n="28"
-                />cacia; <del hand="#penna_?">e</del> nè anche ha quegli ardiri, spessissimo
+                /><lb n="[28]"/>cacia; <del hand="#penna_?">e</del> nè anche ha quegli ardiri, spessissimo
                 infelici, ma pure alle volte felici del <persName ref="#Chiabrera">
                     Chiabrera</persName>, nè l’oscurità nè veruno di quei difetti, che comunque tali
                 pur paiono aver che fare colla lirica ed esser quasi naturali a un vero lirico, sì
@@ -2251,25 +2518,27 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 di Toscana: Rade volte addivien, ch’altrui sublimi od altro onor senza contrasti,
                 Rade volte addivien ch’all’alte imprese Fortuna ingiuriosa non contrasti: <persName
                     ref="#Petrarca">Petrarca</persName> Spirto Gentil ec.) e altrove. </p>
-            <p xml:id="p28_4" n="28.4" hand="#penna_?"> Dei quattro lirici ch’io ho mentovati di
-                sopra oltre il <persName ref="#Manfredi">Manfredi</persName> e il <persName
-                    ref="#Zappi">Zappi</persName> che sono di un’altra classe, mentre questi
-                appartengono a quella de’ Pindarici e Alcaici e Simonidei ed Oraziani, ossia Eroici
-                e Morali principalmente, io do il primo luogo al <persName ref="#Chiabrera"
-                    >Chiabrera</persName>, il secondo al <persName ref="#Testi">Testi</persName> de’
-                quali se avessero avuto più studio e più fino gusto, e <del hand="#penna_?"
-                    >più</del> giudizio più squisito quegli avrebbe potuto essere effettivamente il
-                    <persName ref="#Pindaro">Pindaro</persName>, e questi <choice>
-                    <abbr>effettivam.</abbr>
-                    <expan>effettivamente</expan>
-                </choice> l’<persName ref="#Orazio">Orazio</persName> italiano. Fra <del
-                    hand="#penna_?">il Guidi e</del> il <persName ref="#Filicaia"
-                    >Filicaia</persName> e il <persName ref="#Guidi">Guidi</persName> non so a chi
-                dare la preferenza; mi basta che tutti sieno gli ultimi e a gran distanza dagli
-                altri due, mentre, secondo me, quando anche fossero stati in tempi migliori non
-                aveano elementi di lirici più che mediocri anzi forse non si sarebbero levati a
-                quella fama ch’ebbero e in parte hanno. </p>
-            <pb xml:id="p_29" n="29"/>
+            <p xml:id="p28_4" n="28.4" hand="#penna_?">
+                <seg source="#Epistolario_19_2_1818">Dei quattro lirici ch’io ho mentovati di sopra
+                    oltre il <persName ref="#Manfredi">Manfredi</persName> e il <persName
+                        ref="#Zappi">Zappi</persName> che sono di un’altra classe, mentre questi
+                    appartengono a quella de’ Pindarici e Alcaici e Simonidei ed Oraziani, ossia
+                    Eroici e Morali principalmente, io do il primo luogo al <persName
+                        ref="#Chiabrera">Chiabrera</persName>, il secondo al <persName ref="#Testi"
+                        >Testi</persName> de’ quali se avessero avuto più studio e più fino gusto, e
+                        <del hand="#penna_?">più</del> giudizio più squisito quegli avrebbe potuto
+                    essere effettivamente il <persName ref="#Pindaro">Pindaro</persName>, e questi <choice>
+                        <abbr>effettivam.</abbr>
+                        <expan>effettivamente</expan>
+                    </choice> l’<persName ref="#Orazio">Orazio</persName> italiano. Fra <del
+                        hand="#penna_?">il Guidi e</del> il <persName ref="#Filicaia"
+                        >Filicaia</persName> e il <persName ref="#Guidi">Guidi</persName> non so a
+                    chi dare la preferenza; mi basta che tutti sieno gli ultimi e a gran distanza
+                    dagli altri due, mentre, secondo me, quando anche fossero stati in tempi
+                    migliori non aveano elementi di lirici più che mediocri anzi forse non si
+                    sarebbero levati a quella fama ch’ebbero e in parte hanno.</seg>
+            </p>
+            <pb xml:id="p_29" n="29"/><lb n="[29]"/>
             <p xml:id="p29_1" n="29.1" hand="#penna_?"> Tutto è o può esser contento di se stesso
                 eccetto l’uomo, il che mostra che la sua esistenza non si limita a questo mondo,
                 come quella dell’altre cose. </p>
@@ -2281,7 +2550,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         passa lo ragazzo tua,<lb/> E porta un canestrello pieno d’ova<lb/> Mantato
                         colle pampane dell’uva.<lb/> I contadì fatica e mai non lenta<lb/> E’l
                         miglior pasto sua è la polenta.<lb/> È già venuta l’ora di partire<lb/> In
-                        santa pace vi voglio lasciare.</l>
+                        santa pace vi voglio lasciare.</l><lb/>
                 </lg>
                 <add hand="#Penna_4-18">
                     <lg>
@@ -2298,11 +2567,22 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <l>Una volta mi voglio arrischiare<lb/> Nella camera tua voglio venire. </l>
                     </lg> (<date when="1820-05">Maggio 1820</date>)</add>
             </p>
-            <p xml:id="p29_4" n="29.4" hand="#penna_?"> Ottimamente il <persName ref="#Paciaudi"
-                    >Paciaudi</persName> come riferisce e loda l’<persName ref="#Alfieri">
-                    Alfieri</persName> nella sua propria Vita, chiamava la prosa la <hi
-                    rend="underline"> nutrice del verso</hi>, giacchè uno che per far versi si
-                nutrisse solamente di versi sarebbe come chi si cibasse di solo grasso per
+            <p xml:id="p29_4" n="29.4" hand="#penna_?">
+                <quote source="#Vita_Alfieri2">Ottimamente il <persName ref="#Paciaudi"
+                        >Paciaudi</persName> come riferisce e loda l’<persName ref="#Alfieri">
+                        Alfieri</persName> nella sua propria Vita, chiamava la prosa la <hi
+                        rend="underline"> nutrice del verso</hi>
+                    <bibl>
+                        <author ref="#Alfieri">Vittorio Alfieri</author>
+                        <title ref="#Vita_Alfieri">Vita di Vittorio Alfieri da Asti scritta da
+                            esso</title>
+                        <citedRange>epoca IV, cap. 1</citedRange>
+                    <q>
+                    <quote>L'ottimo Paciaudi mi raccomandava frattanto di non trascurare nelle mie
+                        laboriose letture la prosa, ch'egli dottamente denominava la nutrice del
+                        verso.</quote></q></bibl>
+                </quote>, giacchè uno che per far
+                versi si nutrisse solamente di versi sarebbe come chi si cibasse di solo grasso per
                 ingrassare, quando il grasso degli animali è <del hand="#penna_?">il</del>
                 <add hand="#penna_?">la cosa</add> meno att<del hand="#penna_?">o</del><add
                     hand="#penna_?">a</add> a <del hand="#penna_?">prendere</del>
@@ -2326,13 +2606,14 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 principio dimorò sospeso e incerto di partire o di restare, di guardare o di torcere
                 il viso, e finalmente avendo vinto la curiosità, e veduto stramazzare il bue, si
                 mise a piangere dirottamente. L’ho udito da un testimonio di vista. </p>
-            <p xml:id="p29_7" n="29.7" hand="#penna_?"> Chi mi chiedesse <del hand="#penna_?"
-                    >chi</del>
-                <add hand="#penna_?">qual</add> sia secondo me il più eloquente pezzo italiano,
-                direi le due <del hand="#penna_?">odi de&lt;l&gt;</del> canzoni del <persName
-                    ref="#Petrarca">Petrarca</persName> Spirto gentil ec. e Italia mia ec. se
-                concedessi qualche cosa al <persName ref="#Tasso">Tasso</persName> ch’era in verità
-                eloquente, e principalmente parlando di se stesso, ed eccetto il <persName
+            <p xml:id="p29_7" n="29.7" hand="#penna_?">
+                <seg source="#Diciannovefebbraio1819">Chi mi chiedesse <del hand="#penna_?"
+                        >chi</del>
+                    <add hand="#penna_?">qual</add> sia secondo me il più eloquente pezzo italiano,
+                    direi le due <del hand="#penna_?">odi de&lt;l&gt;</del> canzoni del <persName
+                        ref="#Petrarca">Petrarca</persName> Spirto gentil ec. e Italia mia ec.</seg>
+                se concedessi qualche cosa al <persName ref="#Tasso">Tasso</persName> ch’era in
+                verità eloquente, e principalmente parlando di se stesso, ed eccetto il <persName
                     ref="#Petrarca">Petrarca</persName>, è il solo <add hand="#penna_?">italiano <choice>
                         <abbr>veram.</abbr>
                         <expan>veramente </expan>
@@ -2350,7 +2631,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 cuore. Onde quello che si dice della utilità derivante agli scrittori dal trattare
                 materie presenti, a miglior dritto si dee dire del parlare di se stesso comunque
                 paia a prima vista che il parlar di se non debba interessar gran fatto gli udi<pb
-                    xml:id="p_30" n="30"/>tori, cosa falsissima: e si veda nel migliore e più
+                    xml:id="p_30" n="30"/><lb n="[30]"/>tori, cosa falsissima: e si veda nel migliore e più
                 celebre pezzo del <persName ref="#Bousset">Bousset</persName>, quello in fine dell’<choice>
                     <abbr>Oraz.</abbr>
                     <expan>Orazione</expan>
@@ -2389,7 +2670,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <abbr>annacquatam.</abbr>
                     <expan>annacquatamente</expan>
                 </choice> è buona pel matematico e per le scienze; nulla per l’<choice>
-                    <abbr>immagina.</abbr>
+                    <abbr>immaginaz.</abbr>
                     <expan>immaginazione</expan>
                 </choice> la quale è la vera provincia della lingua italiana: dove però è chiaro che
                 l’efficacia non toglie la precisione anzi l<del>a</del><add>’</add>accresce, <hi
@@ -2431,7 +2712,85 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 che fanno in noi le odi di Anacreonte non so trovare similitudine ed esempio più
                 adatto di un <lb/>(1) <seg source="#Zib_3441">Vedi a questo proposito la
                     pag.3441</seg>
-                <pb xml:id="p_31" n="31"/></p>
+                <pb xml:id="p_31" n="31"/><lb n="[31]"/> alito passeggero di venticello fresco nell’estate
+                odorifero e ricreante, che tutto in un momento vi ristora in certo modo e v’apre
+                come il respiro e il cuore con una certa allegria, ma prima che voi possiate
+                appagarvi pienamente di quel piacere, ovvero analizzarne la qualità, e distinguere
+                perchè vi sentiate così refrigerato già quello spiro è passato, conforme appunto
+                avviene in <persName ref="#Anacreonte">Anacreonte</persName>, che e quella
+                sensazione indefinibile è quasi istantanea, e se volete analizzarla vi sfugge, non
+                la sentite più, tornate a leggere, vi restano in mano le parole <del>e qu</del> sole
+                e secche, quell’arietta per così dire, è fuggita, e appena vi potete ricordare in
+                confuso la sensazione che v’hanno prodotta un momento fa quelle stesse parole che
+                avete sotto gli occhi. <add>Questa sensazione mi è parso di sentirla, leggendo
+                    (oltre <persName ref="#Anacreonte">Anacreonte</persName>) il solo <persName
+                        ref="#Zappi">Zappi</persName>.</add>
+            </p>
+            <p xml:id="p31_1" n="31.1"> Il gusto presente per la filosofia non si dee stimare
+                passeggero nè casuale, come fu varie volte anticamente p. e. appresso i Greci al
+                tempo di <persName ref="#Platone">Platone</persName>
+                <del>o <persName ref="#Socrate">Socrate</persName></del>
+                <add>dopo <persName ref="#Socrate">Socrate</persName></add>, e appresso i Romani in
+                altri tempi ancora, ma fra i nobili e gli scioli come <choice>
+                    <abbr>presentem.</abbr>
+                    <expan>presentemente</expan>
+                </choice> al tempo di <persName ref="#Luciano">Luciano</persName>, quando
+                    <del>la</del> mantenevano il filosofo come <del>persona di</del>
+                <add>ingrediente</add> di corte e di famiglia illustre, e si trattenevano benchè
+                scioccam. con lui ec. V. <persName ref="#Luciano">Luciano</persName> fra le altre <choice>
+                    <abbr>op.</abbr>
+                    <expan>opere</expan>
+                </choice> nel trattato <q>De mercede conductis</q>. In questi tali tempi era effetto
+                di moda, e non avendo il suo principio radicale nello stato dei popoli poteva
+                passare e passava come ogni altra moda, sicch’era cosa accidentale che sopravvenisse
+                questo gusto piuttosto che un altro<del>, ma</del>
+                <add>. Ma</add> presentemente il commercio scambievole dei popoli, la stampa ec. e
+                tutto quello che ha tanto avanzato l’incivilimento cagiona questo amore dei lumi e <choice>
+                    <abbr>p.</abbr>
+                    <expan>per</expan>
+                </choice>
+                <choice>
+                    <abbr>conseg.</abbr>
+                    <expan>conseguenza</expan>
+                </choice> della filosofia, e questo gusto filosofico che si manifesta nelle opere
+                più alla moda <del>le</del>
+                <add>e</add> quello spirito senza il quale si può dire che nessun <choice>
+                    <abbr>op.</abbr>
+                    <expan>opera</expan>
+                </choice> moderna incontra: onde questo gusto avendo la sua ferma radice nella <choice>
+                    <abbr>condiz.</abbr>
+                    <expan>condizione</expan>
+                </choice> presente dei popoli si dee stimare durevole e non casuale nè passeggero e
+                molto differente da una moda. </p>
+            <p xml:id="p31_2" n="31.2"> La prosa per esser veramente bella (conforme era quella
+                degli antichi) e conservare quella morbidezza e pastosità <del>che</del>
+                <add> composta anche fra le altre cose di</add>
+                <del>e</del> nobiltà <del>insegue</del> e dignità, che comparisce in tutte le prose
+                antiche e in quasi nessuna moderna, bisogna che abbia sempre qualche cosa del
+                poetico, non già qualche cosa particolare, ma una mezza tinta generale, onde ci sono
+                certe espressioni tecniche p.e. che essendo <choice>
+                    <abbr>bassiss.</abbr>
+                    <expan>bassissime</expan>
+                </choice> nella poesia sono basse nella prosa; (giacchè qui non parlo di quelle
+                    <del>cose</del> che son basse e plebee <choice>
+                    <abbr>assolutam.</abbr>
+                    <expan>assolutamente</expan>
+                </choice> le quali anche talvolta sconverranno meno alla buona prosa di quelle ch’io
+                dico qui) come altre che sono basse nella poesia, alla prosa non disconvengono
+                affatto: p. e. quei versi del Voltaire: <quote xml:lang="french">Je chante le héros
+                    qui régna sur la France Et par droit de conquête, et par droit de
+                    naissance</quote>. Quel tecnicismo pessimo in questi versi, non disdice in
+                prosa. Da questo ch’io ho detto si vede quanto debba diventare come infatti diventa
+                    <add>geometrica</add> arida sparuta dura, asciutta ossuta, e dirò così,
+                somigliante a una persona magra che abbia le punte dell’ossa tutte in fuori, quella
+                prosa tutta sparsa d’espressioni metafore frasi locuzioni modi
+                    <del>metonim&lt;ici&gt;</del> tecnici che usa <choice>
+                    <abbr>presentem.</abbr>
+                    <expan>presentemente</expan>
+                </choice> massime in Francia, e quanto lontana da quella freschezza e carnosità
+                morbida sana vermiglia <add>vegeta</add> florida, e da <add>quella pieghevolezza e
+                    da</add> quella dignità che s’ammira in tutte quelle prose che sanno d’antico.
+            </p>
         </body>
         <back>
             <!-- SOURCES DIV -->
@@ -2486,6 +2845,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <quote> L'anima nostra, che ama di essere sempre in azione e in movimento,
                         niente più aborre che la noia </quote>
                 </cit>
+
                 <cit xml:id="Algarotti_Muret">
                     <bibl>
                         <title ref="#Opere_Algarotti">Opere</title>
@@ -2672,7 +3032,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <cit xml:id="Vita_Alfieri1">
                     <bibl>
                         <author ref="#Alfieri">Vittorio Alfieri</author>
-                        <title ref="Vita_Alfieri">Vita</title>
+                        <title ref="Vita_Alfieri">Vita di Vittorio Alfieri da Asti scritta da
+                            esso</title>
                         <citedRange>Vol. II, epoca IV, cap.6, p.47</citedRange>
                     </bibl>
                     <quote>non dubitai punto, ciò visto, di lavorare con la maggior pertinacia ed
@@ -2744,6 +3105,33 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         un'immagine più sublime dell'Onnipotenza, che quella di crollar l'Olimpo con
                         l'accennar del capo, e di scagliar la folgore dall'alto di Ato, e di Rodope,
                         e coll'orribile scoppio riempir di spavento i cuori de' mortali</quote>
+                </cit>
+                <cit xml:id="Gravina_Poetica">
+                    <bibl>
+                        <author ref="#Gravina">Gianvincenzo Gravina</author>
+                        <title ref="#Ragion_Poetica">Della ragion poetica</title>
+                        <citedRange>I, 2, p. 9</citedRange>
+                    </bibl>
+                    <quote>Or la poesia, colla rappresentazion viva, e colla sembianza, ed efficace
+                        similitudine del vero, circonda d'ogn'intorno la fantasia nostra, poesia. e
+                        tien da lei discosto l'immagini delle cose contrarie e che confutano la
+                        realtà di quello, che dal Poeta s'esprime. Onde ci dispone verso il finto,
+                        nel modo come fogliamo essere disposti verso il vero. E perchè i moti
+                        dell’animo nostro non corrispondono all'intero delle cose, e non esprimono
+                        l'intrinseco esser loro ; ma corrispondono all' impressione, che dalle cose
+                        si fa dentro la fantasia, ed esprimono le vestigia da i corpi esterni in
+                        essa segnate; chi con altri strumenti, che con le cose reali medesime, desta
+                        in noi l’istesse immagini già dalle cose reali impresse, e spinge
+                        l'immaginazione nostra secondo il corso, e tenore de i corpi esterni;
+                        ecciterà gli affetti simili a quelli, che son destati dalle cose vere,
+                        siccome avviene ne’ sogni. Quindi è che il Poeta, per mezzo delle immagini
+                        esprimenti il naturale, e della rappresentazion viva, è somigliante alla
+                        vera esistenza; e natura delle cose immaginate, commove , ed agita la
+                        fantasia nel modo , che fanno gli oggetti reali, e produce dentro di noi gli
+                        effetti medesimi, che si destano da i veri successi: perchè gli affetti son
+                        tratti dietro la fantasia in un medesimo corso, e s'aggirano al pari
+                        dell'immaginazione , alzandosi , ed inchinandosi secondo il moto; è quiete
+                        di essa, siccome l'onde per l'impeto, o posa de' venti.</quote>
                 </cit>
                 <cit xml:id="Poetica1">
                     <bibl>
@@ -2865,6 +3253,39 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         scriverne un Trattato ex professo: poichè queste (siccome io giudico) e
                         d’ogni genere di dire, e dello stesso SUBLIME tengono parte certamente non
                         piccola.</quote>
+                </cit>
+                <cit xml:id="Spettatore_47">
+                    <bibl>
+                        <author ref="#Breme">Ludovico di Breme</author>
+                        <title> </title>
+                    </bibl>
+                    <quote>si ricordasse perciò l'uomo ch'io invoco, i primi poeti del mondo essere
+                        state le più generose anime, Gente Divina, Figli del Cielo, Spiriti
+                        Fatidici. Veggenti, Vati, i primi che ardirono far parola all'uomo di
+                        fortezza, di gloriosa morte, di comun bene, di annegazione della volontà,
+                        d'innalzamento sopra l'istinto.</quote>
+                </cit>
+                <cit xml:id="Gravina_Maffei">
+                    <bibl>
+                        <author ref="#Gravina">Gianvincenzo Gravina</author>
+                        <title>De poesi, ad Scipionem Maffeium epistola</title>
+                    </bibl>
+                    <quote><foreign xml:lang="lat">Chiabrera vero, esti eruditionis et judicii
+                            novorumque luminum haberet satis, tamen suamet copia mersus amisit
+                            limam, delectumque neglexit rerum, et linguae cultum, ut novitate sua
+                            nihil tamen veteribus Petrarchae imitatoribus dederit
+                            invidendum</foreign></quote>
+                </cit>
+                <cit xml:id="Vita_Alfieri2">
+                    <bibl>
+                        <author ref="#Alfieri">Vittorio Alfieri</author>
+                        <title ref="#Vita_Alfieri">Vita di Vittorio Alfieri da Asti scritta da
+                            esso</title>
+                        <citedRange>epoca IV, cap. 1</citedRange>
+                    </bibl>
+                    <quote>L'ottimo Paciaudi mi raccomandava frattanto di non trascurare nelle mie
+                        laboriose letture la prosa, ch'egli dottamente denominava la nutrice del
+                        verso.</quote>
                 </cit>
 
             </div>
@@ -2997,11 +3418,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <quote> Spesse volte il caso ha renduto espressivissima una parola che parrebbe
                         perciò originale e derivata dalla cosa, mentre non è che una pura figlia
                         d’etimologia. P. e. nausea quella parola sì espressiva presso i latini e
-                        gl’italiani (v. questi pensieri <ref source="#p12_2">p. 12.</ref>) deriva
-                        dal greco ναῦς nave, onde ναυτία, ionicamente ναυσία, e in latino nausea
-                        perch’ella suole accadere ai naviganti. </quote>
+                        gl’italiani (v. questi pensieri <quote source="#p12_2">p. 12.</quote>)
+                        deriva dal greco ναῦς nave, onde ναυτία, ionicamente ναυσία, e in latino
+                        nausea perch’ella suole accadere ai naviganti. </quote>
                 </cit>
-                <cit xml:id="Zib_15">
+                <cit xml:id="Zib_15" corresp="#p_15">
                     <bibl>
                         <title ref="#Zib">Zibaldone di pensieri</title>
                         <citedRange corresp="#Zib">Zib. 15</citedRange>
@@ -3114,6 +3535,35 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <date notBefore="1818" notAfter="1819"> 1818-1819 </date>
                     </bibl>
                     <quote>Kempis, luna viaggiatrice.</quote>
+                </cit>
+                <cit xml:id="Diciannovefebbraio1819">
+                    <bibl>
+                        <title ref="#Epistolario"> Ep (19 febbraio 1819)</title>
+                        <citedRange corresp="#Epistolario"> Lettera a Giordani, 19 febbraio 1819, p.
+                            ? </citedRange>
+                        <date when="1819-02-19"> 19 febbraio 1819 </date>
+                    </bibl>
+                    <quote>Quanto alla lirica, io dopo essermi annoiato parecchi giorni colla
+                        lettura de' nostri lirici più famosi, mi sono certificato coll'esperienza di
+                        quello che parve al Parini, e pare a voi, secondo che mi diceste a voce, e
+                        credo che oramai sia divenuta sentenza comune, se non altro, degli
+                        intelligenti, che anche questo genere capitalissimo di componimento abbia
+                        tuttavia da nascere in Italia, e convenga crearlo. Ma fra i quattro
+                        principali che sono il Chiabrera il Testi il Filicaia il Guidi, io metto
+                        questi due molto ma molto sotto i due primi; e nominatamente del Guidi mi
+                        maraviglio come abbia potuto venire in tanta fama che anche presentemente si
+                        ristampi con diligenza e più volte. E perchè il Chiabrera con molti
+                        bellissimi pezzi, non ha solamente un'Ode che si possa lodare per ogni
+                        parte, anzi in gran parte non vada biasimata, perciò non dubito di dar la
+                        palma al Testi; il quale giudico che se fosse venuto in età meno barbara, e
+                        avesse avuto agio di coltivare l'ingegno suo più che non fece, sarebbe stato
+                        senza controversia il nostro Orazio, e forse più caldo e veemente e sublime
+                        del latino. Ma non è maraviglia che l'Italia non abbia lirica, non avendo
+                        eloquenza, la quale è necessaria alla lirica a segno che se alcuno
+                        m'interrogasse qual composizione mi paia la più eloquente fra le italiane,
+                        risponderei senza indugiare, le sole composizioni liriche italiane che si
+                        meritino questo nome, cioè le tre Canzoni del Petrarca, <q>O aspettata</q>,
+                            <q>Spirto gentil</q>, <q>Italia mia</q>.</quote>
                 </cit>
             </div>
         </back>
