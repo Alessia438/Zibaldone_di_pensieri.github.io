@@ -19,7 +19,7 @@
 /*                                                                   */
 
 /* ***************************************************************** */
-.hi {text-align:center !important;}
+.hi {display:block !important;}
 
 
 /* creazione dello stile per le tabelle*/
