@@ -19,7 +19,10 @@
 /*                                                                   */
 
 /* ***************************************************************** */
-.hi {display:block !important;}
+/* .hi {display:block !important;}*/
+div#mainContentToTranform .hi {
+    text-align: center;
+}
 
 
 /* creazione dello stile per le tabelle*/
