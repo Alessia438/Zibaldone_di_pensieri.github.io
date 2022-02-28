@@ -557,6 +557,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
     </teiHeader>
     <text n="Zibaldone di Pensieri" xml:id="Zib">
         <body>
+            <div n="Zibaldone di pensieri" type="proemio" xml:id="Zibaldonedipensieri">
             <pb n="1" xml:id="p_1"/> <lb n="1"/>
             <p xml:id="p1_1" n="1.1" hand="#penna_A"> Palazzo bello. Cane di notte dal casolare, al
                 passar del viandante. <lb/>
@@ -2843,7 +2844,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 </choice> massime in Francia, e quanto lontana da quella freschezza e carnosità
                 morbida sana vermiglia <add>vegeta</add> florida, e da <add>quella pieghevolezza e
                     da</add> quella dignità che s’ammira in tutte quelle prose che sanno d’antico.
-            </p>
+                </p> </div>
         </body>
         <back>
             <!-- SOURCES DIV -->
