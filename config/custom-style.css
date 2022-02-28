@@ -21,10 +21,13 @@
 /* ***************************************************************** */
 /* .hi {display:block !important;}*/
 .hi {
-    text-align: center;
+    text-align: center !important;
 }
 .p .hi {
-    display: grid;
+    display: grid !important;
+}
+.p {
+    text-align: justify !important;
 }
 
 
