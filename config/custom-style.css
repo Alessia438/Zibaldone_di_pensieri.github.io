@@ -29,6 +29,9 @@
 .p {
     text-align: justify !important;
 }
+div#mainContentToTranform {
+    text-align: justify;
+}
 
 
 /* creazione dello stile per le tabelle*/
