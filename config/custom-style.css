@@ -20,8 +20,11 @@
 
 /* ***************************************************************** */
 /* .hi {display:block !important;}*/
-div#mainContentToTranform .hi {
+.hi {
     text-align: center;
+}
+.p .hi {
+    display: grid;
 }
 
 
