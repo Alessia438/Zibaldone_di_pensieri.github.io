@@ -34,8 +34,8 @@ div#mainContentToTranform {
 }
 
 
-.criticalEdition .orig {display: none !importan;}
-.diplomaticEdition .corr {display: none !importan;}
+.criticalEdition .orig {display: none !important;}
+.diplomaticEdition .corr {display: none !important;}
 
 
 /* creazione dello stile per le tabelle*/
