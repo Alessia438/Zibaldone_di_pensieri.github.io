@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model
 href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
@@ -2761,7 +2762,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
             <p xml:id="p30_3" n="30.3">Io (1) per esprimere l’effetto <del>che</del> indefinibile
                 che fanno in noi le odi di Anacreonte non so trovare similitudine ed esempio più
                 adatto di un <add place="bottom">(1) <seg source="#Zib_3441">Vedi a questo proposito la
-                pag.3441</add></seg>
+                pag.3441</seg></add>
                 <pb xml:id="p_31" n="31"/><lb n="[31]"/> alito passeggero di venticello fresco nell’estate
                 odorifero e ricreante, che tutto in un momento vi ristora in certo modo e v’apre
                 come il respiro e il cuore con una certa allegria, ma prima che voi possiate
@@ -3660,3 +3661,4 @@ incompatibili colla natura di detto effetto e carattere. (16. Sett. 1823.).
         </back>
     </text>
 </TEI>
+
