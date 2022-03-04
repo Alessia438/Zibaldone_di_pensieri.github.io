@@ -659,25 +659,22 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che
                 fa il diletto delle belle <del hand="#penna_D">,</del>
                 <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che
-                dovrebbe come <add hand="#penna_D">h</add>
-                <!--  Sovrascritto a ?  -->
-                <del hand="#penna_D">lo</del>
-                <del hand="#penna_D">quello ch</del> o detto più piacere il maggior bello, e così
+                dovrebbe come  <del>i</del><add>h</add>o detto più piacere <del>lo</del> <del>quello ch</del>il maggior bello, e così
                 più piacere la descrizione di un bel mondo ideale che del <choice>
                     <abbr>nŕo</abbr>
                     <expan>nostro</expan>
-                </choice>. <quote source="#Parini_Discorso"> E che non sia il solo bello naturale lo scopo delle B.A. vedesi
-                    in tutti i poeti specialmente in <persName ref="#Omero">Omero</persName> ,
+                </choice>. <quote source="#Parini_Discorso"> E che non sia il solo bello naturale lo scopo delle <choice><abbr>B.A.</abbr><expan>Belle Arti</expan></choice> vedesi
+                in <del>mol</del><add>tutti</add> i poeti specialmente in <persName ref="#Omero">Omero</persName> ,
                     perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello
                     naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto
-                    Achille infinitamente men bello di quello che potea farlo, e così gli Dei ec. e
+                Achille infinitamente men bello <del>che non si</del><add>di quello</add> che potea farlo, e così gli Dei ec. e
                     sarebbe maggior poeta <persName ref="#Anacreonte">Anacreonte</persName> che
                         <persName ref="#Omero">Omero</persName> ec. e noi proviamo che ci piace più
                     Achille che Enea ec. onde è falso anche che quello di <persName ref="#Virgilio"
                         >Virgilio</persName> sia maggior poema ec. Passioni morti tempeste ec.
                     piacciono egregiamente benchè sian brutte per questo solo che son bene imitate,
-                    e se è vero quel che dice il <persName ref="#Parini">Parini</persName> nella
-                    Oraz. della poesia, <quote> perchè l'uomo niente tanto odia quanto la noia, e
+                e se è vero quel <del>dice</del> che dice il <persName ref="#Parini">Parini</persName> nella
+                <choice><abbr>Oraz.</abbr><expan>Orazione</expan></choice> della poesia, <quote> perchè l'uomo niente tanto odia quanto la noia, e
                         però gli piace di veder qualche novità ancorchè brutta. <bibl>
                             <author ref="#Parini">Parini</author>
                             <title ref="#Discorso">Discorso sopra la poesia</title>
@@ -688,8 +685,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             niente più aborre che la noia" </quote></q>
                         </bibl>
                     </quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera
-                    quistion di nome il contrastar se questa sia poesia. Basta che tutti la
-                    intendono per poesia <persName ref="#Aristotele">Aristot.</persName> e <persName
+                quistion di nome il contrastar se questa <add>sia</add> poesia. Basta che tutti la
+                intendono per poesia <persName ref="#Aristotele"><choice><abbr>Aristot.</abbr><expan>Aristotele</expan></choice></persName> e <persName
                         ref="Orazio">Orazio</persName> singolarmente e che io dicendo poesia intendo
                     anche questi generi. <bibl>
                         <author ref="#Dati">Carlo Roberto Dati</author>
