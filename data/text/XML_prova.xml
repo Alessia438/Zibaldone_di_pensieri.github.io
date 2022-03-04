@@ -1264,8 +1264,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 dei sali, umori, grasso ec. restano tanti
                 cap<del>i</del><add>o</add><del>m</del>morti. <add hand="#penna_p_95">
                     <seg source="#Zib_95">(capogatti ec. non capigatti) V. questi pensieri p.
-                                95.<bibl><author ref="#G.L.">Giacomo Leopardi</author><title
-                                ref="#Zib">Zibaldone di Pensieri</title></bibl></seg></add></p>
+                                95.</seg></add></p>
 
             <p xml:id="p12_3" n="12.3" hand="#penna_G">Un’osservazione importantissima intorno alle
                 traduzioni, e che non so se altri abbia fatta, e di cui non ho in mente alcuno che
