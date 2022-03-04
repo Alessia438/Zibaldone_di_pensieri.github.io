@@ -2292,8 +2292,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 come Canz. Eroica 14. dice dell’armi di Toscana: <quote source="#Chiabrera14"
                     /><l>Elle non tra i confin del patrio lito</l>
                 <l>Quasi belve in covili,</l><l> Ma fero udir gentili</l>
-                <l>Per le strane foreste aspro ruggito.</l> Canz. Eroica 41.chiama le vele: <quote
-                    source="#Chiabrera41"><hi rend="underline">le tessute penne</hi></quote>; (se
+                <l>Per le strane foreste aspro ruggito.</l> Canz. Eroica 41.chiama le vele: <hi rend="underline"><quote
+                    source="#Chiabrera41">le tessute penne</quote></hi>; (se
                 ben quella del ruggito si potrebbe difendere colla <choice>
                     <abbr>similitud.</abbr>
                     <expan>similitudine</expan>
@@ -2446,23 +2446,45 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 nella sua vita che quantunque paia come il <persName ref="#Chiabrera"
                     >Chiabrera</persName>, aver bevuto ai fonti greci, <hi rend="underline"
                     >nondimeno molto sembra aver preso dall’ebraico; talchè la sua apparenza ha
-                        assai più del Profetico che del Pinda<pb xml:id="p_27" n="27"/><lb n="[27]"/>rico</hi> e soggiunge
-                che in un certo libro si dice di lui che <hi rend="underline">da alcune forme di
-                        <persName ref="#Dante">Dante</persName>, e dal <persName ref="#Chiabrera"
-                        >Chiabrera</persName> accoppiate con certi modi delle Orientali favelle ha
-                    preso il suo stile</hi>. E aggiunge egli <add hand="#penna_?">subito:</add>
-                <hi rend="underline"> E questa senza fallo è la cagione, per la quale vien dato al
-                    carattere del <persName ref="#Guidi">Guidi </persName> il pregio di nuovo nel
-                    nostro idioma.</hi> E finalmente riferisce l’intenzione dello stesso <persName
-                    ref="#Guidi">Guidi </persName>, intesa dalla di lui stessa bocca da esso
-                    <persName ref="#Crescimbeni">Crescimbeni</persName>, e massime rispetto alla <choice>
-                    <abbr>traduz.</abbr>
-                    <expan>traduzione</expan>
-                </choice> delle sei omelie che il <persName ref="#Guidi">Guidi </persName> fece per
-                lasciare <hi rend="underline">a’ posteri almeno in ombra l’imitaz. totale</hi> del
-                carattere profetico <hi rend="underline">anche rispetto agli argomenti; cioè un
-                    genere di Poesia sacra, che si vedesse trattata col gusto Davidico, e con
-                    l’entusiasmo dei profeti.</hi>
+                        assai più del Profetico che del Pinda<pb xml:id="p_27" n="27"/><lb n="[27]"/>rico</hi> <quote source="#Maffei_Migliori_Poeti">in un certo
+                            libro si dice di lui che <hi rend="underline">da alcune forme di <persName
+                                ref="#Dante">Dante</persName>, e dal <persName ref="#Chiabrera"
+                                    >Chiabrera</persName> accoppiate con certi modi delle Orientali favelle
+                                ha preso il suo stile</hi>. E aggiunge egli <add hand="#penna_?"
+                                    >subito:</add>
+                            <hi rend="underline"> E questa senza fallo è la cagione, per la quale vien dato
+                                al carattere del <persName ref="#Guidi">Guidi </persName> il pregio di nuovo
+                                nel nostro idioma.</hi> E finalmente riferisce l’intenzione dello stesso
+                            <persName ref="#Guidi">Guidi </persName>, intesa dalla di lui stessa bocca
+                            da esso <persName ref="#Crescimbeni">Crescimbeni</persName>, e massime rispetto
+                            alla <choice>
+                                <abbr>traduz.</abbr>
+                                <expan>traduzione</expan>
+                            </choice> delle sei omelie che il <persName ref="#Guidi">Guidi </persName> fece
+                            per lasciare <hi rend="underline">a’ posteri almeno in ombra l’imitaz.
+                                totale</hi> del carattere profetico <hi rend="underline">anche rispetto agli
+                                    argomenti; cioè un genere di Poesia sacra, che si vedesse trattata col gusto
+                                    Davidico, e con l’entusiasmo dei profeti.</hi>
+                            <bibl>
+                                <author ref="#Maffei">Scipione Maffei</author>
+                                <title>De' migliori poeti italiani, in Rime e prose</title>
+                                <citedRange>p. 137</citedRange>
+                                <q>
+                                    <quote>Vero è, che siccome il suddetto [Guidi] da alcune forme di Dante
+                                        e del Chiabrera, accoppiate con certi modi delle Orientali favelle,
+                                        ha preso i semi di quel suo stile; così anche per la novità dee
+                                        necessariamente precedere un esatto studio degli universali Maestri.
+                                        E quindi senza fallo è la cagione, per la quale vien dato al
+                                        carattere del Guidi il pregio di nuovo nel nostro Idioma. Procurando
+                                        egli adunque di conformare il suo stile a quella altissima, e sempre
+                                        figurata, e sempre gagliarda, e sempre uguale maniera; così andava
+                                        investigando materia proporzionata, nella quale avesse potuto
+                                        lasciarne ai posteri almeno in ombra l'imitazione totale anche
+                                        rispetto agli argomenti; cioè un genere di Poesia sacra, che si
+                                        vedesse trattata col gusto Davidico, con l'entusiasmo de' Profeti.
+                                        Più volte intorno a ciò tenne egli meco lungo proposito, ed or
+                                        questo, or quel pensiero comunicommi; ma di niuno seppe mai
+                                        soddisfarsi</quote></q></bibl></quote>
             </p>
             <p xml:id="p27_1" n="27.1" hand="#penna_?"> Emulo impotente di <persName ref="#Pindaro"
                     >Pindaro</persName> il <persName ref="#Guidi">Guidi</persName> cercò la
@@ -2473,10 +2495,18 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 sfuggito benchè non affatto le seicenterie. Nudo intierissimamente d’affetto, in
                 verità non si può dire che abbia disuguaglianza perchè tutte quante le sue canzoni
                 sono coperte <add hand="#penna_?"> si può dire</add> ugualmente di uno strato di
-                perfetta e formale mediocrità, e freddezza. Io non so come si possa dire che abbia
-                trasportato <del hand="#penna_?">nella lingua</del> ne’ suoi versi il fuoco e
-                l’entusiasmo di <persName ref="#Pindaro">Pindaro</persName>, (così la Bibl. Ital.
-                num. 8. Bibliografia) quando io lette <hi rend="underline">tutte</hi> le sue canzoni
+                perfetta e formale mediocrità, e freddezza. <quote source="#Bib_It_III">Io non so
+                    come si possa dire che abbia trasportato <del hand="#penna_?">nella lingua</del>
+                    ne’ suoi versi il fuoco e l’entusiasmo di <persName ref="#Pindaro"
+                        >Pindaro</persName>, (così la Bibl. Ital. num. 8. Bibliografia) <bibl>
+                            <author>Anonimo</author>
+                            <title>recensione alle Poesie d'Alessandro Guidi</title>
+                            <citedRange>p. 374</citedRange>
+                            <q>
+                                <quote> se talvolta è minor di se stesso, è piùaltre mirabile e pieno
+                                    d'entusiasmo e di forza, tal che tra i pochi si annovera che hanno
+                                    saputo trasfondere nella italiana poesia l'estro e il fuoco di
+                                    Pindaro </quote></q></bibl></quote>quando io lette <hi rend="underline">tutte</hi> le sue canzoni
                 mi trovo come un marmo: e si vede bene ch’egli cerca di grandeggiare e d’innalzarsi,
                 ma <del hand="#penna_?">volle col suo furore</del> la sua grandezza nè si comunica
                 col lettore innalzandolo, nè lo percuote e stordisce, restando non dico <del
@@ -3226,6 +3256,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 <cit xml:id="Sublime1">
                     <bibl>
                         <author ref="#Longino">Pseudo Longino</author>
+                        <title>Del Sublime</title>
                         <editor>Antonfrancesco Gori</editor>
                     </bibl>
                     <quote>Ora in quanto a ciò che mi resta, o Terenziano carissimo, più non
@@ -3337,6 +3368,36 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <quote>L'ottimo Paciaudi mi raccomandava frattanto di non trascurare nelle mie
                         laboriose letture la prosa, ch'egli dottamente denominava la nutrice del
                         verso.</quote>
+                </cit>
+                <cit xml:id="Maffei_Migliori_Poeti">
+                    <bibl>
+                        <author ref="#Maffei">Scipione Maffei</author>
+                        <title>De' migliori poeti italiani, in Rime e prose</title>
+                        <citedRange>p. 137</citedRange>
+                    </bibl>
+                    <quote>Vero è, che siccome il suddetto [Guidi] da alcune forme di Dante e del
+                        Chiabrera, accoppiate con certi modi delle Orientali favelle, ha preso i
+                        semi di quel suo stile; così anche per la novità dee necessariamente
+                        precedere un esatto studio degli universali Maestri. E quindi senza fallo è
+                        la cagione, per la quale vien dato al carattere del Guidi il pregio di nuovo
+                        nel nostro Idioma. Procurando egli adunque di conformare il suo stile a
+                        quella altissima, e sempre figurata, e sempre gagliarda, e sempre uguale
+                        maniera; così andava investigando materia proporzionata, nella quale avesse
+                        potuto lasciarne ai posteri almeno in ombra l'imitazione totale anche
+                        rispetto agli argomenti; cioè un genere di Poesia sacra, che si vedesse
+                        trattata col gusto Davidico, con l'entusiasmo de' Profeti. Più volte intorno
+                        a ciò tenne egli meco lungo proposito, ed or questo, or quel pensiero
+                        comunicommi; ma di niuno seppe mai soddisfarsi</quote>
+                </cit>
+                <cit xml:id="Bib_It_III">
+                    <bibl>
+                        <author>Anonimo</author>
+                        <title>recensione alle Poesie d'Alessandro Guidi</title>
+                        <citedRange>p. 374</citedRange>
+                    </bibl>
+                    <quote> se talvolta è minor di se stesso, è piùaltre mirabile e pieno
+                        d'entusiasmo e di forza, tal che tra i pochi si annovera che hanno saputo
+                        trasfondere nella italiana poesia l'estro e il fuoco di Pindaro </quote>
                 </cit>
 
             </div>
