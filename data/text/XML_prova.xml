@@ -2760,8 +2760,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                 altra vocale muta che l’<hi rend="underline">e</hi>, nuova prova di quel ch’io dico. </p>
             <p xml:id="p30_3" n="30.3">Io (1) per esprimere l’effetto <del>che</del> indefinibile
                 che fanno in noi le odi di Anacreonte non so trovare similitudine ed esempio più
-                adatto di un <lb/>(1) <seg source="#Zib_3441">Vedi a questo proposito la
-                    pag.3441</seg>
+                adatto di un <add place="bottom">(1) <seg source="#Zib_3441">Vedi a questo proposito la
+                pag.3441</add></seg>
                 <pb xml:id="p_31" n="31"/><lb n="[31]"/> alito passeggero di venticello fresco nell’estate
                 odorifero e ricreante, che tutto in un momento vi ristora in certo modo e v’apre
                 come il respiro e il cuore con una certa allegria, ma prima che voi possiate
@@ -3615,6 +3615,47 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         meritino questo nome, cioè le tre Canzoni del Petrarca, <q>O aspettata</q>,
                             <q>Spirto gentil</q>, <q>Italia mia</q>.</quote>
                 </cit>
+                <cit xml:id="Zib_3441">
+<bibl><title ref="#Zib">Zibaldone di pensieri</title>
+<citedRange corresp="#Zib">Zib. 3441-43</citedRange><date when="1823-09-16">16 settembre 1823</date></bibl>
+
+<quote> Altrove ho rassomigliato il piacere che reca la lettura di Anacreonte
+(ed è nel principio di questi pensieria) a quello d’un’aura odorifera ec.
+Aggiungo che siccome questa sensazione lascia gran desiderio e scontentezza,
+e si vorrebbe richiamarla e non si può; così la lettura di Anacreonte; la
+quale lascia desiderosissimi, ma rinnovando la lettura, come per
+perfezionare il piacere (ch’egli par veramente bisognoso d’esser
+perfezionato, anche più che ispirar desiderio d’esser continuato), niun
+piacere si prova, anzi non si vede [3442] nè che cosa l’abbia prodotto
+da principio, nè che ragion ve ne possa essere, nè in che cosa esso sia
+consistito; e più si cerca, più s’esamina, più s’approfonda, men si trova e
+si scopre, anzi si perde di vista non pur la causa, ma la qualità stessa del
+piacer provato, chè volendo rimembrarlo, la memoria si confonde; e in somma
+pensando e cercando, sempre più si diviene incapaci di provar piacere alcuno
+di quelle odi, e risentirne quell’effetto che se n’è sentito; ed esse sempre
+più divengono quasi stoppa e s’inaridiscono e istecchiscono fra le mani che
+le tastano e palpano per ispecularle. Di qui si raccolga quanto sia
+possibile il tradurre in qualsiasi lingua Anacreonte (e così l’imitarlo
+appostatamente, e non a caso nè per natura, senza cercarlo), quando il
+traduttore non potrebbe neanche rileggerlo per ben conoscer la qualità
+dell’effetto ch’egli avesse a produrre colla sua traduzione; e più che lo
+rileggesse e considerasse, meno intenderebbe detta qualità, e più la
+perderebbe di vista; perocchè lo studio di Anacreonte è non pure inutile per
+imitarlo o per meglio [3443] gustarlo o per ben comprendere e per
+definire la proprietà dell’effetto e de’ sentimenti ch’esso produce, ma è
+piuttosto dannoso che utile; nè la detta proprietà si può definire
+altrimenti che chiamandola indefinibile, ed esprimendola nel modo ch’ho
+fatto io con quella similitudine ec. Nè certo alla prima lettura si può
+essere il traduttore, o l’imitatore, o verun altro, ben avveduto e chiarito
+e informato del proprio ed intero carattere di Anacreonte; dico chiarito, e
+compresolo in modo ch’ei possa esattamente e data opera esprimerlo, nè pur
+significarlo distintamente a se stesso, nè concepirne e formarne idea chiara
+e precisa; chè queste qualità della idea sono contraddittorie e
+incompatibili colla natura di detto effetto e carattere. (16. Sett. 1823.).
+</quote>
+</cit>
+
+
             </div>
         </back>
     </text>
