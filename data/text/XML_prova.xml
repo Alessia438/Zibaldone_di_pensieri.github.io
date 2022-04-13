@@ -226,6 +226,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             ref="http://www.treccani.it/enciclopedia/ambrogini-angelo-detto-il-poliziano_(Dizionario-Biografico)"
                             >Angelo Poliziano</persName>
                     </person>
+                    <person xml:id="Menzini">
+                        <persName type="pers_citata" sameAs="http://viaf.org/viaf/49254775"
+                            ref="https://www.treccani.it/enciclopedia/benedetto-menzini_%28Dizionario-Biografico%29/"
+                            >Benedetto Menzini</persName>
+                    </person>    
                     <person xml:id="Pulci">
                         <persName type="pers_citata" sameAs="https://viaf.org/viaf/71453100/"
                             ref="http://www.treccani.it/enciclopedia/luigi-pulci_(Dizionario-Biografico)"
