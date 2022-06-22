@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <?xml-model
 href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
@@ -599,11 +601,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             Patavini </title>
                         <pubPlace>Bologna</pubPlace>
                         <publisher>Stamperia dell'Istituto delle scienze</publisher>
-                        <date>1787</date> </bibl><quote> "Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
+                        <date>1787</date> <q><quote> "Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse
                             fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia
                             nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat
-                            arte notari, / Foemineam quisquis credidit esse fidem." </quote>
-                    
+                            arte notari, / Foemineam quisquis credidit esse fidem." </quote></q>
+                    </bibl>
                 </quote> . <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
                         notAfter="1817-08">Luglio o Agosto 1817</date>
                     <!--
@@ -623,9 +625,9 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     regno a metà Cesare e Giove. <lb/>
                     <bibl>
                         <author ref="#E.D.">Elio Donato</author>
-                        <title ref="#Vita">Vita Vergilii</title></bibl>
-                         <quote> "Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove
-                            Caesar habet" </quote> 
+                        <title ref="#Vita">Vita Vergilii</title>
+                        <q>  <quote> "Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove
+                            Caesar habet" </quote></q> </bibl>
                 </quote>
             </p>
             <p xml:id="p1_6" n="1.6" hand="#penna_D"> Dal niente in letteratura si passa al mezzo e
@@ -684,11 +686,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <author ref="#Parini">Parini</author>
                             <title ref="#Discorso">Discorso sopra la poesia</title>
                             <citedRange corresp="#Discorso"> Discorso sopra la poesia, in Opere, a cura
-                                di G.M. Zuradelli, Torino 1965, vol. II, p.271 </citedRange></bibl>
-                       
+                                di G.M. Zuradelli, Torino 1965, vol. II, p.271 </citedRange>
+                        <q>
                         <quote> "L'anima nostra, che ama di essere sempre in azione e in movimento,
-                            niente più aborre che la noia" </quote>
-                        
+                            niente più aborre che la noia" </quote></q>
+                        </bibl>
                     </quote> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera
                 quistion di nome il contrastar se questa <add>sia</add> poesia. Basta che tutti la
                 intendono per poesia <persName ref="#Aristotele"><choice><abbr>Aristot.</abbr><expan>Aristotele</expan></choice></persName> e <persName
@@ -870,8 +872,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <author ref="#Algarotti">Algarotti</author>
                     <title ref="#Opere_Algarotti">Opere</title>
                     <pubPlace>Cremona</pubPlace>
-                    <date when="1778">1778</date></bibl>
-                    
+                    <date when="1778">1778</date>
+                    <q>
                         <quote>
                             <l>
                                 "Here, si querelis, ejulatu, fletibus
@@ -887,8 +889,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 res turbidae consilium, non fletum expetunt."
                             </l>
                         </quote>
-                    
-                
+                    </q>
+                </bibl>
            
             </quote>
             <pb n="6" xml:id="p_6"/> <lb n="6"/>
@@ -956,7 +958,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                             </title>
                                             <author ref="#Borsieri">Pietro Borsieri</author>
                                             <biblScope>n. 8.</biblScope>
-                                            <citedRange>pp. 252-54</citedRange></bibl>
+                                            <citedRange>pp. 252-54</citedRange>
                                             <q>il
                                                 "io sono infatti d'avviso, dice l'Autore, emergere la bellezza dal concorso di alcuni attributi da' quali ornato un obbietto avvenente e vago apparisce. E comecchè la cospirazione di tali qualità intanto diletti quantochè in acconcio rapporto si trova coi nostri sensi e colle intellettuali nostre facoltà, non è ad ogni modo che il
                                                 <hi rend="italic">bello</hi>
@@ -985,7 +987,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                                 "Morte bella parea nel suo bel viso"
                                             </q>
                                             .
-                                        
+                                        </bibl>
                                 </quote>. Ci può essere il bello delicato e il non
                                 delicato. Ercole Apollo.</add>
                             <add hand="#penna_?">Bello sublime. Giove</add>
@@ -1016,13 +1018,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <title ref="#Institutiones_Oratoriae">Institutiones
                             Oratoriae</title>
                             <citedRange corresp="#Institutiones_Oratoriae">X, 2, 1-2</citedRange>
-                        </bibl>
+                        <q>
                             <quote>
                                 <p>
                                     "1 II. Ex his ceteris que lectione dignis auctoribus et verborum sumenda copia est et varietas figurarum et componendi ratio, tum ad exemplum virtutum omnium mens derigenda. neque enim dubitari potest, quin artis pars magna contineatur imitatione.nam ut invenire primum fuit est que praecipuum, sic ea, quae bene inventa sunt, utile sequi. 2 atque omnis vitae ratio sic constat, ut quae probamus in aliis, facere ipsi velimus. sic litterarum ductus, ut scribendi fiat usus, pueri sequuntur, sic musici vocem docentium, pictores opera priorum, rustici probatam experimento culturam in exemplum intuentur, omnis denique disciplinae initia ad propositum sibi praescriptum formari videmus."
                                 </p>
-                            </quote>
-                        
+                            </quote></q>
+                        </bibl>
                     </quote>
                 </add>.</p>
             <p xml:id="p8_3" n="8.3" hand="#penna_F">Due gran dubbi mi stanno in mente circa le
@@ -1061,13 +1063,13 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                     <title>Discours sur le moyen de répresenter les passions q ue se manifestent
                                         sur le visage. Sur la conformité entre l’hommes et les animaux et sur le
                                         Beau phisique</title>
-                                    <citedRange>p. 106</citedRange></bibl>
-                                 <quote xml:lang="french">
+                                    <citedRange>p. 106</citedRange>
+                               <q>  <quote xml:lang="french">
                                     <p>"Nous n'avons aucun sentiment inné de cette forme de Beau, comme nous en
                                         avons un très-distinct due Beau Morale: mais que nous sommes obligés
                                         d'apprendre à reconoître la Beau en faît d'Arts, par l'étude, par
                                         l'exercice assidu et non sans beaucop de peine."</p>
-                               </quote> 
+                               </quote></q> </bibl>
                               
                             </quote>. Cavalli
                             scodati. Cani colle orecchie tagliate.<add hand="#penna_Y"> opinione e
@@ -1092,14 +1094,14 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 </title>
                                 <author ref="#Borsieri">Pietro Borsieri</author>
                                 <biblScope>n. 8.</biblScope>
-                                <citedRange>p. 245</citedRange> </bibl>
-                          
+                                <citedRange>p. 245</citedRange>
+                           <q> 
                             <quote>
                                
                                     
                                     "Ai Turchi è detestabile la nostra musica per lo meno tanto quanto a noi è detestabile la musica loro, ch'essi però trovano deliziosa: un orecchio Italiano fugge l'opera Francese che l'orecchio Francese ascolta con diletto: e come noi crediamo già che la musica Greca, come semplice musica, ove si facesse pur anche sentire agli orecchi nostri in tutta la sua purezza, fosse per operare alcuna delle meraviglie conservateci non sappiamo dire se dalla storia o dalla favola. nè molti altri esempi ci mancherebbero in questo particolare, ove volessimo addurli, tutti comprovanti che l'educazione, l'abitudine e le situazioni relative, nella musica stessa, benchè ripudiata dall'Autore la miglior pruova del suo assunto, sono condizioni, che hanno per lo meno altrettanto potere a renderla piacevole, quanto l'essenza armonica per dir così, in cui si vuol che consista."
                                 
-                            </quote>
+                            </quote></q></bibl>
                         </quote></cell>
                     </row>
                 </table>
@@ -1218,12 +1220,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <author ref="#Plauto">Plauto</author>
                         <title ref="#Bacchides">Bacchides</title>
                         <citedRange>vv. 1190-1200</citedRange>
-                    </bibl>
+                    <q>
                     <quote>
                         <p>
                             "Perii: pudet: hoc[c]ine me aetatis ludos bis factum esse indigne? Magis quam id reputo, tam magis uror quae meus filius turbauit. Perditus sum atque [etiam] eradicatus sum: omnibus exemplis excrucior. Omnia me mala consectantur, omnibus exitiis interii. Chrysalus me[d] hodie lacerauit, Chrysalus me miserum spoliauit: Is me scelus auro usque attondit dolis doctis indoctum ut lubitumst. Ita miles memorat meretricem esse eam quam ille uxorem esse aiebat: Omnia que ut quidque actumst memorauit: eam sibi hunc annum conductam: Relicuom id auri factum quod ego ei stultissumus homo promisissem. Hoc hoc est quod [cor] perac[c]escit, hoc est demum quod percrucior: [Me hoc aetatis ludificari: immo edepol sic ludos factum,] Cano capite atque alba barba miserum me auro esse emunctum."
                         </p>
-                    </quote>
+                    </quote></q></bibl>
                 </quote>
                 <del hand="#penna_G">.</del><add>,</add><add hand="#penna_H">e <quote
                         source="#Rudens1">in quella scena del Canapo dove mette una tenzone di <hi
@@ -1233,7 +1235,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <author ref="#Plauto">Plauto</author>
                         <title ref="#Rudens">Rudens</title>
                         <citedRange>vv. 1212-1226</citedRange>
-                    </bibl>
+                    <q>
                     <quote>
                         <p>"Eum roga[t] ut relinquat alias res et huc ueniat. TR. Licet. DAE. Dicito
                             daturum meam illi filiam uxorem. TR. Licet. DAE. Et patrem eius me
@@ -1249,7 +1251,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             ero: tu interibi adorna ceterum quod opust. DAE. Licet. [TR.] Hercules
                             istum infelicet cum sua licentia: Ita meas repleuit auris. quidquid
                             memorabam, 'licet'."</p>
-                    </quote> 
+                    </quote> </q></bibl>
                     </quote>e di altre tali risposte sempre ripetute, in un momento caldo e
                     importante, dov’è impossibile che i personaggi badassero a questi giuochi.</add>
             </p>
@@ -1285,12 +1287,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <author ref="#Alfieri">Vittorio Alfieri</author>
                         <title ref="Vita_Alfieri">Vita</title>
                         <citedRange>Vol. II, epoca IV, cap.6, p.47</citedRange>
-                    </bibl>
+                   <q>
                     <quote>
                        "non dubitai punto, ciò visto, di lavorare con la maggior pertinacia ed ardore all'importante opera di
                         <hi rend="italic">spiemontizzarmi</hi>
                         per quanto fosse possibile; ed a lasciare per sempre, ed anche a qualunque costo il mio mal sortito nido natio."
-                    </quote> 
+                    </quote></q> </bibl>
                 </quote>ec. ec. Onde tu che traduci, posto ancora che abbi trovato
                 una parola corrispondentissima proprissima equivalentissima, tuttavia non hai fatto
                 niente se questa parola non è nuova e non fa in noi quell’impressione che facea ne’
@@ -1311,7 +1313,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <title ref="#Dialoghi_dei_Morti"/>
                         <citedRange>16, 2</citedRange>
                     
-                       </bibl>
+                        <q><quote/></q></bibl>
                 </quote>. Cerca ne’ Lessici: spiegano:
                 succedaneus ec. ma se tu volti: sostituto, o che so io, non arrivi per niente
                 all’efficacia burlesca e satirica di quella nuova parola di <persName ref="#Luciano"
@@ -1341,23 +1343,24 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <author ref="#Omero">Omero</author>
                         <title ref="#Iliade">Iliade</title>
                         <citedRange>I, vv. 529-530</citedRange>
-                    </bibl>
+                   <q>
                     <quote>
                         "fece il cenno: sopra il capo immortale ondeggiarono
                         <lb/>
                         i capelli divini, e fece tremare il grande Olimpo."
-                    </quote>
+                    </quote></q> 
+                </bibl>
                 </quote>; quel
                     <quote source="#Iliade_II">Nettuno che in quattro passi traversa
                             provincie
                         <bibl>
                             <author ref="#Omero">Omero</author>
                             <title ref="#Iliade">Iliade</title>
-                            <citedRange>XIII, v.20</citedRange></bibl>
-                             <quote>
+                            <citedRange>XIII, v.20</citedRange>
+                            <q> <quote>
                                 "Tre volte si slanciò, e alla quarta raggiunse la meta,"
-                            </quote>
-                        
+                            </quote></q>
+                        </bibl>
                        
                     
                     </quote>; <quote source="#Iliade_III">quel grido
@@ -1367,8 +1370,8 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <bibl>
                         <author ref="#Omero">Omero</author>
                         <title ref="#Iliade">Iliade</title>
-                        <citedRange>V, vv. 855-863</citedRange></bibl>
-                       
+                        <citedRange>V, vv. 855-863</citedRange>
+                        <q>
                         <quote>
                             "Per secondo balzò Diomede, l'eroe possente nel grido di guerra,
                             <lb/>
@@ -1387,16 +1390,16 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             Un tremito colse i Greci e i Troiani atterriti,
                             <lb/>
                             tanto forte gridava Ares, insaziabile"
-                        </quote>
+                        </quote></q></bibl>
                     </quote>
                 <quote source="#Iliade_IV">quella caduta dello stesso Dio che disteso occupa sette
                     iugeri di terreno; (Il. 21. 407.) 
                     <bibl>
                         <author ref="#Omero">Omero</author>
                         <title ref="#Iliade">Iliade</title>
-                        <citedRange>XXI, v. 407</citedRange></bibl>
-                   
-                    <quote>"Cadde occupando sette pletri, e sporcò i capelli;"</quote>
+                        <citedRange>XXI, v. 407</citedRange>
+                    <q>
+                    <quote>"Cadde occupando sette pletri, e sporcò i capelli;"</quote></q></bibl>
                 </quote> di
                 quelle <del>al&lt;tre&gt;</del>
                 <add>tante</add> imagini sublimissime della Bibbia, perchè nella poesia umana ci
@@ -1423,10 +1426,10 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <title ref="#Sul_Carme_di_Foscolo">
                             Sul Carme di Ugo Foscolo "Dei Sepolcri" e sulla poesia lirica
                         </title>
-                    </bibl>
+                   <q>
                     <quote>
                         "I cantici di Mosè, ed i Salmi hanno tale sublimità d'immagini, e di sentenze, che mai si potrà nè uguagliare, nè superare. Molti dicono essere ciò proprio dello stile orientale; ma io con molti dico essere effetto di maggior commozione d'animo eccitata da maggior comprendimento degli eccelsi meravigliosi attribuiti alla divinità [...]. Ognuno sentesi da maggior meraviglia vinto in udir i Profeti che in udir Omero, e Virgilio; perchè il crear la luce col solo volere; il gettar i fondamenti della terra, il misurar le acque con la destra, pesar i cieli con la palme ci offrono un'immagine più sublime dell'Onnipotenza, che quella di crollar l'Olimpo con l'accennar del capo, e di scagliar la folgore dall'alto di Ato, e di Rodope, e coll'orribile scoppio riempir di spavento i cuori de' mortali."
-                    </quote>
+                    </quote></q>  </bibl>
                 
                 </quote> che per esser subito persuasi del
                 contrario basta osservare i luoghi della Bibbia dove non si parla di Dio nè di cose
@@ -1585,7 +1588,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <author ref="#Gravina">Gianvincenzo Gravina</author>
                             <title ref="#Ragion_Poetica">Della ragion poetica</title>
                             <citedRange>I, 2, p. 9</citedRange>
-                        </bibl>
+                        <q>
                             <quote>"Or la poesia, colla rappresentazion viva, e colla sembianza, ed efficace
                                 similitudine del vero, circonda d'ogn'intorno la fantasia nostra, poesia. e
                                 tien da lei discosto l'immagini delle cose contrarie e che confutano la
@@ -1605,7 +1608,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 effetti medesimi, che si destano da i veri successi: perchè gli affetti son
                                 tratti dietro la fantasia in un medesimo corso, e s'aggirano al pari
                                 dell'immaginazione , alzandosi , ed inchinandosi secondo il moto; è quiete
-                                di essa, siccome l'onde per l'impeto, o posa de' venti."</quote></quote>)
+                                di essa, siccome l'onde per l'impeto, o posa de' venti."</quote></q></bibl></quote>)
                 e bisogna poi perchè producano quei tali sentimenti andarli a
                 prendere pel loro verso: ed ecco ottenuto dagli antichi il grand’effetto, che
                 domandano i romantici, ed ottenuto in modo che ci rapiscono e ci sublimano e
@@ -1635,7 +1638,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <author ref="#Aristotele">Aristotele</author>
                         <title ref="#Poetica">Poetica</title>
                         <citedRange>1460a</citedRange>
-                    </bibl>
+                    <q>
                     <quote>"Omero poi, come è degno di essere lodato in molte altre cose, cosi lo è
                         anche perché lui solo fra i poeti non ignora quale debba essere la sua
                         parte; il poeta infatti in persona propria deve parlare il meno possibile,
@@ -1643,7 +1646,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         mettono sempre in mostra e poco imitano e poche volte, Omero invece, dopo un
                         breve proemio in cui parla lui, subito introduce un uomo o una donna o un
                         qualche altro personaggio, e nessuno poco caratterizzato ma ciascuno con il
-                        suo carattere."</quote>
+                        suo carattere."</quote></q></bibl>
                 </quote>, al quale volendo o non volendo
                 senz’avvedersene si ritorna) e che il sentimentale non è prodotto dal sentimentale,
                 ma dalla natura, <hi rend="underline">qual ella è</hi>, e la natura <hi
@@ -1779,14 +1782,14 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <author ref="#Byron">Byron</author>
                             <title>Giaurro</title>
                             <editor>Gioacchino Rossi</editor>
-                        </bibl>
+                        <q>
                         <quote>
                             "<l>Lontana là dal verno occidentale, da freddi venti, da gelata brina,
                                 <lb/>e blandita da zefiro vitale,<lb/> la del giardin, dell'usignol
                                 regina <lb/> il profumo che a lei natura diede <lb/>ne' suoi calici, e
                                 sì lo affina<lb/>che in più soave incenso al ciel poi riede.<lb/> Oh
                                 quanta i suoi sospir spargon fragranza</l>"
-                       </quote> 
+                       </quote></q> </bibl> 
                     </quote>. Ma che? non vuole che si avvivi la natura così
                 individualmente, diremo, e mediatamente, come i mitologi faceano, personificando
                 affetti e numi e piante ec. ma la natura immediatamente, senza <hi rend="underline"
@@ -1814,11 +1817,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <bibl>
                         <author ref="#Senofane">Senofane</author>
                         <editor ref="#G.L.">Giacomo Leopardi</editor>
-                    </bibl>
+                    <q>
                     <quote>"Se i buoi se gli elefanti avessero mani, e con queste potessero
                         dipingere, e fare quelle cose che fanno gli uomini, allora i cavalli
                         dipingendo gli Dei gli avrebbero fatti di figura cavallina, e i buoi di
-                        figura bovina, e dato loro un corpo simile al proprio."</quote>
+                        figura bovina, e dato loro un corpo simile al proprio."</quote></q></bibl>
                 
                 </quote>; (e questo pensiero non è mio ma dell’antico <persName
                     ref="#Senofane">Senofane</persName>, perchè molte cose son vecchie che si
@@ -1961,7 +1964,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                     <bibl>
                         <author ref="#Longino">Pseudo Longino</author>
                         <editor>Antonfrancesco Gori</editor>
-                    </bibl>
+                    <q>
                     <quote>"Ora in quanto a ciò che mi resta, o Terenziano carissimo, più non
                         indugerò ad aggiugnere, e dichiarare ciò che andava cercando un moderno
                         Filosofo. lo mi maraviglio (diceva egli) siccome molt’altri ancora meco se
@@ -2037,7 +2040,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         nostra materia, cioè alle Passioni, di cui ho promesso antecedentemente di
                         scriverne un Trattato ex professo: poichè queste (siccome io giudico) e
                         d’ogni genere di dire, e dello stesso SUBLIME tengono parte certamente non
-                        piccola."</quote>
+                        piccola."</quote></q></bibl>
                 </quote> e portava per ragione parte la fine
                     delle repubbliche e della libertà, parte <add hand="#penna_?">l’avarizia</add>
                     la lussuria e l’ignavia. <del hand="#penna_?">Ma</del>
@@ -2325,12 +2328,12 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <bibl>
                             <author ref="#Gravina">Gianvincenzo Gravina</author>
                             <title>De poesi, ad Scipionem Maffeium epistola</title>
-                        </bibl>
+                        <q>
                         <quote><foreign xml:lang="lat">Chiabrera vero, esti eruditionis et judicii
                             novorumque luminum haberet satis, tamen suamet copia mersus amisit
                             limam, delectumque neglexit rerum, et linguae cultum, ut novitate sua
                             nihil tamen veteribus Petrarchae imitatoribus dederit
-                            invidendum</foreign></quote>
+                            invidendum</foreign></quote></q></bibl>
                     </quote>, e così è) sì che
                 non sono se non rarissimi quei pezzi dei quali si possa dire tutto il bene, e in
                 cui, quando anche l’immagini e i sentimenti sieno perfetti il che non è tanto raro,
@@ -2472,7 +2475,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                 <author ref="#Maffei">Scipione Maffei</author>
                                 <title>De' migliori poeti italiani, in Rime e prose</title>
                                 <citedRange>p. 137</citedRange>
-                            </bibl>
+                                <q>
                                     <quote>Vero è, che siccome il suddetto [Guidi] da alcune forme di Dante
                                         e del Chiabrera, accoppiate con certi modi delle Orientali favelle,
                                         ha preso i semi di quel suo stile; così anche per la novità dee
@@ -2487,7 +2490,7 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                                         vedesse trattata col gusto Davidico, con l'entusiasmo de' Profeti.
                                         Più volte intorno a ciò tenne egli meco lungo proposito, ed or
                                         questo, or quel pensiero comunicommi; ma di niuno seppe mai
-                                        soddisfarsi</quote></quote>
+                                        soddisfarsi</quote></q></bibl></quote>
             </p>
             <p xml:id="p27_1" n="27.1" hand="#penna_?"> Emulo impotente di <persName ref="#Pindaro"
                     >Pindaro</persName> il <persName ref="#Guidi">Guidi</persName> cercò la
@@ -2505,11 +2508,11 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                             <author>Anonimo</author>
                             <title>recensione alle Poesie d'Alessandro Guidi</title>
                             <citedRange>p. 374</citedRange>
-                        </bibl>
+                            <q>
                                 <quote> se talvolta è minor di se stesso, è piùaltre mirabile e pieno
                                     d'entusiasmo e di forza, tal che tra i pochi si annovera che hanno
                                     saputo trasfondere nella italiana poesia l'estro e il fuoco di
-                                    Pindaro </quote></quote>quando io lette <hi rend="underline">tutte</hi> le sue canzoni
+                                    Pindaro </quote></q></bibl></quote>quando io lette <hi rend="underline">tutte</hi> le sue canzoni
                 mi trovo come un marmo: e si vede bene ch’egli cerca di grandeggiare e d’innalzarsi,
                 ma <del hand="#penna_?">volle col suo furore</del> la sua grandezza nè si comunica
                 col lettore innalzandolo, nè lo percuote e stordisce, restando non dico <del
@@ -2661,10 +2664,10 @@ href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" sc
                         <title ref="#Vita_Alfieri">Vita di Vittorio Alfieri da Asti scritta da
                             esso</title>
                         <citedRange>epoca IV, cap. 1</citedRange>
-                    </bibl>
+                    <q>
                     <quote>L'ottimo Paciaudi mi raccomandava frattanto di non trascurare nelle mie
                         laboriose letture la prosa, ch'egli dottamente denominava la nutrice del
-                        verso.</quote>
+                        verso.</quote></q></bibl>
                 </quote>, giacchè uno che per far
                 versi si nutrisse solamente di versi sarebbe come chi si cibasse di solo grasso per
                 ingrassare, quando il grasso degli animali è <del hand="#penna_?">il</del>
